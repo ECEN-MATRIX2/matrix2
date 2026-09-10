@@ -1,0 +1,11 @@
+LTspice 24.0.12 for Windows
+Circuit: * C:\Users\schaa\OneDrive - Texas A&M University\Desktop\Capstone\404\LTSPICE - Simulations\transformer.asc
+Start Time: Thu Sep  3 12:56:53 2026
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = modified trap
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 0.422 seconds.
+
