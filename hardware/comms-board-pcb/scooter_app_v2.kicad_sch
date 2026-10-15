@@ -1,0 +1,140 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "189beabc-a159-4ae2-8bfe-075341b48749")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 20.32 24.13)
+		(size 60.96 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b776b4d4-67e0-4db8-9013-58e39cb38083")
+		(property "Sheetname" "Power"
+			(at 20.32 23.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 20.32 45.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "scooter_app_v2"
+				(path "/189beabc-a159-4ae2-8bfe-075341b48749"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 125.73 31.75)
+		(size 67.31 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ecb1ba56-e74e-4ea2-8526-c1b3d0e58633")
+		(property "Sheetname" "ESPS3"
+			(at 125.73 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ESP32.kicad_sch"
+			(at 125.73 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "scooter_app_v2"
+				(path "/189beabc-a159-4ae2-8bfe-075341b48749"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 35.56 85.09)
+		(size 62.23 43.18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f6847026-14f0-48ee-ab5d-fa2750c95b94")
+		(property "Sheetname" "sensors"
+			(at 35.56 84.3784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sensors.kicad_sch"
+			(at 35.56 128.8546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "scooter_app_v2"
+				(path "/189beabc-a159-4ae2-8bfe-075341b48749"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
