@@ -1,0 +1,31 @@
+
+PASS: 32782 checks; throttle lifecycle, signal faults, coast, commutation, safety, telemetry.
+
+
+EXAMPLE normal: $NIU2,42,10000,1500,5000,36000,1200,300,287,0,0,4,0,0,-1,-1*06D5
+EXAMPLE fault: $NIU2,42,10000,1500,5000,36000,1200,300,415,6,0,9,7,4,36200,4100*B72B
+Maximum status bytes=104
+EXAMPLE reset: $NIC1,42,7,RESET*F29A
+PASS: 4746 communications/reset checks
+
+
+PASS: actual UART scheduler with simulated backpressure, turnaround, ACK, duplicate, stale and late packets
+
+
+PASS: bounded launch/fade, low-request wait, no automatic retry, increased-request retry, rollover
+
+........
+----------------------------------------------------------------------
+Ran 8 tests in 0.307s
+
+OK
+
+
+PASS: 11 hardware functions and six protection/protocol modules match v3.15.
+
+PASS: all v4.0.2 current/startup/protection headers, setup and non-UART hardware backend unchanged (revision string excepted).
+
+PASS: current control, startup, Hall, protection thresholds and runtime match v4.0.2; stop/trip additionally revoke remote permission; UART scheduling unchanged.
+
+
+PASS: 174 checks of actual remote-enable firmware functions with simulated hardware prerequisites

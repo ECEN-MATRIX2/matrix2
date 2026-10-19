@@ -1,0 +1,45 @@
+REV O 3D MODELS AND LIBRARY ATTRIBUTION
+All populated components have a model; the four mounting holes need none.
+Model paths are ${KIPRJMOD}/3dmodels/... and work after extracting the ZIP.
+Verification/Models.json lists the model attached to every footprint.
+
+STEP files copied from the installed KiCad 9 library are retained unchanged.
+They represent their library package family, not guaranteed exact manufacturer
+markings. The replaced Coilcraft inductor model is not used in Rev M.
+Custom WRL meshes represent nominal bodies/pins for the linked relay, isolated DC/DC
+module, fuses, TI package and 10 mm Panasonic capacitor cans.
+The Panasonic cans are 25 mm high for 270 uF/63 V and 20 mm for 100 uF/100 V.
+These envelopes make the 3D view useful but are not manufacturer-certified CAD.
+
+KiCad library contributors: https://gitlab.com/kicad/libraries
+License: Creative Commons Attribution-ShareAlike 4.0 International, with the
+KiCad electronic-design exception. https://www.kicad.org/libraries/license/
+Full license: https://creativecommons.org/licenses/by-sa/4.0/legalcode
+Original attribution/metadata embedded in each copied model is retained.
+Project-local library copies are supplied for this design. Modifications:
+project-relative model paths, selected package envelope models, and C20
+polarity-silkscreen adjustment; modified KiCad library items retain that license.
+The local nominal envelope meshes are also provided under CC-BY-SA 4.0.
+
+K1 G7SA model is a custom nominal 40 x 13 x 24 mm body/pin envelope, not an
+exact Omron CAD model. Standard 2.54 mm headers use packaged KiCad models.
+
+New nominal envelope models (not manufacturer-certified CAD):
+- Bourns SRP1265A: 13.5 x 12.5 x 6.2 mm nominal package envelope.
+- Vishay WSL2512: 6.35 x 3.18 x 0.635 mm nominal body.
+- TDK CNC6: 3.2 x 2.5 x 2.5 mm nominal body, used on six capacitors.
+All 120 fitted parts have locally resolving models. Four mounting holes have none.
+
+SOC additions: U7/U8 use the KiCad VSSOP-10 family STEP model; U9 uses SOIC-8.
+U10 uses a generic MSOP-8 exposed-pad package model. Its body/pins are a visual
+envelope; the actual footprint thermal land is 1.98 x 1.88 mm per TI DGN0008B,
+not the generic model's narrower underside metal. R33/R34 share the nominal
+WSL2512 body model. Footprint lands, not model metal faces, control fabrication.
+Top and isometric views were rendered with KiCad 9 and visually reviewed.
+
+U11 uses the bundled KiCad SOT-23-5 STEP model for the TI DBV package.
+C36/C37 reuse the existing 0805 capacitor STEP model. J13 model is removed
+from the assembly; all remaining fitted components retain bundled models.
+
+J14 reuses the bundled 2.54 mm two-pin header STEP model; no new external
+model dependency is introduced. Rev O top/isometric renders include it.

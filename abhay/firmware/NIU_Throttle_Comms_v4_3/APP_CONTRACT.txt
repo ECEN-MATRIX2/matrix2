@@ -1,0 +1,155 @@
+NIU motor + ESP v4.3 app integration contract
+Prepared and built offline. Neither board was flashed or physically tested for this release.
+
+TRANSPORT
+BLE device ESP32_MATRIX2
+NUS service 6E400001-B5A3-F393-E0A9-E50E24DCCA9E
+App write   6E400002-B5A3-F393-E0A9-E50E24DCCA9E
+Notify      6E400003-B5A3-F393-E0A9-E50E24DCCA9E
+UTF-8/ASCII, LF-delimited. Exact new command bytes:
+{"cmd":"motor_clear_fault_and_enable"}
+
+The final byte is 0x0A, not the two literal characters backslash and n.
+In JavaScript: JSON.stringify({cmd:"motor_clear_fault_and_enable"}) + "\n"
+Send BLE write chunks of <=20 bytes for compatibility with default MTU.
+The command can span writes. Each write must be <96 bytes; line maximum is 95 bytes.
+The new action waits for LF even if a write ends in }. CRLF is also accepted.
+Malformed objects, extra keys/trailing text, embedded controls and oversized lines are rejected.
+An oversized write, embedded NUL or BLE queue overflow invalidates queued commands and cancels
+pending work. Legacy PING, STATUS?, HELP and MOTOR_CLEAR_FAULT retain no-LF write compatibility.
+USB serial also accepts LF commands. BLE notifications remain <=20-byte chunks; accumulate
+through LF before parsing. GNSS/error/speed/SOC telemetry is still published about once/second.
+
+Existing {"cmd":"motor_clear_fault"}+LF remains clear-only: success leaves STOPPED.
+The new command is the ONLY app action that requests clear followed by enable.
+{"reset_queued":true} only reports ESP queue acceptance. It has NO success semantics.
+Queue rejection: {"reset_queued":false,"reason":"pending"}, "link_unavailable" or "queue_busy".
+Task-side rejection can subsequently report a failed operation; always follow telemetry.
+
+SEQUENCE AND MOTOR CONDITIONS
+1. Only one operation is pending. A duplicate tap cannot replace it.
+2. ESP allocates a RESET UART request ID and waits for a new motor receive slot.
+3. It requires a timely, CRC-valid, correlated result=1 AND MCU stopped, fault-free,
+   not running/charging/enabled. A stale, missing, refused or unrelated ACK never sends ENABLE.
+4. For recovery only, it allocates a distinct ENABLE ID and waits for another status slot.
+5. MCU requires a single-use successful remote-clear permit (<2000 ms old), with ENABLE
+   ID exactly clear ID+1. STOP/local commands/new faults invalidate that permission.
+6. MCU uses the existing local-GUI enable request helper and prepareAtIdle path, including
+   configuration/current-zero calibration and its final throttle/VM/sensor checks. ACK=7
+   is returned only after actual driver readiness and throttle arming are confirmed.
+7. ESP requires matching ACK=7 plus the MCU enabled flag before operation success.
+
+Unchanged prerequisites: no running drive, stationary wheel qualification, valid Hall and
+temperature inputs, charging inactive/released, startup VM 34-38 V, healthy current/driver
+preparation, no motor or throttle fault, fresh valid throttle idle 0.35-0.60 V for >=500 ms.
+VM off is refused. Where VM-off operation has forgotten idle qualification, result=4 can
+precede result=5: do not interpret this as a new threshold or a firmware defect.
+Held throttle never grants enable. After success, throttle is armed at idle with zero torque
+request; the normal >=0.65 V deliberate throttle movement can request torque. No speed target
+or FOC was introduced. 0.5-2.5 V still maps to 0-2 A sampled phase-current magnitude.
+The running VM window remains 30-45 V and phase-current trip remains 4 A. WAIT_TORQUE,
+startup assist, local GUI, standalone boot idle-first behavior and current loop are preserved.
+
+RETRIES / CANCELLATION
+UART remains NIU2/NIC1, 9600 8N1, motor-master status period 300 ms, RX window 100 ms.
+ESP transmits only 20-30 ms after a timely complete status, at most once per status token.
+Each stage has a 2000 ms deadline and at most THREE total transmissions (initial +2 retries).
+Retries use the SAME ID/action and a new slot token. MCU caches one result; duplicates do not
+clear new faults or repeat enable preparation. Older IDs or same ID/different action are rejected.
+No app retries are needed. Do not auto-start another sequence after failure/timeout.
+The deadline is checked before consuming an ACK; late clear ACK never advances to enable.
+Delayed/buffered status may update existing display fields, but cannot advance recovery ACKs.
+Motor link remains stale after 1000 ms without accepted telemetry; nulls remain null.
+
+BLE disconnect increments a command generation, drops fragments/queued requests and cancels
+pending work. Reconnect never resumes or retransmits it. A new fault/charging during enable,
+or motor reboot detected from sequence/uptime regression, also stops further sequence work.
+Before any ENABLE transmission: cancelled/failed means no ENABLE was sent by this sequence.
+After ENABLE may have been transmitted: state is unknown until verified. It might have armed.
+Cancellation is NOT STOP and does not revoke a completed MCU enable. A late matching ACK can
+be recorded with state cancelled and an explanatory reason, without any new UART action.
+Actual motor_throttle_enabled always comes from current MCU status, not operation history.
+ESP reboot discards all volatile work and generates a new esp_boot_id; it does not send STOP
+or replay any request. Treat previous operation outcome as unknown until fresh MCU status.
+An app local wait deadline (e.g. 6 seconds including notification delay) must show unknown,
+query STATUS? if connected, and never resend the motion-related action automatically.
+
+ADDITIONAL TELEMETRY (all prior keys retained)
+esp_revision: "4.3"
+esp_boot_id: random unsigned 32-bit boot identity; discard old operation tracking on change.
+motor_operation_id: RESET ID for this operation; 0 means no started operation.
+  Identify operations by (esp_boot_id, motor_operation_id). IDs restart after motor reboot;
+  observe cancellation/reboot and the stage transition as well, not ID alone.
+motor_operation_kind: "clear_only" or "clear_and_enable".
+motor_operation_stage: "idle", "clear", "enable"; terminal state retains its last stage.
+motor_operation_state: "idle", "pending", "succeeded", "failed", "cancelled", "unknown".
+motor_operation_pending: boolean; true only while the sequence may still send a request.
+motor_operation_reason: human-readable explanation; display it, do not parse it as a code.
+motor_clear_result: numeric MCU result or null if no clear acknowledgement.
+motor_enable_result: numeric MCU result or null if no enable acknowledgement/not attempted.
+motor_enable_reason: corresponding MCU result text or null.
+motor_enable_request_id: ENABLE request ID or null; separate from operation/RESET ID.
+motor_enable_attempts: number of ENABLE transmissions (0-3).
+motor_throttle_enabled: true/false from fresh MCU enabled flag, null for unavailable/stale link.
+  true is ARMED/READY and can also be true during DRIVING, COASTING or WAIT_TORQUE.
+  It is not a claim of current wheel motion. Use motor_running/wheel_speed_mph separately.
+
+Legacy reset_request_id/reset_state/reset_result/reset_reason/reset_attempts continue to
+describe the CLEAR stage, even if ENABLE subsequently fails. Cleared is not full recovery.
+Legacy reset_state values: idle, pending, cleared, refused, unacknowledged,
+cancelled_motor_reboot, cancelled, link_unavailable, busy, request_id_exhausted, uart_tx_failed.
+Legacy reset_result=0 means no acknowledgement. New motor_*_result fields use null instead.
+Existing error/history/VM/current/GNSS/speed/SOC keys and validity/null rules are unchanged.
+Operation results are historical and persist until another request; actual MCU enable status
+can change afterwards through faults, local STOP or reboot. Never derive it from old success.
+
+MCU RESULT CODES
+0 no request/no acknowledgement (legacy only; new result fields use null)
+1 Cleared: fault cleared; motor stopped
+2 Running: drive running
+3 Moving: wheel moving
+4 NotIdle: throttle idle qualification missing
+5 VmUnsafe: outside 34-38 V startup range
+6 SensorsUnsafe: sensors/charge prerequisites not ready
+7 Enabled: throttle armed; deliberate movement can request torque
+8 FaultPresent: fault still active
+9 ClearRequired: missing, expired, consumed or mismatched remote-clear permit
+10 EnableFailed: existing driver preparation/final checks did not arm successfully
+No safety threshold was raised. Result=7 alone is not actual-current-state proof.
+
+STATE FLOW
+idle -> clear/pending -> clear/failed (refusal/timeout; never sends ENABLE)
+clear/pending -> enable/pending (only confirmed successful clear for recovery)
+enable/pending -> enable/succeeded (ACK7 AND MCU enabled)
+enable/pending -> enable/failed (refusal or inconsistent ACK/state)
+enable/pending -> enable/unknown (ENABLE sent but ACK missing/cancelled)
+Either pending stage -> cancelled on disconnect/reboot before ENABLE could be sent.
+unknown -> cancelled when a late matching ENABLE ACK resolves historical evidence.
+Clear-only success ends at clear/succeeded with enabled=false in its clearing ACK.
+
+EXAMPLE NOTIFICATION EXCERPTS (other existing telemetry fields omitted)
+Successful recovery:
+{"esp_boot_id":12345,"motor_operation_id":21,"motor_operation_kind":"clear_and_enable","motor_operation_stage":"enable","motor_operation_state":"succeeded","motor_operation_pending":false,"motor_operation_reason":"Fault cleared; throttle enabled; waiting for throttle movement","motor_clear_result":1,"motor_enable_result":7,"motor_enable_request_id":22,"motor_link_ok":true,"motor_throttle_enabled":true,"motor_running":false,"motor_state":"READY"}
+Partial success, throttle moved before ENABLE:
+{"esp_boot_id":12345,"motor_operation_id":23,"motor_operation_stage":"enable","motor_operation_state":"failed","motor_operation_pending":false,"motor_operation_reason":"Fault cleared; enable refused","motor_clear_result":1,"motor_enable_result":4,"motor_enable_reason":"Throttle not idle","motor_link_ok":true,"motor_throttle_enabled":false,"motor_state":"STOPPED"}
+ENABLE acknowledgement lost with stale motor link:
+{"esp_boot_id":12345,"motor_operation_id":25,"motor_operation_stage":"enable","motor_operation_state":"unknown","motor_operation_pending":false,"motor_operation_reason":"Fault cleared; enable acknowledgement missing","motor_clear_result":1,"motor_enable_result":null,"motor_link_ok":false,"motor_throttle_enabled":null}
+Clear refused (no ENABLE request):
+{"esp_boot_id":12345,"motor_operation_id":27,"motor_operation_stage":"clear","motor_operation_state":"failed","motor_operation_pending":false,"motor_operation_reason":"VM not in 34-38 V startup range","motor_clear_result":5,"motor_enable_result":null,"motor_enable_request_id":null,"motor_link_ok":true,"motor_throttle_enabled":false}
+
+FIRMWARE PROTOCOL EXTENSION
+Both new firmware versions are needed before using this feature. No wiring change.
+$NIC1,<slot token>,<request ID>,RESET*<CRC16> LF remains unchanged.
+$NIC1,<slot token>,<request ID>,ENABLE*<CRC16> LF is added.
+NIU2 field order unchanged; flags bit 1024 means actual throttle enabled and ACK codes 7-10
+are added. Old v4.2 ESP validators reject these extensions, so use the matched v4.3 pair.
+The bundled PC GUI expects revision 4.3; its Enable/Stop/Reset behavior is otherwise unchanged.
+
+VALIDATION LIMITS
+Native tests use simulated UART/HAL/preconditions and extracted actual MCU helper functions.
+Build success is not electrical or mechanical validation. No serial/ST-Link session, flash,
+motor run, BLE phone interaction or actual fault recovery was performed for v4.3.
+Remaining bench checks: both images with existing Y wiring; idle clear/re-arm with no motion;
+held throttle, charge/VM-off refusal; deliberate throttle movement only after idle success;
+disconnect/reboot at each stage, current MCU enabled indication, actual phone button and
+notification fragmentation; unchanged local GUI and WAIT_TORQUE on the real setup.

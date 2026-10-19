@@ -1,0 +1,44 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-08T00:23:02-0500",
+    "kicad_version": "9.0.7",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/56271e30-1be5-5410-ac91-b1b76dd84fbe",
+            "violations": []
+        },
+        {
+            "path": "/Isolated Supply/",
+            "uuid_path": "/56271e30-1be5-5410-ac91-b1b76dd84fbe/ee3d3b0b-ab4c-556e-aa08-b000ea7fcfeb",
+            "violations": []
+        },
+        {
+            "path": "/Low Voltage IO/",
+            "uuid_path": "/56271e30-1be5-5410-ac91-b1b76dd84fbe/ec68643a-ee75-5212-8e2a-1e4da5ec49b2",
+            "violations": []
+        },
+        {
+            "path": "/Charge Mode/",
+            "uuid_path": "/56271e30-1be5-5410-ac91-b1b76dd84fbe/6e4f5fb5-bdd1-5c3c-bfe6-9b82df731d17",
+            "violations": []
+        },
+        {
+            "path": "/Buck 36V/",
+            "uuid_path": "/56271e30-1be5-5410-ac91-b1b76dd84fbe/af014be0-fcdf-5969-ad3a-3cf308b63f76",
+            "violations": []
+        },
+        {
+            "path": "/VM Transient Clamp/",
+            "uuid_path": "/56271e30-1be5-5410-ac91-b1b76dd84fbe/3ff68bba-cdaa-591f-8936-7fc48baa6365",
+            "violations": []
+        },
+        {
+            "path": "/SOC Sensing/",
+            "uuid_path": "/56271e30-1be5-5410-ac91-b1b76dd84fbe/2e0603cf-0705-597c-8ea2-771ba811ffd5",
+            "violations": []
+        }
+    ],
+    "source": "NIU_Intermediate_RevO.kicad_sch"
+}

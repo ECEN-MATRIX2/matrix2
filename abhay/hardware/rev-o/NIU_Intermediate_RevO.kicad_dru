@@ -1,0 +1,8 @@
+(version 1)
+(rule "Buck fine pitch" (condition "A.NetClass == 'BAT' && B.NetClass == 'BAT'") (constraint clearance (min 0.16mm)))
+(rule "3mm isolation BAT to COIL" (condition "(A.NetClass == 'BAT' && B.NetClass == 'COIL') || (A.NetClass == 'COIL' && B.NetClass == 'BAT')") (constraint clearance (min 3mm)))
+(rule "3mm isolation BAT to SYS" (condition "(A.NetClass == 'BAT' && B.NetClass == 'SYS') || (A.NetClass == 'SYS' && B.NetClass == 'BAT')") (constraint clearance (min 3mm)))
+(rule "3mm isolation BAT to CHARGE" (condition "(A.NetClass == 'BAT' && B.NetClass == 'CHARGE') || (A.NetClass == 'CHARGE' && B.NetClass == 'BAT')") (constraint clearance (min 3mm)))
+(rule "3mm isolation COIL to SYS" (condition "(A.NetClass == 'COIL' && B.NetClass == 'SYS') || (A.NetClass == 'SYS' && B.NetClass == 'COIL')") (constraint clearance (min 3mm)))
+(rule "3mm isolation COIL to CHARGE" (condition "(A.NetClass == 'COIL' && B.NetClass == 'CHARGE') || (A.NetClass == 'CHARGE' && B.NetClass == 'COIL')") (constraint clearance (min 3mm)))
+(rule "3mm isolation SYS to CHARGE" (condition "(A.NetClass == 'SYS' && B.NetClass == 'CHARGE') || (A.NetClass == 'CHARGE' && B.NetClass == 'SYS')") (constraint clearance (min 3mm)))

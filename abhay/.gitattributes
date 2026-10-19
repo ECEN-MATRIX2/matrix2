@@ -1,0 +1,9 @@
+# Preserve exact release bytes and SHA-256 manifests across platforms.
+* -text
+*.bin binary
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.xlsx binary
+*.zip binary

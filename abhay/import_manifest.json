@@ -1,0 +1,915 @@
+{
+  "date": "2026-10-19",
+  "files": [
+    {
+      "file": "firmware/NIU_Throttle_Comms_v4_3/APP_CONTRACT.txt",
+      "sha256": "f386f267585780a88fda4962a6f5f973c60f8ef7c3081c79d2b9f8a62d1090bd"
+    },
+    {
+      "file": "firmware/NIU_Throttle_Comms_v4_3/binary/manifest.json",
+      "sha256": "9fec2430b98ff7cecc75cc189496cf92b1697575141a8c1823d34bb9a2c22573"
+    },
+    {
+      "file": "firmware/NIU_Throttle_Comms_v4_3/binary/NIU_Throttle_Comms_v4_3.bin",
+      "sha256": "c79cc0b24dc03820bae328c595007079f965ca30858ad7a83c7b82a9f1404d52"
+    },
+    {
+      "file": "firmware/NIU_Throttle_Comms_v4_3/ESP_APP_CODEX_PROMPT.txt",
+      "sha256": "4a22752199845c25290a206716f68acca05b694f4c7430453017236ee8d3e7a0"
+    },
+    {
+      "file": "firmware/NIU_Throttle_Comms_v4_3/include/comms_protocol.h",
+      "sha256": "38db966f5cea99c6902de6d111e64b3861504d86cd32992be14dfd19d05cda26"
+    },
+    {
+      "file": "firmware/NIU_Throttle_Comms_v4_3/include/config.h",
+      "sha256": "572a35f35ef65d2375a3d2d64b88825f9a076e80817943eb43847cf21288227c"
+    },
+    {
+      "file": "firmware/NIU_Throttle_Comms_v4_3/include/control.h",
+      "sha256": "eeabc320609acced4f75f9ac7601af141f7b617cab9a80bb6e3e13ed14ed6755"
+    },
+    {
+      "file": "firmware/NIU_Throttle_Comms_v4_3/include/current_calibration.h",
+      "sha256": "c94df06f1d3dd10bef15d1b0bb89b0cc6ec801db3b906550d05ca66eaf2c304a"
+    },
+    {
+      "file": "firmware/NIU_Throttle_Comms_v4_3/include/current_regulator.h",
+      "sha256": "ed100ded127674502fbfc33fbc0c8d5d7807a3bdf2bbd644380e0a10322c47f6"
+    },
+    {
+      "file": "firmware/NIU_Throttle_Comms_v4_3/include/demo_battery.h",
+      "sha256": "458bac74af136de8bdd3b283c08dff879366e287ef33b8ef81a8c8f1df568ebf"
+    },
+    {
+      "file": "firmware/NIU_Throttle_Comms_v4_3/include/drive_logic.h",
+      "sha256": "cce9a37ff3efce77c8eb66247873ea1b5e216133754f81219896dd004d6b60e9"
+    },
+    {
+      "file": "firmware/NIU_Throttle_Comms_v4_3/include/lab_rtt.h",
+      "sha256": "8c7df477740c839ada419e4488e9b8f217484332ff61e71706b2df6721ba9865"
+    },
+    {
+      "file": "firmware/NIU_Throttle_Comms_v4_3/include/launch_support.h",
+      "sha256": "0c73d7b3988fa95b53e219006599d56a5a07498ab8d141ba1f4c452ad6f95b8d"
+    },
+    {
+      "file": "firmware/NIU_Throttle_Comms_v4_3/include/speed_output.h",
+      "sha256": "1ce4da4ff0aa41406c41ea82a033d3363309b148661c7c242049f3329e58a19c"
+    },
+    {
+      "file": "firmware/NIU_Throttle_Comms_v4_3/include/speed_regulator.h",
+      "sha256": "d15ef816470445e44b84d0745a98a838929bc9f938ea6f25eb4b113a1b5c9eff"
+    },
+    {
+      "file": "firmware/NIU_Throttle_Comms_v4_3/include/telemetry.h",
+      "sha256": "79b72b25136f80be94760a4e6423004332126a49903a0dcbe7257896374b7bb1"
+    },
+    {
+      "file": "firmware/NIU_Throttle_Comms_v4_3/include/thermal_policy.h",
+      "sha256": "25ef7e41a5e9e3cb3b99ffb234c3db4bbd608a3f9e58addb11a07e92db3232e6"
+    },
+    {
+      "file": "firmware/NIU_Throttle_Comms_v4_3/include/throttle_mode.h",
+      "sha256": "42c762cddb32e9fdead042bb9c0b22626a575e196f03c21bc1ad037903eb5b64"
+    },
+    {
+      "file": "firmware/NIU_Throttle_Comms_v4_3/platformio.ini",
+      "sha256": "c4c0c97e2ee76f7f01f31a7d47d7f01172d3b9d5cd805e6ef004a5b2b5f990a2"
+    },
+    {
+      "file": "firmware/NIU_Throttle_Comms_v4_3/README.txt",
+      "sha256": "120b8ec927874628c8b970740ffcd7f53a2a4202ac709d3288aefabb4b2c5558"
+    },
+    {
+      "file": "firmware/NIU_Throttle_Comms_v4_3/src/comms.inc",
+      "sha256": "0df0d157c300abf3151d6d12dee6a06a59cf6c0ada175f6db4d1303454fd0888"
+    },
+    {
+      "file": "firmware/NIU_Throttle_Comms_v4_3/src/hardware.inc",
+      "sha256": "28362e9fb3302874620265f6bbf4252e6575fba1ebbccfaf30f49ef30714aaab"
+    },
+    {
+      "file": "firmware/NIU_Throttle_Comms_v4_3/src/main.cpp",
+      "sha256": "122ab9db2a3b7ced7d3e5aa23eb4af3a02c9fca3e90a2b93b90e8843689e2c0f"
+    },
+    {
+      "file": "firmware/NIU_Throttle_Comms_v4_3/src/setup.inc",
+      "sha256": "e03b0edce50972433dee1dc479f656f0a62d59ce41c9d66af69f2cf80ce606cc"
+    },
+    {
+      "file": "firmware/NIU_Throttle_Comms_v4_3/Start Motor GUI.cmd",
+      "sha256": "926fb607f0479307721006fac4d85ada37273d9f8f31c27a69c0c16f6c8836a7"
+    },
+    {
+      "file": "firmware/NIU_Throttle_Comms_v4_3/tests/test_comms.cpp",
+      "sha256": "4111c972e92773f027784a0a0ccf645d32e1e8ff4f0778fb9f721534b827fdde"
+    },
+    {
+      "file": "firmware/NIU_Throttle_Comms_v4_3/tests/test_gui.py",
+      "sha256": "39f41de036f878b8b584d22cc4ff217aa04b2e9556fc0d001ccab00875cd8ad7"
+    },
+    {
+      "file": "firmware/NIU_Throttle_Comms_v4_3/tests/test_launch.cpp",
+      "sha256": "3894fb6978a3d1f9c4ad6629189f30eb086ee52b0ff0d23e383853a029519c62"
+    },
+    {
+      "file": "firmware/NIU_Throttle_Comms_v4_3/tests/test_remote_enable.cpp",
+      "sha256": "9b3441c281bf4963e124e5f7733717d903aea3e98e05531c14b2430849342640"
+    },
+    {
+      "file": "firmware/NIU_Throttle_Comms_v4_3/tests/test_scheduler.cpp",
+      "sha256": "41cd8f4d3bae6b80cf47b0475c074e138d66779d85193a7d0a0326fbcfda9193"
+    },
+    {
+      "file": "firmware/NIU_Throttle_Comms_v4_3/tests/test_standalone.cpp",
+      "sha256": "d7b4c552472ea08f05affa39d4408320cbffeb49e824156ac8e9b320a81d79b7"
+    },
+    {
+      "file": "firmware/NIU_Throttle_Comms_v4_3/tools/lab.py",
+      "sha256": "6bb32f6fddb1efd0006bdda78631a920b06b031871c32d6a6115e48b3fc3db56"
+    },
+    {
+      "file": "firmware/NIU_Throttle_Comms_v4_3/tools/motor_gui.py",
+      "sha256": "ca429aef81295053a01298765871a6d76e2d9612ca0ee0d60ba238fab7abfb62"
+    },
+    {
+      "file": "firmware/NIU_Throttle_Comms_v4_3/tools/rtt.cfg",
+      "sha256": "0f387f1f66936fa0b58e66e094281a8cc3940ec5031fbc79fb0618b9cb94cea3"
+    },
+    {
+      "file": "firmware/NIU_Throttle_Comms_v4_3/tools/status.py",
+      "sha256": "d21ed44b858635ceb1cd4916bddf242d8f05142a3f93c6661abef794746a71c8"
+    },
+    {
+      "file": "firmware/NIU_Throttle_Comms_v4_3/tools/stlink_board.cfg",
+      "sha256": "cbcd8c2ce302861a256a972c5f0eabbe6b3b510f410959c27900b118a488eb22"
+    },
+    {
+      "file": "firmware/NIU_Throttle_Comms_v4_3/tools/transport.py",
+      "sha256": "964d7ec635b6f3a9e3d3d6573fee9954aca90d1d0b0c42bc31acc84811556260"
+    },
+    {
+      "file": "firmware/NIU_Throttle_Comms_v4_3/verification/check_source.py",
+      "sha256": "686fd0482da59185e9ba11f9808096ed7529c74a5051fb1a07d86b2052fcc58a"
+    },
+    {
+      "file": "firmware/NIU_Throttle_Comms_v4_3/verification/package_release.py",
+      "sha256": "feab31086925e0566c6cbd6a81dadcc04cd238ab62ab684108869d1e75ebe594"
+    },
+    {
+      "file": "firmware/NIU_Throttle_Comms_v4_3/verification/release_validation.json",
+      "sha256": "9c96abd973039ca2417b135ca05fd9ca55ef88adeab7119288428218ef3ade57"
+    },
+    {
+      "file": "firmware/NIU_Throttle_Comms_v4_3/verification/relink_cached_core.py",
+      "sha256": "25564e81152295ca1ca5a98d42c1130c7989ca6d2f344fba2554141558b2854f"
+    },
+    {
+      "file": "firmware/NIU_Throttle_Comms_v4_3/verification/results.txt",
+      "sha256": "0895e932daeb73813d4af463a80e5b2dda4ed447c63c0ad0e02e6ee05d87bcd3"
+    },
+    {
+      "file": "firmware/NIU_Throttle_Comms_v4_3/verification/verify.py",
+      "sha256": "17d9b2716b43ce0c22bcb92db1c6cbaeb115ac955a54bb96125283dc5926d9f2"
+    },
+    {
+      "file": "firmware/NIU_ESP_Comms_v4_3/APP_CONTRACT.txt",
+      "sha256": "f386f267585780a88fda4962a6f5f973c60f8ef7c3081c79d2b9f8a62d1090bd"
+    },
+    {
+      "file": "firmware/NIU_ESP_Comms_v4_3/APP_INTEGRATION_PROMPT.txt",
+      "sha256": "4a22752199845c25290a206716f68acca05b694f4c7430453017236ee8d3e7a0"
+    },
+    {
+      "file": "firmware/NIU_ESP_Comms_v4_3/binary/boot_app0.bin",
+      "sha256": "f94c5d786a7a8fab06ac5d10e33bf37711a6697636dc037559ea19cc410a17f0"
+    },
+    {
+      "file": "firmware/NIU_ESP_Comms_v4_3/binary/bootloader.bin",
+      "sha256": "e01a2300de23c8d601e9f2a37684b5dbc83ae37132d5a8833e23520afd895f92"
+    },
+    {
+      "file": "firmware/NIU_ESP_Comms_v4_3/binary/firmware.bin",
+      "sha256": "38049c07c1be802c5147d44df3253fcc9a8d0aa616680773a30d22b06febb4d8"
+    },
+    {
+      "file": "firmware/NIU_ESP_Comms_v4_3/binary/manifest.json",
+      "sha256": "08c3d46a75aa78307e58ddc1a078bac1774f18b95699dfeafbbc2912f5396324"
+    },
+    {
+      "file": "firmware/NIU_ESP_Comms_v4_3/binary/partitions.bin",
+      "sha256": "aaae2888c5a6a348004b5b436f47abb25ae32e72d9003902955a998eda723edd"
+    },
+    {
+      "file": "firmware/NIU_ESP_Comms_v4_3/ESP32_MATRIX2_minimal_reader/command_stream.h",
+      "sha256": "2f0434027093b3db16c65cd148e9f6c6f75ea3c6c4aae53289e8d957c1e4ea46"
+    },
+    {
+      "file": "firmware/NIU_ESP_Comms_v4_3/ESP32_MATRIX2_minimal_reader/comms_protocol.h",
+      "sha256": "38db966f5cea99c6902de6d111e64b3861504d86cd32992be14dfd19d05cda26"
+    },
+    {
+      "file": "firmware/NIU_ESP_Comms_v4_3/ESP32_MATRIX2_minimal_reader/ESP32_MATRIX2_minimal_reader.ino",
+      "sha256": "a0f9beb1b4c5f68d8b748fed253b7bdb59908b2cdde74ab1de0971e2c86e3845"
+    },
+    {
+      "file": "firmware/NIU_ESP_Comms_v4_3/ESP32_MATRIX2_minimal_reader/motor_client.h",
+      "sha256": "3c26a8a63a6c9e82e52c550af7aec9bb5dfe969829fab2b82f9c0bb7be2db119"
+    },
+    {
+      "file": "firmware/NIU_ESP_Comms_v4_3/ESP32_MATRIX2_minimal_reader/motor_uart.h",
+      "sha256": "307adca38d03624433f5cc006458bb89f6ee21d025918a2400a88f03cd80ad12"
+    },
+    {
+      "file": "firmware/NIU_ESP_Comms_v4_3/ESP32_MATRIX2_minimal_reader/telemetry.h",
+      "sha256": "79b72b25136f80be94760a4e6423004332126a49903a0dcbe7257896374b7bb1"
+    },
+    {
+      "file": "firmware/NIU_ESP_Comms_v4_3/platformio.ini",
+      "source_sha256": "1c3c5e3ebc562027bc7ece8e44b7fda1f9b63aa90a33efe13513058c867c52fb",
+      "sha256": "eb4614cb389dbb408323af12f1a73301c837787bd25987cd41273f1223c0f0dd",
+      "packaging_change": true
+    },
+    {
+      "file": "firmware/NIU_ESP_Comms_v4_3/README.txt",
+      "sha256": "d0df599566d3b7657a099e018e766c9bd7c66e92a93693b1238a5508718e0d80"
+    },
+    {
+      "file": "firmware/NIU_ESP_Comms_v4_3/verification/check_return_vm_off.py",
+      "sha256": "374938ece5900000d6526b6179b48ac2bc3144c4496606d2635a73ee1ac3002b"
+    },
+    {
+      "file": "firmware/NIU_ESP_Comms_v4_3/verification/read_status.py",
+      "sha256": "2f71629bc28ae07405c848d19e401dd4fb314b0cc12fc400a976e32b83ecc7c4"
+    },
+    {
+      "file": "firmware/NIU_ESP_Comms_v4_3/verification/release_validation.json",
+      "sha256": "9c96abd973039ca2417b135ca05fd9ca55ef88adeab7119288428218ef3ade57"
+    },
+    {
+      "file": "firmware/NIU_ESP_Comms_v4_3/verification/results.txt",
+      "sha256": "7fbec41f9a25e9d46e771b3d5789d2c3b7386dc962d705caf5aff8d47c3a021d"
+    },
+    {
+      "file": "firmware/NIU_ESP_Comms_v4_3/verification/test_client.cpp",
+      "sha256": "54f247853221563f155704cedfce71d04d14ee544f47bb20cd63a5e9794f6278"
+    },
+    {
+      "file": "firmware/NIU_ESP_Comms_v4_3/verification/test_recovery.cpp",
+      "sha256": "b225d38d8e55aa4b6cbeddc7cff7a29eb34f69608c1d552c46b81511cb2de7ce"
+    },
+    {
+      "file": "firmware/NIU_ESP_Comms_v4_3/verification/verify.py",
+      "sha256": "68166c055dd987c8ce830f5483cee360a7f77c118f729deb48752b87058812fa"
+    },
+    {
+      "file": "hardware/rev-o/3dmodels/Bourns_SRP1265A_Envelope.wrl",
+      "sha256": "30510939d9c1ffdbc533707087a0294e8adb0e0fc6c920736ec331616adff78f"
+    },
+    {
+      "file": "hardware/rev-o/3dmodels/Capacitor_SMD.3dshapes__C_0402_1005Metric.step",
+      "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2"
+    },
+    {
+      "file": "hardware/rev-o/3dmodels/Capacitor_SMD.3dshapes__C_0603_1608Metric.step",
+      "sha256": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1"
+    },
+    {
+      "file": "hardware/rev-o/3dmodels/Capacitor_SMD.3dshapes__C_0805_2012Metric.step",
+      "sha256": "9a669c1a2f1ea25b88b401acef6efeaa80a067bd7da9db6993de719a7fbe155c"
+    },
+    {
+      "file": "hardware/rev-o/3dmodels/Connector_AMASS.3dshapes__AMASS_XT60-M_1x02_P7.2mm_Vertical.step",
+      "sha256": "79c46051de822e2939ebbdbe2d708897adffa66bdc61a011b7f559c4a8565679"
+    },
+    {
+      "file": "hardware/rev-o/3dmodels/Connector_PinHeader_2.54mm.3dshapes__PinHeader_1x02_P2.54mm_Vertical.step",
+      "sha256": "ea4d0799007ebdd3945072bf255d673d2fe87eb05fda85fd8d7993ad9397da41"
+    },
+    {
+      "file": "hardware/rev-o/3dmodels/Diode_SMD.3dshapes__D_SMA.step",
+      "sha256": "1cfddd4e3b1bf22b8fc6ee3258c2aade882ed7b85b528e23b9db42437775a1db"
+    },
+    {
+      "file": "hardware/rev-o/3dmodels/Diode_SMD.3dshapes__D_SMB.step",
+      "sha256": "029466277d91e9f5492556be93e46611049e07115c7913880c547afa96058ed4"
+    },
+    {
+      "file": "hardware/rev-o/3dmodels/Fuse_Littelfuse_NANO2_452-454.wrl",
+      "sha256": "9e5c1c228039881f956e278a1158e8cbc69c01c6f1fbb62f75748cec440688f8"
+    },
+    {
+      "file": "hardware/rev-o/3dmodels/Fuse_SCHURTER_UMT-H_5.3x16.wrl",
+      "sha256": "f057fcf9a94d5ead34b52468cbb66e645fe8e38e938e554e2ccb64c1ac78c0ce"
+    },
+    {
+      "file": "hardware/rev-o/3dmodels/LED_SMD.3dshapes__LED_0805_2012Metric.step",
+      "sha256": "0aa8b791804f5d72a2fc7d1bf231dd9959207d83df8ad801176fbc459f575b98"
+    },
+    {
+      "file": "hardware/rev-o/3dmodels/Omron_G7SA_2A2B_TopView.wrl",
+      "sha256": "6689cfa81103980c8055cf109967cd1b5c974f133d0405bc5790a58d7e20a203"
+    },
+    {
+      "file": "hardware/rev-o/3dmodels/Package_DIP.3dshapes__SMDIP-4_W9.53mm.step",
+      "sha256": "937ae1a00cf023e46e682fb458c2fe8bab4f6be790307ecac2186e2a3f33c653"
+    },
+    {
+      "file": "hardware/rev-o/3dmodels/Package_SO.3dshapes__MSOP-8-1EP_3x3mm_P0.65mm_EP1.68x1.88mm.step",
+      "sha256": "531731bc0888d66839315fa63738483c8811f5f3440acbc52a2d99c928e44e39"
+    },
+    {
+      "file": "hardware/rev-o/3dmodels/Package_SO.3dshapes__SOIC-8_3.9x4.9mm_P1.27mm.step",
+      "sha256": "07f46cff378d30e6c27dfd5a03092c795323f86d91c71fc7e743f4f418dc553a"
+    },
+    {
+      "file": "hardware/rev-o/3dmodels/Package_SO.3dshapes__VSSOP-10_3x3mm_P0.5mm.step",
+      "sha256": "bc262100f46f22cfc4b251fb05142a6eb384549011ccd750c9bc7efb6b1bca4b"
+    },
+    {
+      "file": "hardware/rev-o/3dmodels/Package_TO_SOT_SMD.3dshapes__SOT-23-5.step",
+      "sha256": "720a6eab0024069bbee68e7cb4c3ff1149468a34611225cdc852662c5d0ec2b7"
+    },
+    {
+      "file": "hardware/rev-o/3dmodels/Package_TO_SOT_SMD.3dshapes__SOT-23-6.step",
+      "sha256": "c9fe686b4d1b56927a41fa84a9bc1efb61d8a45a123a3db43bcaa05c2891d635"
+    },
+    {
+      "file": "hardware/rev-o/3dmodels/Package_TO_SOT_SMD.3dshapes__SOT-23.step",
+      "sha256": "dd5d1711204e1d8d26cd11490923bd84340820baa69538c385a4300ec2539bc0"
+    },
+    {
+      "file": "hardware/rev-o/3dmodels/Package_TO_SOT_SMD.3dshapes__SOT-363_SC-70-6.step",
+      "sha256": "045cc95e18ee7a13d1623c3ce6604fc833049bdb4f952f68c26e3c5767d122e4"
+    },
+    {
+      "file": "hardware/rev-o/3dmodels/Package_TO_SOT_SMD.3dshapes__TO-252-3_TabPin2.step",
+      "sha256": "d3b527bc2ffb1900637eb60126d6a2059bde4028a65379615039436cd5d49a84"
+    },
+    {
+      "file": "hardware/rev-o/3dmodels/Panasonic_FR_D10_P5_H20.wrl",
+      "sha256": "a7b63e980100dfefd5943187d60a4dbe7800669768827845506842832311ab78"
+    },
+    {
+      "file": "hardware/rev-o/3dmodels/Panasonic_FR_D10_P5_H25.wrl",
+      "sha256": "11f5ea66a2765516faab365b262ad02189ad38c307b6c3023e7d152a19684d7e"
+    },
+    {
+      "file": "hardware/rev-o/3dmodels/Resistor_SMD.3dshapes__R_0603_1608Metric.step",
+      "sha256": "1875571c326d0d9e96f36b4efeb8094068ef7619f0a449c781caf0b49c2e5861"
+    },
+    {
+      "file": "hardware/rev-o/3dmodels/Resistor_SMD.3dshapes__R_0805_2012Metric.step",
+      "sha256": "ded342cdb394fb45395227beaaa75cc390613cf2581b29cd6d22c12abd6103b2"
+    },
+    {
+      "file": "hardware/rev-o/3dmodels/Resistor_SMD.3dshapes__R_2512_6332Metric.step",
+      "sha256": "76b2052a3c120193de7cdc0af99157b6f375e9a4af7721e3e3d012968c877f27"
+    },
+    {
+      "file": "hardware/rev-o/3dmodels/TDK_CNC6_1210_Envelope.wrl",
+      "sha256": "2962ad300305e34e6221b47b8e7c94fe6af54d79ee55dafb01258fc9dcf99675"
+    },
+    {
+      "file": "hardware/rev-o/3dmodels/TI_RRX0029B_6x6.wrl",
+      "sha256": "8504c81fadda3915b3fe7e6cbe4c032a32b609dab963e2f786206f8705023eb1"
+    },
+    {
+      "file": "hardware/rev-o/3dmodels/TRACO_TMR6WI_SIP8_TopView.wrl",
+      "sha256": "cad7ffda72b549815025bde7fa9fa18c9cdbf4013e578d4b111fb2ddd324cd7b"
+    },
+    {
+      "file": "hardware/rev-o/3dmodels/Vishay_WSL2512_6m_Envelope.wrl",
+      "sha256": "7444ec23f4015a31e8ec474c60c9de02b7086bc88dbd43da77b6eaabe50ea313"
+    },
+    {
+      "file": "hardware/rev-o/BENCH_CHECKS.txt",
+      "sha256": "51ed428292805992ea033283e0ba0af670221852536fb08ad810cf5013ac9707"
+    },
+    {
+      "file": "hardware/rev-o/BOM.csv",
+      "sha256": "5eb5663a4cfb1df79ef1ada9caba64741fecc6a2561f9317fb57958dc1d8575a"
+    },
+    {
+      "file": "hardware/rev-o/Buck_36V.kicad_sch",
+      "sha256": "138901e06c706cc76a9785654217f1e0ff1e9820f4072324e7bfff7da583aaf4"
+    },
+    {
+      "file": "hardware/rev-o/Charge_Mode.kicad_sch",
+      "sha256": "4bbc451bc3fb33a788b8e174e9fa5d5a16cd1e229a6162f7ecf46d285d869b05"
+    },
+    {
+      "file": "hardware/rev-o/design_model.json",
+      "sha256": "1f745c88a39873020b918a6bdadedf4b0f81255a94b02a72373276aba6846fcc"
+    },
+    {
+      "file": "hardware/rev-o/FABRICATION.txt",
+      "sha256": "89cd0af28e3abb585700fedda2330fa07364d5dfca82c1d2d0ccc7879d3dcec6"
+    },
+    {
+      "file": "hardware/rev-o/FIRMWARE_INTEGRATION.txt",
+      "sha256": "4bcec7b42e20c821798bcd25e57b96acbd6fdd1be0676c5ad2bd3cc31de25adc"
+    },
+    {
+      "file": "hardware/rev-o/fp-lib-table",
+      "sha256": "b3f9bf7f77056d72518fef3043a3a364d81ee97492ac07ec8ba1bfa1a2135196"
+    },
+    {
+      "file": "hardware/rev-o/Isolated_Supply.kicad_sch",
+      "sha256": "ef8854e60697b142e1176ebabfde6d9ab247b960d245eca03280a2b787daf2ec"
+    },
+    {
+      "file": "hardware/rev-o/LAYOUT_REVIEW.txt",
+      "sha256": "914379542de6dc9f928e0699a0c489cd8dba6ffb2b21133c67c4833362c909ea"
+    },
+    {
+      "file": "hardware/rev-o/Low_Voltage_IO.kicad_sch",
+      "sha256": "9f27208a5c450873935916c4c917eb53990399e9286d4b13cf79d8070e645529"
+    },
+    {
+      "file": "hardware/rev-o/Manufacturing/Assembly/Assembly_Top.svg",
+      "sha256": "ce7b039d90f488e0bbf2a0fdff40a871af0c46c9ee37b2516827fc7e053c668f"
+    },
+    {
+      "file": "hardware/rev-o/Manufacturing/Assembly/NIU_Intermediate_RevO-B_Paste.gbp",
+      "sha256": "a408f7e26ea8dbcc289ca0bace3e3709f67f7c52d7778d5b0d2071527ac76528"
+    },
+    {
+      "file": "hardware/rev-o/Manufacturing/Assembly/NIU_Intermediate_RevO-F_Paste.gtp",
+      "sha256": "864d91d04ecbe4ffafbf15e1d99773987d664e35a4069f3c8cac5579b141df17"
+    },
+    {
+      "file": "hardware/rev-o/Manufacturing/Assembly/NIU_Intermediate_RevO-job.gbrjob",
+      "sha256": "97ff2a2d8977eeeb85ca2faee7a7c6738ca9fe701e1df90c76795f6b65f7ee0d"
+    },
+    {
+      "file": "hardware/rev-o/Manufacturing/Assembly/Placement_SMD.csv",
+      "sha256": "76fb84b89d7844b390693f95e22d5befa3d61c0025d45350d817d04018c04cc3"
+    },
+    {
+      "file": "hardware/rev-o/Manufacturing/Gerbers/NIU_Intermediate_RevO-B_Cu.gbl",
+      "sha256": "c56621eb59f1100fbc234684447e98a072c6dda84ff7abf142420dc03283e05f"
+    },
+    {
+      "file": "hardware/rev-o/Manufacturing/Gerbers/NIU_Intermediate_RevO-B_Mask.gbs",
+      "sha256": "9eda7d575c36db5073a8f0e64881780d9bf8f11e0aba4925f941cca4f622166a"
+    },
+    {
+      "file": "hardware/rev-o/Manufacturing/Gerbers/NIU_Intermediate_RevO-B_Silkscreen.gbo",
+      "sha256": "92cd37bbf5314ed04434125d1a96ebb6014a04222931155cad4aa7c7229d3758"
+    },
+    {
+      "file": "hardware/rev-o/Manufacturing/Gerbers/NIU_Intermediate_RevO-Edge_Cuts.gm1",
+      "sha256": "0282700425712057ab1c179f72a1fe457bd36b2bada95d58144eb2c33a13d0e7"
+    },
+    {
+      "file": "hardware/rev-o/Manufacturing/Gerbers/NIU_Intermediate_RevO-F_Cu.gtl",
+      "sha256": "7b978ca38e62c2d86694bee047c78e4bd7fdcef5341a6a0371e18ce7a9d81ccd"
+    },
+    {
+      "file": "hardware/rev-o/Manufacturing/Gerbers/NIU_Intermediate_RevO-F_Mask.gts",
+      "sha256": "30752a2d71fcd44174b5874982a6a64de2d121467ad9623436cb0bc29af35336"
+    },
+    {
+      "file": "hardware/rev-o/Manufacturing/Gerbers/NIU_Intermediate_RevO-F_Silkscreen.gto",
+      "sha256": "87ecac6fa875c838f33ae214b47d9d4261119d7bc48d7cb6b50367a0077e1b57"
+    },
+    {
+      "file": "hardware/rev-o/Manufacturing/Gerbers/NIU_Intermediate_RevO-In1_Cu.g1",
+      "sha256": "3ee6da36cf13b7c006f9e9e875db02fcb006a7b2041c20009d6144cc249dfd30"
+    },
+    {
+      "file": "hardware/rev-o/Manufacturing/Gerbers/NIU_Intermediate_RevO-In2_Cu.g2",
+      "sha256": "9c17402c47f2d466eadd890865c451fb550a95812d5b8b3a8cf1496f32dab4af"
+    },
+    {
+      "file": "hardware/rev-o/Manufacturing/Gerbers/NIU_Intermediate_RevO-job.gbrjob",
+      "sha256": "a44c23e78eb4d649a6d1f384e27961b49e4fbce8e8c85d122a43bb3267f69193"
+    },
+    {
+      "file": "hardware/rev-o/Manufacturing/Gerbers/NIU_Intermediate_RevO-NPTH-drl_map.svg",
+      "sha256": "1f9671aa95bbfd4aa0c6d1ddd069e218369005913c26610f1cb0f1ca4c11de36"
+    },
+    {
+      "file": "hardware/rev-o/Manufacturing/Gerbers/NIU_Intermediate_RevO-NPTH.drl",
+      "sha256": "6b029f37b4ecf36a7f0538471a47ab376e20e58238bc01426f49d7a0bcf3651e"
+    },
+    {
+      "file": "hardware/rev-o/Manufacturing/Gerbers/NIU_Intermediate_RevO-PTH-drl_map.svg",
+      "sha256": "04979ba77f4f4cf3f7317cc2b6ac87385f17597e87185893a992385c92816863"
+    },
+    {
+      "file": "hardware/rev-o/Manufacturing/Gerbers/NIU_Intermediate_RevO-PTH.drl",
+      "sha256": "8bccf4003a9fd3fa468547defb4eb5228e38959dbe44626189020144989d2e7b"
+    },
+    {
+      "file": "hardware/rev-o/MODEL_NOTES.txt",
+      "sha256": "17ddf5152159acf8b233a91b1977609ab064b1415944d5d4fb664f14df27d4a0"
+    },
+    {
+      "file": "hardware/rev-o/NIU.kicad_sym",
+      "sha256": "9ec60f8b23272d4a92132893f2928ae5f0e8701248624bed90b93cbd2917bc08"
+    },
+    {
+      "file": "hardware/rev-o/NIU.pretty/AMASS_XT60-M_Vertical_PositivePin1.kicad_mod",
+      "sha256": "ee9ba3526348f8dcd09e17692d7bf91441574e0519db8931064962fd4cd385b5"
+    },
+    {
+      "file": "hardware/rev-o/NIU.pretty/Bourns_SRP1265A_13.5x12.5mm.kicad_mod",
+      "sha256": "9ebffa8c577319a2649915842860c1f1b99b722cf42360c0abbdeca816515a33"
+    },
+    {
+      "file": "hardware/rev-o/NIU.pretty/C_0402_1005Metric.kicad_mod",
+      "sha256": "7745284c27b7f9186149e3129747b54158f44ab40eb226c8dfe2f29ba3846e6e"
+    },
+    {
+      "file": "hardware/rev-o/NIU.pretty/C_0603_1608Metric.kicad_mod",
+      "sha256": "dd3d2820699ef1df33d03b1663d577d100c146eb5d3f31f1c365f3a3d9d6fc49"
+    },
+    {
+      "file": "hardware/rev-o/NIU.pretty/C_0805_2012Metric.kicad_mod",
+      "sha256": "387444aacf8c0b579e01b20541233f3d33ac71cf54054019a9a2e5a8bc0ce2c8"
+    },
+    {
+      "file": "hardware/rev-o/NIU.pretty/CP_Radial_D10.0mm_P5.00mm_H20.kicad_mod",
+      "sha256": "a3ca2b2f47ef0dc035017fbc6a01e50017acb676a6c223267175b997a18fd8cc"
+    },
+    {
+      "file": "hardware/rev-o/NIU.pretty/CP_Radial_D10.0mm_P5.00mm_H25.kicad_mod",
+      "sha256": "2aedb87c810597c7d42e3820521af89cceeddad20fe664f1c2688c2175e46219"
+    },
+    {
+      "file": "hardware/rev-o/NIU.pretty/CP_Radial_D10_P5_H25_PolarityBelow.kicad_mod",
+      "sha256": "0ea78df6b27d563d7cdb92d631acad80a5e33fbfeb75ac801fc7d94578fb1ae6"
+    },
+    {
+      "file": "hardware/rev-o/NIU.pretty/D_SMA.kicad_mod",
+      "sha256": "cb0a79bf9a95bf4a3820fdc2633310955c7e7a759e50071912511e5ca30637d0"
+    },
+    {
+      "file": "hardware/rev-o/NIU.pretty/D_SMB.kicad_mod",
+      "sha256": "54d1492a22514460d099a7dc29e31a9b308dae0c412c2f97e8511c5210fec2cd"
+    },
+    {
+      "file": "hardware/rev-o/NIU.pretty/Fuse_Littelfuse_NANO2_452-454.kicad_mod",
+      "sha256": "e8e9beea10a4b30dac133ee91ea15da51aca85e6f1885fe0b7213434e1bb3732"
+    },
+    {
+      "file": "hardware/rev-o/NIU.pretty/Fuse_SCHURTER_UMT-H_5.3x16.kicad_mod",
+      "sha256": "d854b745da7e6b4bf0f9d5dbf9ac00e0e78b6c0f92ffc5585fe8b54ceb8682c5"
+    },
+    {
+      "file": "hardware/rev-o/NIU.pretty/HVSSOP-8-1EP_3x3mm_P0.65mm_EP1.57x1.89mm.kicad_mod",
+      "sha256": "c3f57f8054f1075c3ca5af65f00cb2c0189ceb672539f88f049929d419027dd9"
+    },
+    {
+      "file": "hardware/rev-o/NIU.pretty/LED_0805_2012Metric.kicad_mod",
+      "sha256": "291aa9dff116f517812f4fd0648b01c851a3917051c097a594ff0341778cea7e"
+    },
+    {
+      "file": "hardware/rev-o/NIU.pretty/MountingHole_3.2mm_M3.kicad_mod",
+      "sha256": "c69004c02aa091dd0c2c6eca948651186b5fb648fde2a6f8ad587ed8fd824593"
+    },
+    {
+      "file": "hardware/rev-o/NIU.pretty/Omron_G7SA_2A2B_TopView.kicad_mod",
+      "sha256": "7d0bbbc85fe3a835f483f90995ae7cfa5f3d89755c21b5230e2c0b95e1b7cb78"
+    },
+    {
+      "file": "hardware/rev-o/NIU.pretty/PinHeader_1x02_P2.54mm_Vertical.kicad_mod",
+      "sha256": "4d46bed8e685c225cb5369523da9d18593555543c14e97b1c86a7c23fca50862"
+    },
+    {
+      "file": "hardware/rev-o/NIU.pretty/R_0603_1608Metric.kicad_mod",
+      "sha256": "64d86453bd5ae36ca698c2682ade75ff2bca491bfe75bec1cb47654e2ee62b19"
+    },
+    {
+      "file": "hardware/rev-o/NIU.pretty/R_0805_2012Metric.kicad_mod",
+      "sha256": "3a1fb4c56a0d23b2ac4d724bd0ef5eb8848c1bd83adf41f1fc38e0eccc9768a2"
+    },
+    {
+      "file": "hardware/rev-o/NIU.pretty/R_2512_6332Metric.kicad_mod",
+      "sha256": "57c494f033827385f400061e59bb8d3a0a2448fa98ca512c358a8414034fdd50"
+    },
+    {
+      "file": "hardware/rev-o/NIU.pretty/SMDIP-4_W9.53mm.kicad_mod",
+      "sha256": "02b9435ce2f7d4c75cf0adabf782e1e3a6a463e5c8777b43f7120015096ce87f"
+    },
+    {
+      "file": "hardware/rev-o/NIU.pretty/SOIC-8_3.9x4.9mm_P1.27mm.kicad_mod",
+      "sha256": "1bb44eae89cc727b0b4ba191be451fa6ffc4943f629c17753d19c36f98a2bcc0"
+    },
+    {
+      "file": "hardware/rev-o/NIU.pretty/SOT-23-5.kicad_mod",
+      "sha256": "27b6b1f31050fe7198348f4cab2f585fb91a48f8553c35f791802c3c90a82c84"
+    },
+    {
+      "file": "hardware/rev-o/NIU.pretty/SOT-23-6.kicad_mod",
+      "sha256": "ca908a0fdb6356a6e466b32dd81cf187c0e1c866f2b7289fe077823d61c58169"
+    },
+    {
+      "file": "hardware/rev-o/NIU.pretty/SOT-23.kicad_mod",
+      "sha256": "e3468ca50590fb694e07013a413bcd39c2dbe9df85da67a30a5a3227ce7abb2f"
+    },
+    {
+      "file": "hardware/rev-o/NIU.pretty/SOT-363_SC-70-6.kicad_mod",
+      "sha256": "63d8ef22f5bbb953beb27e37ea37a11917d54c7d6bbceacb14867ff0645601f6"
+    },
+    {
+      "file": "hardware/rev-o/NIU.pretty/TDK_CNC6_1210_Recommended.kicad_mod",
+      "sha256": "6ec3f1266e3953839472d00cb7a7abd0865c707f2c614f2579a238833609d16f"
+    },
+    {
+      "file": "hardware/rev-o/NIU.pretty/TI_DGN0008B_3x3_0p65.kicad_mod",
+      "sha256": "23fe600224400f44eb178c20d0f233e9ac6a820c562d95cd2df09f09184a2280"
+    },
+    {
+      "file": "hardware/rev-o/NIU.pretty/TI_RRX0029B_6x6.kicad_mod",
+      "sha256": "1749dcc753fb50cfc153c0b9edbc63e9e494b14e7dcf447b41c9184e293758ff"
+    },
+    {
+      "file": "hardware/rev-o/NIU.pretty/TO-252-3_TabPin2.kicad_mod",
+      "sha256": "725b046245b19a7fff65669359205703f7e0f8684312d8fab70cf9c4667df89f"
+    },
+    {
+      "file": "hardware/rev-o/NIU.pretty/TRACO_TMR6WI_SIP8_TopView.kicad_mod",
+      "sha256": "26403a82f61c8b0187583ae83642b3cc62637be5cd963caad2a779a23a9632e6"
+    },
+    {
+      "file": "hardware/rev-o/NIU.pretty/Vishay_WSL2512_5m_6m9.kicad_mod",
+      "sha256": "f8d0ec5b479912631896740f8e6b59c3408d6a6a80364db05f057019885471a7"
+    },
+    {
+      "file": "hardware/rev-o/NIU.pretty/VSSOP-10_3x3mm_P0.5mm.kicad_mod",
+      "sha256": "c3b00044a02d71e8377275f5980a9b8e5b921322d26736c6b09ce1cf844d04f3"
+    },
+    {
+      "file": "hardware/rev-o/NIU_Intermediate_RevO.kicad_dru",
+      "sha256": "46431ecf41b08d108daf3c598d4b73273ad666025be4b0e0b5a2ab1986de776a"
+    },
+    {
+      "file": "hardware/rev-o/NIU_Intermediate_RevO.kicad_pcb",
+      "sha256": "f3266872f8e982cbba23a97deb436191bc9eff01a19b6e9017aa6c606e1678b0"
+    },
+    {
+      "file": "hardware/rev-o/NIU_Intermediate_RevO.kicad_pro",
+      "sha256": "d5ec91f9a5d67672507a4e6179b884e7849c5621888e77e78cf654426db8e71d"
+    },
+    {
+      "file": "hardware/rev-o/NIU_Intermediate_RevO.kicad_sch",
+      "sha256": "50666a6f370dc7e3ac7940b974d9dc9920db96f006b01fb1b2b4fbf857738d1f"
+    },
+    {
+      "file": "hardware/rev-o/Purchasing/BOM_Reconciliation.json",
+      "sha256": "14c237ff685093f22efc6d21c7dc384b0416d1eb5249531c669b1425d8d3b77a"
+    },
+    {
+      "file": "hardware/rev-o/Purchasing/Mouser_RevO_Added_Since_RevL.csv",
+      "sha256": "97b4d7ca13a55e267f499b924f0fdd55ff2d6cfe7170242c1ab7530ae18b6ceb"
+    },
+    {
+      "file": "hardware/rev-o/Purchasing/Mouser_RevO_Added_Since_RevM.csv",
+      "sha256": "0f1aca6ad99b88eeeb6f759e55db1da4223a7e52265bda2c00d0804de4e204d9"
+    },
+    {
+      "file": "hardware/rev-o/Purchasing/Mouser_RevO_Added_Since_RevN.csv",
+      "sha256": "1d8374dcdf1e6c203821b6e54b34b70b2b23470d382bd2329f9c5024fb97c428"
+    },
+    {
+      "file": "hardware/rev-o/Purchasing/Mouser_RevO_Full_1Board.csv",
+      "sha256": "e10d099b668b38d9d04b74cc064289003aa1c4e4a7d71b04fd7e2fef21f1118b"
+    },
+    {
+      "file": "hardware/rev-o/Purchasing/NIU_RevO_BOM.xlsx",
+      "sha256": "93500bc9afa83aa59e715f7f218ca9310553a923929de838c3c99278a745ab3c"
+    },
+    {
+      "file": "hardware/rev-o/Purchasing/READ_ME.txt",
+      "sha256": "b977ffdcf26d895daec618ec43636823824f5773fd23b19e37d862e6b8267860"
+    },
+    {
+      "file": "hardware/rev-o/Purchasing/Stock_Evidence.csv",
+      "sha256": "f3ec161422ecb2a7cee9863c6268be95bb6d5b109d087234436cb9fed10c673b"
+    },
+    {
+      "file": "hardware/rev-o/README.txt",
+      "sha256": "32b0fbc2f0b8ae6670f72061386e35b1d0bfbc9e756825ab8537edc6540cdab4"
+    },
+    {
+      "file": "hardware/rev-o/Review/3D_Isometric.png",
+      "sha256": "12ff5fd1cc28811d32509dfe8eced8244a2f1fe46f33780d89789868d4213119"
+    },
+    {
+      "file": "hardware/rev-o/Review/3D_Top.png",
+      "sha256": "8943d8f061a97bb08ccc8e6f117f9e24a7514f0bc16039a094890a3e550364ba"
+    },
+    {
+      "file": "hardware/rev-o/Review/Copper/NIU_Intermediate_RevO-B_Cu.svg",
+      "sha256": "ea3857039c832c51968d92f1d03e14fd93371a1f53766f778f65888730268f24"
+    },
+    {
+      "file": "hardware/rev-o/Review/Copper/NIU_Intermediate_RevO-F_Cu.svg",
+      "sha256": "b8a0cc98e5ff1003dbb0c0c83c0b661bf7e3d599746c7299271d022a57a1dff2"
+    },
+    {
+      "file": "hardware/rev-o/Review/Copper/NIU_Intermediate_RevO-In1_Cu.svg",
+      "sha256": "55d69a32a58cee95be5aea1e5005086f17a7d1242e2904245e7fb93bdfac20fb"
+    },
+    {
+      "file": "hardware/rev-o/Review/Copper/NIU_Intermediate_RevO-In2_Cu.svg",
+      "sha256": "770943f7e8c6fad3e2de9e86713139aeac02346fb07d8e4886969bc773125db7"
+    },
+    {
+      "file": "hardware/rev-o/Review/Layout_Top.svg",
+      "sha256": "56700ed3349b6aad00545d40f1a3af2c48cd9a7147bf33fdf50d3c425f727207"
+    },
+    {
+      "file": "hardware/rev-o/Review/Schematic.pdf",
+      "sha256": "b8b4fe77f3a9ac40989a9e5fb45cca739cdab224d83772d38511419fd7c2095b"
+    },
+    {
+      "file": "hardware/rev-o/Review/Schematics/NIU_Intermediate_RevO-Buck 36V.svg",
+      "sha256": "1e72ea6f8de973f4d48d0f975ad20706dbce01fb94c1b09fe0b3d283bc9aade0"
+    },
+    {
+      "file": "hardware/rev-o/Review/Schematics/NIU_Intermediate_RevO-Charge Mode.svg",
+      "sha256": "41e1f63cbf3eb4458e3a783d91bd9f2ca422e113129a3ed38e35a02364d4203c"
+    },
+    {
+      "file": "hardware/rev-o/Review/Schematics/NIU_Intermediate_RevO-Isolated Supply.svg",
+      "sha256": "0a6b8e3d28c88058fde378517d9dfc0fcd4ac983bc96c82d9b93149682f58ba7"
+    },
+    {
+      "file": "hardware/rev-o/Review/Schematics/NIU_Intermediate_RevO-Low Voltage IO.svg",
+      "sha256": "11d14f5e11e5787ea23476bbd5179b241786c40e7c7305d5007e34f0655baecc"
+    },
+    {
+      "file": "hardware/rev-o/Review/Schematics/NIU_Intermediate_RevO-SOC Sensing.svg",
+      "sha256": "04e00544aced0282df836fcf903a2d25fbbd3e2328a0e091e76691890828756d"
+    },
+    {
+      "file": "hardware/rev-o/Review/Schematics/NIU_Intermediate_RevO-VM Transient Clamp.svg",
+      "sha256": "fce9c872ff483951056898d578cc3b86f8ef7604cca4cecc01bb1a08ccbdb860"
+    },
+    {
+      "file": "hardware/rev-o/Review/Schematics/NIU_Intermediate_RevO.svg",
+      "sha256": "d60c997380eb20e649d58dacadf1ba4504f866241027b99731d34730045ac4ca"
+    },
+    {
+      "file": "hardware/rev-o/SOC_FLOW.txt",
+      "sha256": "05bdf45f1b7e9d608cb0ba3eef63e2edd19b6f63e626b9f9fe890de0bde7af61"
+    },
+    {
+      "file": "hardware/rev-o/SOC_Sensing.kicad_sch",
+      "sha256": "26ca0b6f1c9ffe18e06731452500b51e0e94e27644b570db88283dbe346ebd0e"
+    },
+    {
+      "file": "hardware/rev-o/Sources/SOURCE_INDEX.txt",
+      "sha256": "e53ebab0e2383feed51fe22c851c5d538e98d135ba4d284e6d6ec1865bdede3f"
+    },
+    {
+      "file": "hardware/rev-o/sym-lib-table",
+      "sha256": "35ab43fe6dbf2f7ffd03cac33c244f1e5fb6ef4d6963bda5f5cc082fc2993dc4"
+    },
+    {
+      "file": "hardware/rev-o/Verification/DRC.json",
+      "sha256": "e9fb36ab9695bb226737e4493e4eab4f8a72368bed1fff2b7034b16db52e308f"
+    },
+    {
+      "file": "hardware/rev-o/Verification/ERC.json",
+      "sha256": "c71adf3775ec7b37d51fe05d375ee12799ea16675fb9878c7d280bb10e1fb5c5"
+    },
+    {
+      "file": "hardware/rev-o/Verification/Models.json",
+      "sha256": "7ed8900a43fa831be6a64d96a08a688d66df1104a1a0e483aee7c28fc0696f5e"
+    },
+    {
+      "file": "hardware/rev-o/Verification/Netlist.xml",
+      "sha256": "8c8479d047666f1d37752ac5ffcee4437be7036e4caec5d1d6154ba772dbe7a9"
+    },
+    {
+      "file": "hardware/rev-o/Verification/Revision_Delta.json",
+      "sha256": "ed70ac765f67f30b51e2e6cc6280ea9b7c440e69cde76485d416ac6565c19deb"
+    },
+    {
+      "file": "hardware/rev-o/Verification/Validation.json",
+      "sha256": "f7e238c2433cf1bdf95fc82777c13dc657a8882c48eb3c22ff973cf7d1634458"
+    },
+    {
+      "file": "hardware/rev-o/VM_Transient_Clamp.kicad_sch",
+      "sha256": "827b6fe7cc58ca54d156643e328b182db182adb92fc6ed541ae032c7d7008157"
+    },
+    {
+      "file": "hardware/motor-controller/PCB/.gitignore",
+      "sha256": "af6dcdb27b97d2b64cd809f82f5e535a510c6f974482a6f299a155221072565a"
+    },
+    {
+      "file": "hardware/motor-controller/PCB/.kibot/jlcpcb_rotation_filter.yaml",
+      "sha256": "2ff6f9b628b583a8279bd49f3bc722d0441944da33322ffe2fdfbe088a91834f"
+    },
+    {
+      "file": "hardware/motor-controller/PCB/Abhay.lib",
+      "sha256": "c1a2f35c48bc13c2fcc9c06e38770b239e1b391ac681e23f84bf065f9aad841c"
+    },
+    {
+      "file": "hardware/motor-controller/PCB/Abhay.pretty/SolderPadHighCurrent.kicad_mod",
+      "sha256": "e14cd65a62ad37628a05b4becf1e1bc07a2192fdc46f85024ba998f8d9ba078b"
+    },
+    {
+      "file": "hardware/motor-controller/PCB/Abhay.pretty/USB_Micro.kicad_mod",
+      "sha256": "9658768d0282b686d8a88f37da6fcc7522fa33350458b9889aaec6a7efba78cd"
+    },
+    {
+      "file": "hardware/motor-controller/PCB/Abhay.step",
+      "sha256": "bc1969cebf482fbffb50c878f86c8eef2888df2aa5788ca1e9851a293de2879c"
+    },
+    {
+      "file": "hardware/motor-controller/PCB/Abhay_Board.kicad_pcb",
+      "sha256": "15edebd586ef7910f74285b27abe7ea963bfd3650b9a5ff7c2183aaa5625ee2e"
+    },
+    {
+      "file": "hardware/motor-controller/PCB/Abhay_Board.kicad_pro",
+      "sha256": "0508275ab400e81072b994a63c40de1021a0e8c7704f289e2342a12c456372d9"
+    },
+    {
+      "file": "hardware/motor-controller/PCB/Abhay_Board.kicad_sch",
+      "sha256": "ddc71a226de7295515a283dfbd0d02511b6bbcde865d943fac5b93902462f0a1"
+    },
+    {
+      "file": "hardware/motor-controller/PCB/Batt.kicad_sch",
+      "sha256": "d4ee14803c859089fa02b2cdaecfd8d1bad676541ad42d7f7658775bfd11ee1d"
+    },
+    {
+      "file": "hardware/motor-controller/PCB/bom.ini",
+      "sha256": "57a9edeaacff48086d6abb6ff4dc04b17b6f3970f8a4ae1419690fee594fbfea"
+    },
+    {
+      "file": "hardware/motor-controller/PCB/config.kibom.ini",
+      "sha256": "d6b831131ed64424780c16ee31d30395852a4ce83f35afe1a50d7e2a373b634c"
+    },
+    {
+      "file": "hardware/motor-controller/PCB/fp-lib-table",
+      "source_sha256": "a42d08c95c34405ea1a9e77a978aeb0251c68f5b04cafb0c8a899ea2418d9e5c",
+      "sha256": "8c75e676b1cd0137ffa3a060953242c0da446145e6c81fcf6d659dc668128708",
+      "packaging_change": true
+    },
+    {
+      "file": "hardware/motor-controller/PCB/libs/MicroUSB.step",
+      "sha256": "712a4ac229ca7d8bdbc7c28c9ad6ae5f7209396fee3bafcdee6a93c0c3fd1e47"
+    },
+    {
+      "file": "hardware/motor-controller/PCB/libs/TMC6200/2021-11-28_18-58-59.lib",
+      "sha256": "dff7ac764d7b4105b73f533fc399d15f20680abc54e9c550e165bd9f2093653b"
+    },
+    {
+      "file": "hardware/motor-controller/PCB/libs/TMC6200/footprints.pretty/TMC6200-TA.kicad_mod",
+      "sha256": "c4a254abb48e2e68bc9f8d58853f0bbe080c5a430660707b06f4aeb369d0b328"
+    },
+    {
+      "file": "hardware/motor-controller/PCB/libs/USB/U254-051T-4BH83-F1S.lib",
+      "sha256": "4d851237c0eb81efe8a68c421a7f9f7c62f17075b32ffc0a6f492bb4568fdc83"
+    },
+    {
+      "file": "hardware/motor-controller/PCB/libs/USB/U254-051T-4BH83-F1S.step",
+      "sha256": "ce36879121b6447dca99bbd9d4facb64a2fca08b800047a47aef5d94b4d55041"
+    },
+    {
+      "file": "hardware/motor-controller/PCB/libs/USB/XKB_U254-051T-4BH83-F1S.kicad_mod",
+      "sha256": "135aaf547711de4e6d5f412235eb91ca42a3ae0245957b8de79539b5a60fcf62"
+    },
+    {
+      "file": "hardware/motor-controller/PCB/libs/x-tech-logo/x-tech-logo.kicad_mod",
+      "sha256": "ac95d15e460801194ddb5e1ce0efff589ed9d17522852fcf312f3a177b73eae0"
+    },
+    {
+      "file": "hardware/motor-controller/PCB/MCU.kicad_sch",
+      "sha256": "9b089ce5f1b27802bb0a9aff76e5e1a920b2a440aa54bc253737e4cc16873778"
+    },
+    {
+      "file": "hardware/motor-controller/PCB/MOSFET.kicad_sch",
+      "sha256": "6b99d90cd824be5cf5041bc5e2b60435372f1b853cf975c5c1b07190fb53993e"
+    },
+    {
+      "file": "hardware/motor-controller/PCB/MOSFET1.kicad_sch",
+      "sha256": "289dedca711c2d6b96f4b008c364070f685aa71bf41c6de7900c0ca0d18d7d68"
+    },
+    {
+      "file": "hardware/motor-controller/PCB/MOSFET2.kicad_sch",
+      "sha256": "429a07fc030af024793af60df22ad8390297d0414fa82e8e388b0fb6bcda9227"
+    },
+    {
+      "file": "hardware/motor-controller/PCB/Power.kicad_sch",
+      "sha256": "bad5e7fb4faa3952ccecc05089574eea31b4300cdc49253eaafa99233d5dc253"
+    },
+    {
+      "file": "hardware/motor-controller/PCB/sym-lib-table",
+      "source_sha256": "702d032946895d2eeb9ecfa005788bf5821e361b219934ec3234a8dba30753b4",
+      "sha256": "b82b04cf5a42b50d813f60656acc37e65b9e138f45d415dcb8acc11b359e2cd8",
+      "packaging_change": true
+    },
+    {
+      "file": "hardware/motor-controller/PCB/VREG.kicad_sch",
+      "sha256": "6c9517f6b319c3d156e0c427af72e576aaf3f1418ad35ab9456e02cb9c7c6977"
+    }
+  ]
+}

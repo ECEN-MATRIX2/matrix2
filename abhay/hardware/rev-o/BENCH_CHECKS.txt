@@ -1,0 +1,100 @@
+REV O - ASSEMBLED PROTOTYPE QUALIFICATION PENDING
+No hardware was operated or tested while preparing this CAD package.
+
+1. Verify the G7SA-2A2B DC12 part marking, direct-PCB pin orientation, solder
+   joints, buck assembly and all connector polarities with supplies off.
+2. Check K1 continuity: coil off closes only NC 11-12 and 21-22; external 12 V
+   closes only NO 33-34 and 43-44. Check coil isolation from all power returns.
+   The manufacturer's forcibly guided mechanism does not replace verification
+   of wiring, assembly or the system's required fault response.
+3. Test isolated 5 V, nominal 36 V, UVLO and ripple using a current-limited
+   input supply and dummy load before connecting the motor PCB. Limit current
+   to the documented rating of the actual jumper leads and mating contacts,
+   never above the selected header's 3 A maximum. No unspecified jumper rating
+   is assumed. The retained 10 A fuses are not jumper-overload protection.
+4. Check external one-second AC timing and drive inhibition before transfer.
+   Check active-low J11 and always-on auxiliary outputs. J11 senses the command,
+   not the contact position. It cannot detect a welded contact or unplugged wire.
+5. Characterize contact voltage/current and capacitive inrush in both directions
+   of transfer. Zero motor load is not zero capacitor making current. The relay's
+   6 A / 30 VDC resistive switching rating does not establish safe repeated
+   switching of this 36-54.6 V capacitive circuit. Manufacturer load confirmation
+   and measured inrush are required before a loaded transfer rating is assigned.
+6. Scope startup, input dips, load steps, turn-off and transfer. Use differential
+   or appropriately isolated probing so scope grounds do not bridge domains.
+7. Measure U5, L1, D7, relay, fuses, headers, mating sockets and wire temperature
+   at the intended steady load and peak duration. No thermal or current rating
+   for the assembled board is inferred from a clean CAD check.
+8. The converter's current threshold is not a precision 3 A harness limiter.
+   Characterize the limited-energy VM clamp separately. Its roughly 0.31 A sink
+   cannot absorb sustained backdrive and does not guarantee a 40 V ceiling.
+9. Validate actual firmware inhibition and phase-current limits. The final motor
+   PCB has not changed; this intermediate revision does not increase its ratings.
+
+No rider or vehicle qualification follows from this prototype layout.
+
+Retained Rev L checks for the sourcing changes
+- C18/C20/C21 are 270 uF each. An ideal 2.8 ms ramp needs about 7.04 A into the
+  two converter-side bulk caps with K1 open, or 10.55 A with K1 closed before
+  adding motor-board capacitance. Those are charging-demand calculations, not
+  measured pulses or an output rating. Actual current limiting can extend the
+  ramp. Verify no restart loop/hiccup and check startup at input/load extremes.
+- Closing K1 can transfer energy from charged C20 directly into discharged
+  C21/motor capacitance. The buck current limit does not limit that initial
+  capacitor-to-capacitor pulse. Measure it and qualify the relay before repeated
+  transfer. The retained no-precharge choice does not establish inrush safety.
+- Internal compensation (R13 100k) is retained. No numerical phase-margin claim
+  is made. Check load-step ringing/settling and startup with the intended wiring,
+  input supply and motor load; use loop-gain measurement for a qualified release.
+- Exact TDK DC-bias effective capacitance could not be confirmed from the blocked
+  characteristic download. Do not assume 4.7 uF remains unchanged at operating
+  voltage. Verify high-frequency input/output ripple and MLCC temperature rise.
+- Check L1 temperature and saturation under the intended load. Its 11 A / 20%
+  saturation-drop value is a 25 C typical characteristic, not a hot-fault rating.
+  Keep bench current within the actual harness rating, never above 3 A headers.
+
+
+Rev N SOC sensing checks (dummy loads first)
+10. Check R33/R34 polarity and continuity: positive current is battery OUT through
+    R33 and charger INTO the relay through R34. Confirm all battery-side loads,
+    including isolated 5 V and sensor LDO, are downstream of R33.
+11. With host disconnected, test U10 output (~3.31 V) and temperature from the
+    intended input range. C29 must retain >=1 uF effective capacitance; C30+C31
+    must retain >=4.7 uF at operating bias/temperature. Nominal values are 4.7 uF
+    and 20 uF respectively. Validate LDO startup/stability and local decoupling.
+12. With J12 disconnected, power the normal isolated 5 V path. Verify U11
+    input at C36 is about 5 V and output at C37 is about 3.3 V, referenced to
+    SYSTEM_RET. No external 3.3 V supply is connected. Verify startup, shutdown,
+    ripple and temperature at expected load; C36/C37 must each retain >0.47 uF
+    effective capacitance. Nominal values are 10 uF / 16 V each.
+    Power the host from its normal 5 V harness, then connect J12 with the SOC
+    firmware configured. Confirm U7 0x40 and U8 0x41 device IDs and bounded I2C.
+    Test both relay states, resets, battery loss and stuck SDA/SCL. Test any
+    proposed independent host-power sequence before using it; powered pull-ups
+    may back-power an unpowered host through its I/O protection.
+13. Calibrate each sensor with a known current and meter reference; measure zero
+    offset separately. U7 normally reads auxiliary consumption even with motor
+    off. Do not zero this real load away. Use a controlled fixture or independently
+    measure that load when determining U7 offset. Reverse-current sign must work.
+14. Verify net coulomb balance during drive, charging and idle. Compare integrated
+    Ah with a calibrated external instrument; verify no double counting of power
+    or loss. Drop invalid/stale samples and report uncertainty after downtime.
+15. Test installed firmware drive inhibition first, then SOC/UART telemetry while
+    the motor control loop runs. Reassign PA5 before connecting J12. Require no
+    control-loop timing degradation, no unintended gate enable and sane recovery.
+Use differential/isolated instrumentation across the barrier. Ordinary bench
+scope channel ground clips are common and must not short separate returns.
+
+Rev O relay-supply pass-through checks
+16. With all power off, verify J5.1-J14.1 continuity and J5.2-J14.2 continuity,
+    no cross-short, and no COIL_RET connection to battery/SYSTEM_RET. Connect
+    J14.1 to motor J11.1 Relay+, J14.2 to J11.2 Relay-. Check actual part markings
+    confirm all five motor relay coils are 12 V before applying this source.
+17. Use one switched 12 V source, rated >=0.3 A (prefer 0.5 A). With drive/charge
+    power disabled, measure total coil current and voltage at both boards while
+    all coils are energized. Check jumper polarity, contact heating and pickup.
+18. Verify the source driver's and motor board's existing coil suppression,
+    measure 12 V turn-off transients and relay release time. D3/D4 protect only
+    the intermediate branch; J14 is before D3 and has no added clamp. Verify
+    actual contact sequencing remains compatible with the retained one-second
+    AC lead/lag. No AC or VM power is applied for initial coil-wiring checks.

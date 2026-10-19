@@ -1,0 +1,17 @@
+.pio/
+.pio_home/
+__pycache__/
+*.pyc
+*.exe
+*.elf
+*.log
+*.kicad_prl
+*.lck
+*-backups/
+*-bak
+*.bak
+fp-info-cache
+remote_functions.generated.h
+.vscode/
+.env
+.env.*

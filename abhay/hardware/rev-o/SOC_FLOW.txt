@@ -1,0 +1,48 @@
+REV O - SENSING FLOW AND ISOLATION
+
+Battery XT60 -> F1 -> R33 -> buck -> linked relay NC -> motor VM
+                         -> isolated 5 V converter (always on)
+                         -> local battery-domain sensor LDO
+Charger input -> R34 -> linked relay NO -> battery charge port
+
+U7 measures battery bus voltage and R33 drop. It runs on BAT_P_RET with its
+own 3.31 V LDO. SDA/SCL pass through U9 ISO1640 to the host SYSTEM_RET domain.
+U8 measures charge-source voltage and R34 drop, powered from local U11 3.3 V and
+referenced to the motor/charger SYSTEM_RET. It shares the host I2C side.
+J12 therefore returns both monitors' registers over one pair of signal wires.
+U11 derives SENSE_3V3 from ISO_5V / SYSTEM_RET. J13 is removed; no host supply
+wire is needed. Existing 5 V harnesses supply the system reference return.
+U10 still supplies BAT_SENSE_3V3 / BAT_P_RET. No sensing wire bridges the
+battery-side isolation barrier or shorts the isolated coil return.
+
+This preserves the previously accepted MODE-SWITCHED ground arrangement.
+In drive, NC contacts connect battery/buck return to SYSTEM_RET; NO charge
+contacts are open. In charge, NC opens both VM feed wires and NO connects the
+charge path. The motor PCB already shares VM/charge/MCU ground. This design
+does not claim all three returns remain permanently isolated in both modes.
+The digital isolator prevents the battery sensor link adding an extra return
+bridge around the drive contacts. Spacing is functional low-voltage isolation,
+not mains-rated certification. Scope/programmer grounds must not bypass it.
+
+SOC uses I_charge - I_battery_draw, integrated over elapsed time. This includes
+buck losses and the intermediate board's auxiliary draw. Internal BMS drain,
+unconnected external loads and periods without valid sampling are not counted.
+Capacity, starting SOC, current offsets and gain require calibration. Rested
+voltage can correct long-term drift; voltage under load/charge alone is weak.
+See FIRMWARE_INTEGRATION.txt for the proposed MCU host and GNSS-preserving UART.
+
+33 additional fitted parts relative to Rev L:
+  5 ICs: two INA237, one ISO1640, one TPS7A4001, one TLV75533
+  2 precision 5 milliohm shunts
+  6 series filter resistors, 4 I2C pull-ups, 2 LDO set resistors
+  13 capacitors for local supply and input filtering
+  1 two-pin 2.54 mm header (J12)
+Six new Mouser SKUs relative to Rev L; other additions reuse Rev L stocked part selections.
+
+No current rating increase follows from sensing. The existing 3 A header limit
+and the actual harness rating still apply, separately from the motor PCB phase
+relay limitations. 10 A fuses are retained as requested, not as jumper protection.
+
+Rev O adds one relay-supply pass-through header, J14, outside the sensing
+circuit. The 33 sensing/supply additions above remain unchanged; total fitted
+additions versus Rev L are now 34. J14 does not add an SOC measurement or ground.

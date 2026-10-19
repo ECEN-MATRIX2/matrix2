@@ -1,0 +1,24 @@
+{
+  "motor_revision": "4.3",
+  "esp_revision": "4.3",
+  "motor_flashed": false,
+  "esp_flashed": false,
+  "device_access_this_release": false,
+  "physical_testing": false,
+  "phone_app_test": false,
+  "motor_build": "Full PlatformIO application and framework",
+  "esp_build": "Full PlatformIO ESP32-S3",
+  "native_motor_checks": 32782,
+  "native_protocol_checks": 4746,
+  "gui_tests": 8,
+  "actual_remote_enable_function_checks_with_simulated_hardware": 174,
+  "native_esp_legacy_checks": 160,
+  "native_esp_recovery_and_framing_checks": 488,
+  "other_passed_suites": [
+    "actual UART scheduler with simulated HAL",
+    "startup/WAIT_TORQUE regression"
+  ],
+  "preservation_audit": "current loop, startup, Hall, protection thresholds, GUI and 14 ESP ADC/GNSS/BLE functions retained; 48 legacy telemetry keys retained",
+  "remaining": "Real BLE/app interaction, real arming/calibration/refusal/timeout/disconnect/reboot, real motor/WAIT_TORQUE/GUI regression",
+  "test_limit": "Host simulations and source audits do not establish physical safety or hardware behavior"
+}

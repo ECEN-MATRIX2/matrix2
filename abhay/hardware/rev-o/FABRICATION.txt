@@ -1,0 +1,66 @@
+REV O - ADVANCEDPCB $66 FOUR-LAYER SPECIAL CHECK
+Checked against the published offer on 2026-10-07:
+https://www.advancedpcb.com/en-us/66-each-special/
+Student terms: https://www.advancedpcb.com/en-us/company/students/
+
+Specification                       Rev O
+4 layers, FR4                       F.Cu / In1.Cu / In2.Cu / B.Cu
+0.062 inch nominal thickness        1.5748 mm nominal
+1 oz outer / 1 oz inner copper       35 um nominal each copper layer
+0.006 inch line/space minimum        Project rules >=0.16 mm (0.00630 inch)
+0.010 inch hole minimum              Actual/drill files >=0.30 mm (0.01181 inch)
+30 square inches maximum            16.6656 square inches (84 x 128 mm)
+35 drilled holes/square inch max     237 holes / 16.6656 = 14.2209
+No slots or overlapping drill hits   None; all holes are circular
+No internal routed cutouts          None; single four-edge rectangular outline
+No blind/buried vias                 All vias through all four copper layers
+No scoring/tab rout/separation holes None
+Green mask; white legend             Green LPI, white both sides
+Lead-free finish                    Per offer; vendor may substitute ENIG/silver
+
+The two previously reported slot features are not present in Rev O. The XT60
+footprint uses circular 4.50 mm drills; the smallest via drill is 0.30 mm, not
+0.20 mm. Exported tools: 0.30, 0.40, 1.00, 1.40, 3.20, 4.50 mm. NPTH mounting
+holes are separately identified. No filled/capped vias or impedance control
+are specified as special processes. Have the assembler review U5 paste and
+ordinary plated through-via solder wicking before selecting its stencil.
+
+Manufacturing/Gerbers contains nine Gerber X2 files, the .gbrjob layer map,
+and separate PTH/NPTH Excellon files with drill maps. Use the copper layers
+in the order above; do not omit inner layers or treat the drill map as a drill
+program. Edge_Cuts defines the final outline. Paste files are in Assembly,
+separate from the bare-board order. Quantities/finishes must be selected in
+the vendor order; CAD checks are not confirmation of vendor CAM acceptance.
+
+The nominal dielectric subdivision in KiCad is for display. The vendor may
+use its standard .062-inch four-layer stack while keeping the layer order
+and 1 oz copper. No special 0.20 mm prepreg thickness or controlled impedance
+is requested. In1 is the close ground reference; confirm the standard stack
+does not place it unusually far from the top switching circuitry.
+
+The general offer states minimum four boards and five-day lead time.
+The student offer waives minimum quantity by entering STUDENT in the comments
+at checkout and shipping to a university/college address. The website asks
+students to display/link the AdvancedPCB logo on project material; it does not
+explicitly require adding copper/silkscreen logos to this PCB. No order was
+submitted. The advertised $66 is bare-board pricing, not a complete assembly.
+
+Assembly notes for selected replacements
+TDK CNC6 soft-termination capacitors require reflow and correct underside
+orientation. Pads use a 2.2 mm inner gap, 1.1 mm length and 2.5 mm width per the
+TDK recommended ranges. No optional wash slit is fitted; the process prohibits
+slots. Use a suitable no-clean reflow process or validate complete cleaning and
+drying under the parts. Follow component reflow profiles and moisture handling.
+L1 and R16 use their exact manufacturer land dimensions, not generic packages.
+Assembly_Top.svg and Placement_SMD.csv accompany the paste layers. The assembler
+must validate component orientation, paste and through-hole assembly sequence.
+
+SOC assembly additions
+U10 thermal pad must be soldered to battery-return copper. Ordinary through
+vias are used; no filled/capped via requirement is imposed. Review paste and
+solder-wicking with the assembler. R33/R34 use lead-free WSL25125L000FEA18
+with 2.11 x 3.68 mm pads and 3.18 mm inner gap, plus separate sense pickups.
+U7/U8 are 0.5 mm-pitch VSSOP; the 0.16 mm PCB rules are retained.
+
+Rev O adds two ordinary 1.00 mm circular PTH holes for J14. All other
+process constraints, board outline, copper weights and minimum drills remain.
