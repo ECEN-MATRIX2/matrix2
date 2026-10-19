@@ -1,0 +1,27 @@
+{
+  "revision": "4.3",
+  "binary": "NIU_Throttle_Comms_v4_3.bin",
+  "sha256": "c79cc0b24dc03820bae328c595007079f965ca30858ad7a83c7b82a9f1404d52",
+  "bytes": 65712,
+  "built_at_utc": "2026-10-16T00:30:54.437746+00:00",
+  "sources": {
+    "src/comms.inc": "0df0d157c300abf3151d6d12dee6a06a59cf6c0ada175f6db4d1303454fd0888",
+    "src/hardware.inc": "28362e9fb3302874620265f6bbf4252e6575fba1ebbccfaf30f49ef30714aaab",
+    "src/main.cpp": "122ab9db2a3b7ced7d3e5aa23eb4af3a02c9fca3e90a2b93b90e8843689e2c0f",
+    "src/setup.inc": "e03b0edce50972433dee1dc479f656f0a62d59ce41c9d66af69f2cf80ce606cc",
+    "include/comms_protocol.h": "38db966f5cea99c6902de6d111e64b3861504d86cd32992be14dfd19d05cda26",
+    "include/config.h": "572a35f35ef65d2375a3d2d64b88825f9a076e80817943eb43847cf21288227c",
+    "include/control.h": "eeabc320609acced4f75f9ac7601af141f7b617cab9a80bb6e3e13ed14ed6755",
+    "include/current_calibration.h": "c94df06f1d3dd10bef15d1b0bb89b0cc6ec801db3b906550d05ca66eaf2c304a",
+    "include/current_regulator.h": "ed100ded127674502fbfc33fbc0c8d5d7807a3bdf2bbd644380e0a10322c47f6",
+    "include/demo_battery.h": "458bac74af136de8bdd3b283c08dff879366e287ef33b8ef81a8c8f1df568ebf",
+    "include/drive_logic.h": "cce9a37ff3efce77c8eb66247873ea1b5e216133754f81219896dd004d6b60e9",
+    "include/lab_rtt.h": "8c7df477740c839ada419e4488e9b8f217484332ff61e71706b2df6721ba9865",
+    "include/launch_support.h": "0c73d7b3988fa95b53e219006599d56a5a07498ab8d141ba1f4c452ad6f95b8d",
+    "include/speed_output.h": "1ce4da4ff0aa41406c41ea82a033d3363309b148661c7c242049f3329e58a19c",
+    "include/speed_regulator.h": "d15ef816470445e44b84d0745a98a838929bc9f938ea6f25eb4b113a1b5c9eff",
+    "include/telemetry.h": "79b72b25136f80be94760a4e6423004332126a49903a0dcbe7257896374b7bb1",
+    "include/thermal_policy.h": "25ef7e41a5e9e3cb3b99ffb234c3db4bbd608a3f9e58addb11a07e92db3232e6",
+    "include/throttle_mode.h": "42c762cddb32e9fdead042bb9c0b22626a575e196f03c21bc1ad037903eb5b64"
+  }
+}

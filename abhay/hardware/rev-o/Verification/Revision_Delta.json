@@ -1,0 +1,55 @@
+{
+  "base_revision": "Rev N",
+  "revision": "Rev O",
+  "added_components": [
+    "J14"
+  ],
+  "removed_components": [],
+  "original_design_model_components_unchanged": true,
+  "original_footprints_and_pad_nets_unchanged": true,
+  "original_schematic_symbols_unchanged": true,
+  "original_tracks_unchanged": true,
+  "added_track_segments": 5,
+  "added_vias": 0,
+  "added_round_holes": 2,
+  "added_trace_width_mm": 0.6,
+  "outline_unchanged": true,
+  "board_mm": [
+    84,
+    128
+  ],
+  "planes": "Local foreign-zone trimming around new coil-domain pads and traces; 3 mm projected separation retained.",
+  "connector": {
+    "J14": {
+      "1": "EXT_12V",
+      "2": "COIL_RET"
+    },
+    "J5": {
+      "1": "EXT_12V",
+      "2": "COIL_RET"
+    },
+    "motor_J11": {
+      "1": "Relay+",
+      "2": "Relay-",
+      "3": "unconnected-(J11-Pin_3-Pad3)",
+      "4": "unconnected-(J11-Pin_4-Pad4)",
+      "5": "unconnected-(J11-Pin_5-Pad5)",
+      "6": "unconnected-(J11-Pin_6-Pad6)"
+    }
+  },
+  "connection": "J14 parallels raw J5 input before D3; use one external switched 12 V source.",
+  "motor_board_unchanged": true,
+  "motor_sha256": "15edebd586ef7910f74285b27abe7ea963bfd3650b9a5ff7c2183aaa5625ee2e",
+  "motor_coil_references": [
+    "K1",
+    "K2",
+    "K3",
+    "K4",
+    "K6"
+  ],
+  "coil_current_estimate_A": 0.2035,
+  "coil_current_assumption": "Five actual 12 V G5Q-1 SPDT coils at 33.3 mA each, plus about 37 mA intermediate branch. Motor PCB values do not identify the fitted coil voltage.",
+  "recommended_source_A": "At least 0.3 A; preferably 0.5 A.",
+  "original_delivery_hashes_unchanged": true,
+  "hardware_tested": false
+}

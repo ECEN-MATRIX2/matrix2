@@ -1,0 +1,63 @@
+REV O LAYOUT REVIEW - TI LM70860
+Reference: TI LM708x0 datasheet SNVSCD3, section 7.4 / figure 7-29 and
+RRX0029B package drawing. https://www.ti.com/lit/ds/symlink/lm70860.pdf
+This is an adaptation to this board, not an unmodified TI evaluation layout.
+
+- U5 has adjacent C11 0402 high-frequency VIN/PGND bypass, C12 100 nF, and
+  C9/C10 1210 bulk ceramic bypass above it. C19 is the input bulk reservoir.
+- The power switch pins face L1 with a short top-copper switch-node connection.
+  Switching copper is localized rather than used as a broad heat plane.
+- R17/C15 are by CBOOT/SW4 on the opposite side. Pin SW4 is internally connected
+  to SW1/2/3. BAT_SW_BOOT deliberately has no long PCB tie around L1.
+- VCC/VDDA bypass, RT/CONFIG/COMP and feedback components occupy the quiet
+  side of the IC. BIAS is grounded because the output exceeds its bias range.
+- Separate bottom-layer Kelvin traces run from U5 ISNS+/VOUT to the two
+  terminals of R16. The load-current path uses top/inner power copper.
+- In1 provides battery return adjacent to the top buck. VIN, ground, shunt,
+  diode and fuse areas have parallel via arrays and wider filled copper.
+- All layers keep separate BAT, COIL, CHARGE and SYSTEM copper regions.
+  A projected 3 mm geometry check across all four layers passed every pair.
+  Relays, the isolated module and optocoupler intentionally bridge regions.
+- Zone outlines are mainly rectangular/orthogonal. Filled edges follow pad,
+  trace and isolation clearances; forcing every fill edge rectangular would
+  either sever routes or fill areas which must remain clear.
+- TI recommends maximizing copper/thermal vias; the $66 process restricts
+  copper to 1 oz. Extra layer area and via arrays help spread heat but do not
+  substitute for measured temperature rise. D7 remains a particular hot part.
+
+Final CAD checks: zero ERC and DRC violations, zero unrouted connections;
+334 pad/net comparisons. Models resolve relative to the extracted project.
+84 x 128 mm rectangle; 0.30 mm minimum drill; no slots or overlapping holes.
+
+Rev M changes relative to Rev L
+The upper buck/clamp placement is preserved; a 24 mm sensing band is inserted
+before the relay/lower auxiliary section. Existing power/IO parts retain their
+MPNs, footprints and electrical functions. Lower components and mounting holes
+move down to preserve usable spacing. The motor PCB is untouched.
+R33 precedes the entire BAT_FUSED_P distribution. High-current copper leaves
+its outer pad sides; R35/R36 sense the inner edges. R34 is similarly inserted
+between J3 and K1 charge positive, with R37/R38 differential sense filtering.
+Both monitors use 100-ohm series input filters, 10 nF differential filtering
+and 100 nF bus filtering. Decoupling and I2C pull-ups stay in their own domains.
+U9 bridges the deliberate 3 mm copper corridor. Neither its ground pins nor
+the host cable bypasses the inactive power-path contacts.
+Zone boundaries remain deliberate orthogonal regions; filled edges naturally
+follow pads/traces and design clearances. All four actual filled copper layers
+are exported under Review/Copper. The 31 additions reuse existing passives
+where practical; 120 fitted components have bundled 3D models.
+
+Rev N adds U11/C36/C37 beside the former J13 location; J13 is removed.
+All retained footprints remain at the Rev M positions and orientations. U11
+uses a short local input/output bypass loop and system-return vias. The feed
+comes from ISO_5V entirely in the system domain. System ground copper was
+extended locally and trimmed to preserve projected 3 mm domain clearance.
+The schematic/model/PCB comparison checks every electrical pad, including U11.
+
+Rev O adds J14 at (30.50, 63.00) mm, beside the existing J5 relay input.
+Two 0.60 mm top-layer segments connect EXT_12V; three 0.60 mm bottom-layer
+segments connect COIL_RET. No vias are added. Foreign zone outlines are trimmed
+locally to retain the projected 3 mm isolation corridor on every copper layer.
+The pre-existing components, pads and track geometries are unchanged. J5's label
+now reads 12V IN; J14 reads 12V OUT / 1+ 2-. A backside title moves clear of the
+new holes. Board outline and buck layout are unchanged.
+Verification/Revision_Delta.json records the comparison against delivered Rev N.

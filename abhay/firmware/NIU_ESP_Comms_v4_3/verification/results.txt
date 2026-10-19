@@ -1,0 +1,9 @@
+
+PASS: 160 ESP client checks: turnaround, stale/duplicate/corrupt frames, echo, ACK/refusal, bounded retries, reboot, cancellation, rollover, state 10
+
+
+PASS: 488 recovery and BLE framing checks; simulated only
+
+PASS: shared protocol headers identical; legacy telemetry definitions unchanged.
+
+PASS: 14 ADC/GNSS/BLE functions unchanged; all 48 legacy telemetry keys retained.

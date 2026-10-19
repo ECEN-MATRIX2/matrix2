@@ -1,0 +1,986 @@
+[
+  {
+    "reference": "C23",
+    "footprint": "C_0603_1608Metric",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Capacitor_SMD.3dshapes__C_0603_1608Metric.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "R36",
+    "footprint": "R_0603_1608Metric",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Resistor_SMD.3dshapes__R_0603_1608Metric.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "C13",
+    "footprint": "C_0603_1608Metric",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Capacitor_SMD.3dshapes__C_0603_1608Metric.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "R29",
+    "footprint": "R_2512_6332Metric",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Resistor_SMD.3dshapes__R_2512_6332Metric.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "H1",
+    "footprint": "MountingHole_3.2mm_M3",
+    "models": [],
+    "kind": "mounting hole"
+  },
+  {
+    "reference": "C20",
+    "footprint": "CP_Radial_D10_P5_H25_PolarityBelow",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Panasonic_FR_D10_P5_H25.wrl"
+    ],
+    "kind": "dimensioned envelope"
+  },
+  {
+    "reference": "C26",
+    "footprint": "C_0603_1608Metric",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Capacitor_SMD.3dshapes__C_0603_1608Metric.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "R10",
+    "footprint": "R_0603_1608Metric",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Resistor_SMD.3dshapes__R_0603_1608Metric.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "C35",
+    "footprint": "C_0805_2012Metric",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Capacitor_SMD.3dshapes__C_0805_2012Metric.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "R41",
+    "footprint": "R_0603_1608Metric",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Resistor_SMD.3dshapes__R_0603_1608Metric.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "D7",
+    "footprint": "TO-252-3_TabPin2",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Package_TO_SOT_SMD.3dshapes__TO-252-3_TabPin2.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "C4",
+    "footprint": "C_0805_2012Metric",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Capacitor_SMD.3dshapes__C_0805_2012Metric.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "C22",
+    "footprint": "C_0603_1608Metric",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Capacitor_SMD.3dshapes__C_0603_1608Metric.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "C10",
+    "footprint": "TDK_CNC6_1210_Recommended",
+    "models": [
+      "${KIPRJMOD}/3dmodels/TDK_CNC6_1210_Envelope.wrl"
+    ],
+    "kind": "dimensioned envelope"
+  },
+  {
+    "reference": "R6",
+    "footprint": "R_0805_2012Metric",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Resistor_SMD.3dshapes__R_0805_2012Metric.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "J6",
+    "footprint": "PinHeader_1x02_P2.54mm_Vertical",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Connector_PinHeader_2.54mm.3dshapes__PinHeader_1x02_P2.54mm_Vertical.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "R44",
+    "footprint": "R_0603_1608Metric",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Resistor_SMD.3dshapes__R_0603_1608Metric.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "R12",
+    "footprint": "R_0603_1608Metric",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Resistor_SMD.3dshapes__R_0603_1608Metric.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "C14",
+    "footprint": "C_0603_1608Metric",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Capacitor_SMD.3dshapes__C_0603_1608Metric.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "C28",
+    "footprint": "C_0603_1608Metric",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Capacitor_SMD.3dshapes__C_0603_1608Metric.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "U9",
+    "footprint": "SOIC-8_3.9x4.9mm_P1.27mm",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Package_SO.3dshapes__SOIC-8_3.9x4.9mm_P1.27mm.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "R35",
+    "footprint": "R_0603_1608Metric",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Resistor_SMD.3dshapes__R_0603_1608Metric.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "R1",
+    "footprint": "R_0805_2012Metric",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Resistor_SMD.3dshapes__R_0805_2012Metric.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "F2",
+    "footprint": "Fuse_Littelfuse_NANO2_452-454",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Fuse_Littelfuse_NANO2_452-454.wrl"
+    ],
+    "kind": "dimensioned envelope"
+  },
+  {
+    "reference": "R40",
+    "footprint": "R_0603_1608Metric",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Resistor_SMD.3dshapes__R_0603_1608Metric.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "D6",
+    "footprint": "LED_0805_2012Metric",
+    "models": [
+      "${KIPRJMOD}/3dmodels/LED_SMD.3dshapes__LED_0805_2012Metric.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "R20",
+    "footprint": "R_0603_1608Metric",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Resistor_SMD.3dshapes__R_0603_1608Metric.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "C34",
+    "footprint": "C_0805_2012Metric",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Capacitor_SMD.3dshapes__C_0805_2012Metric.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "C19",
+    "footprint": "CP_Radial_D10.0mm_P5.00mm_H20",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Panasonic_FR_D10_P5_H20.wrl"
+    ],
+    "kind": "dimensioned envelope"
+  },
+  {
+    "reference": "R18",
+    "footprint": "R_0603_1608Metric",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Resistor_SMD.3dshapes__R_0603_1608Metric.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "C9",
+    "footprint": "TDK_CNC6_1210_Recommended",
+    "models": [
+      "${KIPRJMOD}/3dmodels/TDK_CNC6_1210_Envelope.wrl"
+    ],
+    "kind": "dimensioned envelope"
+  },
+  {
+    "reference": "U6",
+    "footprint": "SOT-23-6",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Package_TO_SOT_SMD.3dshapes__SOT-23-6.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "R32",
+    "footprint": "R_0603_1608Metric",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Resistor_SMD.3dshapes__R_0603_1608Metric.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "C1",
+    "footprint": "TDK_CNC6_1210_Recommended",
+    "models": [
+      "${KIPRJMOD}/3dmodels/TDK_CNC6_1210_Envelope.wrl"
+    ],
+    "kind": "dimensioned envelope"
+  },
+  {
+    "reference": "J14",
+    "footprint": "PinHeader_1x02_P2.54mm_Vertical",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Connector_PinHeader_2.54mm.3dshapes__PinHeader_1x02_P2.54mm_Vertical.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "C18",
+    "footprint": "CP_Radial_D10.0mm_P5.00mm_H25",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Panasonic_FR_D10_P5_H25.wrl"
+    ],
+    "kind": "dimensioned envelope"
+  },
+  {
+    "reference": "U2",
+    "footprint": "SOT-363_SC-70-6",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Package_TO_SOT_SMD.3dshapes__SOT-363_SC-70-6.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "C24",
+    "footprint": "C_0603_1608Metric",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Capacitor_SMD.3dshapes__C_0603_1608Metric.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "R45",
+    "footprint": "R_0603_1608Metric",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Resistor_SMD.3dshapes__R_0603_1608Metric.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "R13",
+    "footprint": "R_0603_1608Metric",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Resistor_SMD.3dshapes__R_0603_1608Metric.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "C2",
+    "footprint": "C_0805_2012Metric",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Capacitor_SMD.3dshapes__C_0805_2012Metric.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "J7",
+    "footprint": "PinHeader_1x02_P2.54mm_Vertical",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Connector_PinHeader_2.54mm.3dshapes__PinHeader_1x02_P2.54mm_Vertical.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "C15",
+    "footprint": "C_0603_1608Metric",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Capacitor_SMD.3dshapes__C_0603_1608Metric.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "J11",
+    "footprint": "PinHeader_1x02_P2.54mm_Vertical",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Connector_PinHeader_2.54mm.3dshapes__PinHeader_1x02_P2.54mm_Vertical.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "Q1",
+    "footprint": "SOT-23",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Package_TO_SOT_SMD.3dshapes__SOT-23.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "R7",
+    "footprint": "R_0805_2012Metric",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Resistor_SMD.3dshapes__R_0805_2012Metric.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "U1",
+    "footprint": "TRACO_TMR6WI_SIP8_TopView",
+    "models": [
+      "${KIPRJMOD}/3dmodels/TRACO_TMR6WI_SIP8_TopView.wrl"
+    ],
+    "kind": "dimensioned envelope"
+  },
+  {
+    "reference": "R25",
+    "footprint": "R_2512_6332Metric",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Resistor_SMD.3dshapes__R_2512_6332Metric.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "J12",
+    "footprint": "PinHeader_1x02_P2.54mm_Vertical",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Connector_PinHeader_2.54mm.3dshapes__PinHeader_1x02_P2.54mm_Vertical.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "K1",
+    "footprint": "Omron_G7SA_2A2B_TopView",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Omron_G7SA_2A2B_TopView.wrl"
+    ],
+    "kind": "dimensioned envelope"
+  },
+  {
+    "reference": "R37",
+    "footprint": "R_0603_1608Metric",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Resistor_SMD.3dshapes__R_0603_1608Metric.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "R5",
+    "footprint": "R_0805_2012Metric",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Resistor_SMD.3dshapes__R_0805_2012Metric.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "R27",
+    "footprint": "R_2512_6332Metric",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Resistor_SMD.3dshapes__R_2512_6332Metric.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "R23",
+    "footprint": "R_2512_6332Metric",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Resistor_SMD.3dshapes__R_2512_6332Metric.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "J2",
+    "footprint": "PinHeader_1x02_P2.54mm_Vertical",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Connector_PinHeader_2.54mm.3dshapes__PinHeader_1x02_P2.54mm_Vertical.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "U10",
+    "footprint": "TI_DGN0008B_3x3_0p65",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Package_SO.3dshapes__MSOP-8-1EP_3x3mm_P0.65mm_EP1.68x1.88mm.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "C6",
+    "footprint": "C_0805_2012Metric",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Capacitor_SMD.3dshapes__C_0805_2012Metric.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "C8",
+    "footprint": "C_0805_2012Metric",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Capacitor_SMD.3dshapes__C_0805_2012Metric.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "R42",
+    "footprint": "R_0603_1608Metric",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Resistor_SMD.3dshapes__R_0603_1608Metric.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "R39",
+    "footprint": "R_0603_1608Metric",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Resistor_SMD.3dshapes__R_0603_1608Metric.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "C12",
+    "footprint": "C_0603_1608Metric",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Capacitor_SMD.3dshapes__C_0603_1608Metric.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "H3",
+    "footprint": "MountingHole_3.2mm_M3",
+    "models": [],
+    "kind": "mounting hole"
+  },
+  {
+    "reference": "J10",
+    "footprint": "PinHeader_1x02_P2.54mm_Vertical",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Connector_PinHeader_2.54mm.3dshapes__PinHeader_1x02_P2.54mm_Vertical.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "U7",
+    "footprint": "VSSOP-10_3x3mm_P0.5mm",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Package_SO.3dshapes__VSSOP-10_3x3mm_P0.5mm.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "R46",
+    "footprint": "R_0603_1608Metric",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Resistor_SMD.3dshapes__R_0603_1608Metric.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "R34",
+    "footprint": "Vishay_WSL2512_5m_6m9",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Vishay_WSL2512_6m_Envelope.wrl"
+    ],
+    "kind": "dimensioned envelope"
+  },
+  {
+    "reference": "J4",
+    "footprint": "PinHeader_1x02_P2.54mm_Vertical",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Connector_PinHeader_2.54mm.3dshapes__PinHeader_1x02_P2.54mm_Vertical.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "C33",
+    "footprint": "C_0805_2012Metric",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Capacitor_SMD.3dshapes__C_0805_2012Metric.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "R2",
+    "footprint": "R_0805_2012Metric",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Resistor_SMD.3dshapes__R_0805_2012Metric.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "R21",
+    "footprint": "R_0603_1608Metric",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Resistor_SMD.3dshapes__R_0603_1608Metric.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "J9",
+    "footprint": "PinHeader_1x02_P2.54mm_Vertical",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Connector_PinHeader_2.54mm.3dshapes__PinHeader_1x02_P2.54mm_Vertical.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "J8",
+    "footprint": "PinHeader_1x02_P2.54mm_Vertical",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Connector_PinHeader_2.54mm.3dshapes__PinHeader_1x02_P2.54mm_Vertical.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "U3",
+    "footprint": "SOT-363_SC-70-6",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Package_TO_SOT_SMD.3dshapes__SOT-363_SC-70-6.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "D4",
+    "footprint": "D_SMA",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Diode_SMD.3dshapes__D_SMA.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "R43",
+    "footprint": "R_0603_1608Metric",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Resistor_SMD.3dshapes__R_0603_1608Metric.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "J1",
+    "footprint": "AMASS_XT60-M_Vertical_PositivePin1",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Connector_AMASS.3dshapes__AMASS_XT60-M_1x02_P7.2mm_Vertical.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "C29",
+    "footprint": "TDK_CNC6_1210_Recommended",
+    "models": [
+      "${KIPRJMOD}/3dmodels/TDK_CNC6_1210_Envelope.wrl"
+    ],
+    "kind": "dimensioned envelope"
+  },
+  {
+    "reference": "J3",
+    "footprint": "PinHeader_1x02_P2.54mm_Vertical",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Connector_PinHeader_2.54mm.3dshapes__PinHeader_1x02_P2.54mm_Vertical.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "R30",
+    "footprint": "R_2512_6332Metric",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Resistor_SMD.3dshapes__R_2512_6332Metric.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "L1",
+    "footprint": "Bourns_SRP1265A_13.5x12.5mm",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Bourns_SRP1265A_Envelope.wrl"
+    ],
+    "kind": "dimensioned envelope"
+  },
+  {
+    "reference": "R24",
+    "footprint": "R_2512_6332Metric",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Resistor_SMD.3dshapes__R_2512_6332Metric.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "R9",
+    "footprint": "R_0603_1608Metric",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Resistor_SMD.3dshapes__R_0603_1608Metric.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "C17",
+    "footprint": "TDK_CNC6_1210_Recommended",
+    "models": [
+      "${KIPRJMOD}/3dmodels/TDK_CNC6_1210_Envelope.wrl"
+    ],
+    "kind": "dimensioned envelope"
+  },
+  {
+    "reference": "C5",
+    "footprint": "C_0805_2012Metric",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Capacitor_SMD.3dshapes__C_0805_2012Metric.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "R17",
+    "footprint": "R_0603_1608Metric",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Resistor_SMD.3dshapes__R_0603_1608Metric.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "C30",
+    "footprint": "C_0805_2012Metric",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Capacitor_SMD.3dshapes__C_0805_2012Metric.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "C16",
+    "footprint": "TDK_CNC6_1210_Recommended",
+    "models": [
+      "${KIPRJMOD}/3dmodels/TDK_CNC6_1210_Envelope.wrl"
+    ],
+    "kind": "dimensioned envelope"
+  },
+  {
+    "reference": "R19",
+    "footprint": "R_0603_1608Metric",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Resistor_SMD.3dshapes__R_0603_1608Metric.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "R8",
+    "footprint": "R_0805_2012Metric",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Resistor_SMD.3dshapes__R_0805_2012Metric.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "R31",
+    "footprint": "R_0603_1608Metric",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Resistor_SMD.3dshapes__R_0603_1608Metric.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "R33",
+    "footprint": "Vishay_WSL2512_5m_6m9",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Vishay_WSL2512_6m_Envelope.wrl"
+    ],
+    "kind": "dimensioned envelope"
+  },
+  {
+    "reference": "C36",
+    "footprint": "C_0805_2012Metric",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Capacitor_SMD.3dshapes__C_0805_2012Metric.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "U5",
+    "footprint": "TI_RRX0029B_6x6",
+    "models": [
+      "${KIPRJMOD}/3dmodels/TI_RRX0029B_6x6.wrl"
+    ],
+    "kind": "dimensioned envelope"
+  },
+  {
+    "reference": "R15",
+    "footprint": "R_0603_1608Metric",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Resistor_SMD.3dshapes__R_0603_1608Metric.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "R3",
+    "footprint": "R_0805_2012Metric",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Resistor_SMD.3dshapes__R_0805_2012Metric.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "C11",
+    "footprint": "C_0402_1005Metric",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Capacitor_SMD.3dshapes__C_0402_1005Metric.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "R22",
+    "footprint": "R_0603_1608Metric",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Resistor_SMD.3dshapes__R_0603_1608Metric.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "U8",
+    "footprint": "VSSOP-10_3x3mm_P0.5mm",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Package_SO.3dshapes__VSSOP-10_3x3mm_P0.5mm.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "C27",
+    "footprint": "C_0603_1608Metric",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Capacitor_SMD.3dshapes__C_0603_1608Metric.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "C37",
+    "footprint": "C_0805_2012Metric",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Capacitor_SMD.3dshapes__C_0805_2012Metric.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "R38",
+    "footprint": "R_0603_1608Metric",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Resistor_SMD.3dshapes__R_0603_1608Metric.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "J5",
+    "footprint": "PinHeader_1x02_P2.54mm_Vertical",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Connector_PinHeader_2.54mm.3dshapes__PinHeader_1x02_P2.54mm_Vertical.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "D5",
+    "footprint": "LED_0805_2012Metric",
+    "models": [
+      "${KIPRJMOD}/3dmodels/LED_SMD.3dshapes__LED_0805_2012Metric.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "D3",
+    "footprint": "D_SMA",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Diode_SMD.3dshapes__D_SMA.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "F3",
+    "footprint": "Fuse_SCHURTER_UMT-H_5.3x16",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Fuse_SCHURTER_UMT-H_5.3x16.wrl"
+    ],
+    "kind": "dimensioned envelope"
+  },
+  {
+    "reference": "R11",
+    "footprint": "R_0603_1608Metric",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Resistor_SMD.3dshapes__R_0603_1608Metric.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "C32",
+    "footprint": "C_0805_2012Metric",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Capacitor_SMD.3dshapes__C_0805_2012Metric.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "R14",
+    "footprint": "R_0603_1608Metric",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Resistor_SMD.3dshapes__R_0603_1608Metric.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "H4",
+    "footprint": "MountingHole_3.2mm_M3",
+    "models": [],
+    "kind": "mounting hole"
+  },
+  {
+    "reference": "C25",
+    "footprint": "C_0603_1608Metric",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Capacitor_SMD.3dshapes__C_0603_1608Metric.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "R16",
+    "footprint": "Vishay_WSL2512_5m_6m9",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Vishay_WSL2512_6m_Envelope.wrl"
+    ],
+    "kind": "dimensioned envelope"
+  },
+  {
+    "reference": "C31",
+    "footprint": "C_0805_2012Metric",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Capacitor_SMD.3dshapes__C_0805_2012Metric.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "H2",
+    "footprint": "MountingHole_3.2mm_M3",
+    "models": [],
+    "kind": "mounting hole"
+  },
+  {
+    "reference": "R4",
+    "footprint": "R_0805_2012Metric",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Resistor_SMD.3dshapes__R_0805_2012Metric.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "D1",
+    "footprint": "D_SMA",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Diode_SMD.3dshapes__D_SMA.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "C21",
+    "footprint": "CP_Radial_D10.0mm_P5.00mm_H25",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Panasonic_FR_D10_P5_H25.wrl"
+    ],
+    "kind": "dimensioned envelope"
+  },
+  {
+    "reference": "R28",
+    "footprint": "R_2512_6332Metric",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Resistor_SMD.3dshapes__R_2512_6332Metric.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "D2",
+    "footprint": "D_SMB",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Diode_SMD.3dshapes__D_SMB.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "C7",
+    "footprint": "C_0805_2012Metric",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Capacitor_SMD.3dshapes__C_0805_2012Metric.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "C3",
+    "footprint": "C_0805_2012Metric",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Capacitor_SMD.3dshapes__C_0805_2012Metric.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "U4",
+    "footprint": "SMDIP-4_W9.53mm",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Package_DIP.3dshapes__SMDIP-4_W9.53mm.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "R26",
+    "footprint": "R_2512_6332Metric",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Resistor_SMD.3dshapes__R_2512_6332Metric.step"
+    ],
+    "kind": "KiCad library model"
+  },
+  {
+    "reference": "F1",
+    "footprint": "Fuse_SCHURTER_UMT-H_5.3x16",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Fuse_SCHURTER_UMT-H_5.3x16.wrl"
+    ],
+    "kind": "dimensioned envelope"
+  },
+  {
+    "reference": "U11",
+    "footprint": "SOT-23-5",
+    "models": [
+      "${KIPRJMOD}/3dmodels/Package_TO_SOT_SMD.3dshapes__SOT-23-5.step"
+    ],
+    "kind": "KiCad library model"
+  }
+]

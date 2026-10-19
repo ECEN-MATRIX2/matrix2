@@ -1,0 +1,131 @@
+# Rev N charge-mode input
+
+The user accepted a mode input instead of physically shutting off the MCU. MCU, comm and throttle 5 V therefore remain powered. No extra relay or MCU load switch is fitted.
+
+## Wiring
+
+| Intermediate board | Supplied motor board | Purpose |
+|---|---|---|
+| J11.1 | J16.1 -> STM32F405 U4 pin 2, PC13 | Active-low charge command |
+| J11.2 | J4.5 or J9.5, GND | MCU-side reference return |
+
+Intermediate J11 is a standard two-pin 2.54 mm male header. Motor J16 is a single 1.00 mm pin. Use a suitable harness termination at that end. The motor PCB does not need rerouting for this pin. This PCB revision does not change or verify the installed firmware. The behavior below remains an integration requirement and must be checked against the firmware actually flashed.
+
+The optocoupler LED draws about 5 mA from protected external 12 V. Its return is COIL_RET. The transistor emitter connects only to SYSTEM_RET; its collector reaches J11.1 through R8 (1 kΩ), with C8 (10 nF) to SYSTEM_RET. This preserves coil-to-system isolation.
+
+## GPIO configuration and meaning
+
+Configure **PC13 as a digital input with its internal pull-up enabled**. The pull-up uses the MCU's own 3.3 V supply. Do not drive PC13 as an output, use RTC alternate/output functions on PC13, or add a pull-up to 5 V.
+
+| External 12 V | J11/PC13 with pull-up | Firmware state |
+|---|---|---|
+| Absent | HIGH | Drive mode requested |
+| Present | LOW | Charge mode requested; inhibit drive |
+
+R8 plus the MCU pull-up leaves ample low-level margin (about 0.3 V for a 0.2 V optocoupler saturation voltage and 30 kΩ pull-up). R8/C8 and the weak pull-up produce a sub-millisecond-scale input filter. Verify the low/high levels and edges on the assembled system.
+
+Illustrative STM32 HAL configuration (not a compiled firmware patch):
+
+```c
+__HAL_RCC_GPIOC_CLK_ENABLE();
+GPIO_InitTypeDef cfg = {0};
+cfg.Pin = GPIO_PIN_13;
+cfg.Mode = GPIO_MODE_INPUT;
+cfg.Pull = GPIO_PULLUP;
+HAL_GPIO_Init(GPIOC, &cfg);
+
+bool charge_requested =
+    HAL_GPIO_ReadPin(GPIOC, GPIO_PIN_13) == GPIO_PIN_RESET;
+```
+
+## Required control behavior
+
+1. Keep motor gate-driver enable and PWM outputs disabled from reset. Initialize PC13 and read the mode before allowing drive.
+2. A LOW input must immediately inhibit motor drive and ignore throttle torque requests. Poll frequently (for example every 1 ms) or use EXTI13; also check the level in the drive-enable path. Do not put a long debounce delay before disabling drive.
+3. A return to HIGH must not immediately restart the motor. Wait for relay settling and valid supply conditions, require idle throttle, and require the normal arming conditions. The external controller still stops AC one second before dropping 12 V.
+4. Test startup while 12 V is already asserted, both transitions, reset/watchdog recovery during charging, and unplugged/shorted mode wiring.
+
+This is a **status signal for a firmware inhibit**, not an independent hardware interlock. It senses the external 12 V command, not relay contact position or AC absence. An open signal cable reads HIGH/drive requested, so cable-disconnection detection is not provided by this one-bit interface. Rev N uses one forcibly guided relay for the drive and charge contacts. The near-zero-current transfer requirement, external one-second timing and absence of precharge remain. Firmware must disable drive before contact movement; command sensing alone is not contact feedback.
+
+
+REV O SOC / SPEED TELEMETRY INTEGRATION (NOT FLASHED)
+The new schematic is hardware-ready for a 3.3 V I2C host. No firmware patch,
+binary, flash or powered test is included in this CAD revision. Keep GNSS on
+the comm-board GNSS header. Use the existing motor MCU as the sensor host and
+send speed plus SOC through the existing comm speed-header DIGITAL input.
+
+Proposed harness, based on the supplied motor and comm board netlists:
+Intermediate J12.1 SDA -> motor J4.4 PB11
+Intermediate J12.2 SCL -> motor J4.3 PA5 (replaces analog speed DAC)
+J13 removed. No external 3.3 V supply wire. U11 generates local SENSE_3V3.
+Intermediate J6.2 / J7.2 SYSTEM_RET -> respective MCU/comm power return.
+Motor J4.2 PB10 / USART3_TX -> comm J5.3 signal -> 74LVC1G17 -> ESP32 GPIO5
+Motor/comm grounds -> their common SYSTEM_RET; comm J5.2 is ground.
+Motor J4.1 PA6 remains throttle. Existing intermediate J11 -> PC13 mode input
+remains as described above. The comm board GNSS header is not repurposed.
+
+IMPORTANT: motor J4.2 is also connected to PA7. Leave PA7 high impedance;
+only PB10 may drive that node. Never configure both pads as opposing outputs.
+Do not connect motor or comm 3.3 V outputs to the local sensing supply.
+J12 remains a two-signal header; the existing 5 V harness provides the ground reference.
+The comm J5.1 3.3 V pin need not be connected to the motor's 3.3 V supply.
+The present analog PA5 speed voltage cannot be decoded by the comm board's
+Schmitt-buffer digital input. Firmware changes on BOTH MCUs are required.
+Do not connect the new SDA/SCL harness while existing DAC firmware drives PA5.
+
+PA5/PB11 do not form the selected hardware-I2C pin pair. Implement bounded
+software I2C at initially 25-50 kHz, with open-drain/released-high signaling.
+Both sides already have 4.02 kohm pull-ups. Preserve the 20 kHz motor interrupt:
+no global interrupt masking for a whole transaction and no unbounded retry loop.
+Use short harnesses; verify edges, clock stretching and timeout recovery.
+
+Sensors: U7 7-bit address 0x40, U8 0x41. Both are INA237, 5 milliohm shunts.
+Initialize and read device identity, configuration and valid completed samples.
+Use ADCRANGE=0 (+/-163.84 mV) consistently with the calibration. Raw signed
+shunt data have a 5 uV LSB in this range: I_A = signed_raw * 5e-6 / 0.005,
+before measured offset/gain correction. If using the current/power registers,
+set SHUNT_CAL and current LSB per the INA237 datasheet rather than defaults.
+Bus-voltage readings and shunt voltage are separate registers on the SAME
+two-wire bus; addresses select the sensor, register addresses select readings.
+The on-chip temperature is sensor DIE temperature, not motor/pack temperature.
+
+Read both devices at 5-10 samples/s initially, time-stamp samples and reject
+timeouts, overflow, stale data, impossible values or missing device IDs.
+Positive U7 = battery draw. Positive U8 = charger current delivered toward pack.
+I_net_into_pack = I_charge - I_battery_draw.
+Delta_Ah = I_net_into_pack * elapsed_seconds / 3600.
+SOC_percent += 100 * Delta_Ah / calibrated_usable_capacity_Ah.
+Use calibrated charge-efficiency correction if warranted; do not count V*I
+as amp-hours or use regulated 36 V VM as the battery SOC voltage.
+
+SOC must start from a known/estimated state and realistic usable pack capacity;
+do not silently assume 100% at startup. Persist accumulated charge at a rate
+appropriate to flash endurance. Downtime and internal BMS consumption are not
+measured. Report uncertain SOC after gaps, and refine with rested pack voltage
+or verified endpoints. Avoid correcting SOC from loaded/charging voltage alone.
+U7 bus voltage is after the shunt/fuse, slightly below terminal voltage while
+drawing current. U8 bus voltage is charger output before K1; with K1 open it
+is NOT the battery cell-stack voltage. Mode input corroborates operating state;
+it does not replace signed current measurements or provide contact feedback.
+
+UART example interface contract: PB10 TX to ESP32 GPIO5 RX, 3.3 V, 9600 8N1,
+5 packets/s, fields version/sequence/time/speed_mph/SOC/Vbat/Ibat/Vchg/Ichg/
+mode/validity/CRC. Agree exact serialization in both firmwares. Use an explicit
+invalid/stale status if the receiver misses updates (e.g. >1 second). This is
+a proposed contract, not an implemented/validated firmware protocol.
+
+
+Rev N local supply and power sequencing
+U11 IN and EN connect to ISO_5V. U11 OUT supplies SENSE_3V3; ground is SYSTEM_RET.
+The 3.3 V sensing rail stays on in both drive and charge modes, like MCU/comm 5 V.
+Use the normal J6/J7 supply harness so the host and sensing interface are powered
+together. If separately powering or shutting down the host for debugging,
+disconnect J12 unless its unpowered I/O behavior is verified; the local I2C
+pull-ups stay energized while ISO_5V is present and can inject current into an
+unpowered GPIO. This revision does not add a powered-off host bus switch.
+U11's rail is for the onboard sensing load, not a new external 500 mA output.
+
+Rev O J14 directly duplicates J5 external 12 V / COIL_RET. It adds no MCU pin
+and requires no firmware change. All prior mode timing and drive-inhibition
+requirements remain. Motor-board J11 relay power is distinct from intermediate
+J11, which is the active-low mode logic output.

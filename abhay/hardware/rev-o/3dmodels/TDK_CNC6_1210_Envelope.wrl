@@ -1,0 +1,5 @@
+#VRML V2.0 utf8
+# Nominal TDK CNC6 3.2 x 2.5 x 2.5 mm envelope; not manufacturer CAD.
+Transform { translation 0.0 0.0 0.5118110236220472 children [ Shape { appearance Appearance { material Material { diffuseColor 0.57 0.44 0.28 } } geometry Box { size 1.2598425196850394 0.984251968503937 0.984251968503937 } } ] }
+Transform { translation -0.531496062992126 0.0 0.5118110236220472 children [ Shape { appearance Appearance { material Material { diffuseColor 0.7 0.7 0.7 } } geometry Box { size 0.19685039370078738 0.9921259842519685 0.9921259842519685 } } ] }
+Transform { translation 0.531496062992126 0.0 0.5118110236220472 children [ Shape { appearance Appearance { material Material { diffuseColor 0.7 0.7 0.7 } } geometry Box { size 0.19685039370078738 0.9921259842519685 0.9921259842519685 } } ] }

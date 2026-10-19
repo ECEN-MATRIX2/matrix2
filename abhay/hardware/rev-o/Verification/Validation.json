@@ -1,0 +1,128 @@
+{
+  "board_mm": [
+    84.0,
+    128.0
+  ],
+  "area_in2": 16.665633331266662,
+  "copper_layers": 4,
+  "copper_thickness_mm": [
+    0.035,
+    0.035,
+    0.035,
+    0.035
+  ],
+  "nominal_stack_thickness_mm": 1.5747999999999998,
+  "electrical_pads_compared": 334,
+  "footprints": 124,
+  "zones": 45,
+  "vias": 182,
+  "holes": 237,
+  "holes_per_in2": 14.220881696428572,
+  "min_drill_mm": 0.3,
+  "exported_drill_tools_mm": [
+    0.3,
+    0.4,
+    1.0,
+    1.4,
+    3.2,
+    4.5
+  ],
+  "slots": 0,
+  "overlapping_holes": [],
+  "internal_cutouts": 0,
+  "blind_buried_vias": 0,
+  "copper_domain_geometry": [
+    {
+      "domains": [
+        "BAT",
+        "CHARGE"
+      ],
+      "projected_gap_mm": 3,
+      "overlap_mm2": 0.0,
+      "passed": true
+    },
+    {
+      "domains": [
+        "BAT",
+        "COIL"
+      ],
+      "projected_gap_mm": 3,
+      "overlap_mm2": 0.0,
+      "passed": true
+    },
+    {
+      "domains": [
+        "BAT",
+        "SYS"
+      ],
+      "projected_gap_mm": 3,
+      "overlap_mm2": 0.0,
+      "passed": true
+    },
+    {
+      "domains": [
+        "CHARGE",
+        "COIL"
+      ],
+      "projected_gap_mm": 3,
+      "overlap_mm2": 0.0,
+      "passed": true
+    },
+    {
+      "domains": [
+        "CHARGE",
+        "SYS"
+      ],
+      "projected_gap_mm": 3,
+      "overlap_mm2": 0.0,
+      "passed": true
+    },
+    {
+      "domains": [
+        "COIL",
+        "SYS"
+      ],
+      "projected_gap_mm": 3,
+      "overlap_mm2": 0.0,
+      "passed": true
+    }
+  ],
+  "motor_board_sha256": "15edebd586ef7910f74285b27abe7ea963bfd3650b9a5ff7c2183aaa5625ee2e",
+  "motor_board_unchanged": true,
+  "motor_board_connector_nets": {
+    "J9": {
+      "1": "/VM",
+      "2": "/VM",
+      "3": "+5V",
+      "4": "+5V",
+      "5": "GND",
+      "6": "GND"
+    },
+    "J10": {
+      "1": "/VM",
+      "2": "/VM",
+      "3": "+5V",
+      "4": "+5V",
+      "5": "GND",
+      "6": "GND"
+    },
+    "J15": {
+      "1": "IC_out",
+      "2": "GND"
+    },
+    "J14": {
+      "1": "Net-(IC1-BAT)",
+      "2": "GND"
+    }
+  },
+  "hardware_tested": false,
+  "fabrication_release": false,
+  "isolation_requirement": "Mode-switched, two-pole disconnection. User explicitly accepts common motor-board ground through the active charging path. Permanent battery-to-motor galvanic separation during charging is NOT required or claimed.",
+  "relay_states": {
+    "drive_12V_absent": "K1 NC 11-12/21-22 closed; K1 NO 33-34/43-44 open",
+    "charge_12V_present": "K1 NC 11-12/21-22 open; K1 NO 33-34/43-44 closed"
+  },
+  "transition_note": "Single G7SA-2A2B forcibly guided NC/NO mechanism. No contact feedback or complete safety-system certification. Retains agreed external sequencing: assert 12 V one second before charging AC, stop AC one second before removing 12 V. No energized load transfer.",
+  "purchasing_SKUs": 57,
+  "purchased_pieces": 119
+}

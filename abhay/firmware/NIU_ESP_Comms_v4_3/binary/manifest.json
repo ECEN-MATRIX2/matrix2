@@ -1,0 +1,27 @@
+{
+  "revision": "4.3",
+  "target": "ESP32-S3",
+  "flash_size": "4MB",
+  "flashed": false,
+  "offsets": {
+    "bootloader.bin": "0x0",
+    "partitions.bin": "0x8000",
+    "boot_app0.bin": "0xe000",
+    "firmware.bin": "0x10000"
+  },
+  "sha256": {
+    "bootloader.bin": "e01a2300de23c8d601e9f2a37684b5dbc83ae37132d5a8833e23520afd895f92",
+    "boot_app0.bin": "f94c5d786a7a8fab06ac5d10e33bf37711a6697636dc037559ea19cc410a17f0",
+    "firmware.bin": "38049c07c1be802c5147d44df3253fcc9a8d0aa616680773a30d22b06febb4d8",
+    "firmware.elf": "77d7ca706ee9fb2a9ba7adda462fb66619f245ffa23bd880265cb1d930ac8a64",
+    "partitions.bin": "aaae2888c5a6a348004b5b436f47abb25ae32e72d9003902955a998eda723edd"
+  },
+  "sources": {
+    "command_stream.h": "2f0434027093b3db16c65cd148e9f6c6f75ea3c6c4aae53289e8d957c1e4ea46",
+    "comms_protocol.h": "38db966f5cea99c6902de6d111e64b3861504d86cd32992be14dfd19d05cda26",
+    "ESP32_MATRIX2_minimal_reader.ino": "a0f9beb1b4c5f68d8b748fed253b7bdb59908b2cdde74ab1de0971e2c86e3845",
+    "motor_client.h": "3c26a8a63a6c9e82e52c550af7aec9bb5dfe969829fab2b82f9c0bb7be2db119",
+    "motor_uart.h": "307adca38d03624433f5cc006458bb89f6ee21d025918a2400a88f03cd80ad12",
+    "telemetry.h": "79b72b25136f80be94760a4e6423004332126a49903a0dcbe7257896374b7bb1"
+  }
+}

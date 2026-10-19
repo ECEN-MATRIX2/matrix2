@@ -1,0 +1,3159 @@
+[
+  {
+    "ref": "J1",
+    "value": "BATTERY XT60",
+    "stype": "CONN",
+    "fp": "AMASS_XT60-M_Vertical_PositivePin1",
+    "pins": {
+      "1": "BAT_RAW_P",
+      "2": "BAT_P_RET"
+    },
+    "sheet": "power",
+    "xy": [
+      30.48,
+      50.8
+    ],
+    "mpn": "XT60-M",
+    "rating": "54.6V max intended pack",
+    "note": "",
+    "price": 1.2,
+    "uuid": "3f449ebf-782e-56f2-85d8-92a86d33bde8",
+    "manufacturer": "AMASS",
+    "mouser": "",
+    "stock_evidence": "User supplied",
+    "stock_source": ""
+  },
+  {
+    "ref": "F1",
+    "value": "10A / 125VDC",
+    "stype": "F",
+    "fp": "Fuse_SCHURTER_UMT-H_5.3x16",
+    "pins": {
+      "1": "BAT_RAW_P",
+      "2": "BAT_SENSE_SOURCE"
+    },
+    "sheet": "power",
+    "xy": [
+      63.5,
+      50.8
+    ],
+    "mpn": "3403.0284.23",
+    "rating": "10A time lag; Schurter UMT-H",
+    "note": "",
+    "price": 2.4,
+    "uuid": "9a4771b6-e28f-5476-88d5-efdafb9ed786",
+    "manufacturer": "Schurter",
+    "mouser": "693-3403.0284.23",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.com/en/ProductDetail/Schurter/3403.0284.23?qs=n51ddIYULBnOdP86rljzJw%3D%3D"
+  },
+  {
+    "ref": "K1",
+    "value": "G7SA-2A2B DC12",
+    "stype": "K_NC",
+    "fp": "Omron_G7SA_2A2B_TopView",
+    "pins": {
+      "0": "COIL_P",
+      "1": "COIL_RET",
+      "11": "BAT_36_P",
+      "12": "VM_P",
+      "21": "BAT_P_RET",
+      "22": "SYSTEM_RET",
+      "33": "CHARGER_P",
+      "34": "CHARGE_SW_P",
+      "43": "SYSTEM_RET",
+      "44": "BAT_C_RET"
+    },
+    "sheet": "power",
+    "xy": [
+      139.7,
+      60.96
+    ],
+    "mpn": "G7SA-2A2B DC12",
+    "rating": "2NC+2NO forcibly guided; 12V/30mA coil; 6A carry; DC load switching must be derated",
+    "note": "One physical relay. 11-12 and 21-22 are NC drive contacts; 33-34 and 43-44 are NO charge contacts. Coil 0 positive, 1 negative. Near-zero-current transfer only; no loaded 36-54.6V switching approval. Header/harness current limit is lower than relay rating.",
+    "price": 55.0,
+    "uuid": "da6d7dc1-297a-58ce-80dc-515b66df9311",
+    "manufacturer": "Omron Automation and Safety",
+    "mouser": "653-G7SA-2A2BDC12",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://au.mouser.com/en/ProductDetail/Omron-Automation-and-Safety/G7SA-2A2BDC12?qs=sGAEpiMZZMv0DJfhVcWlK5zwfu5A3fu0%2F9SChoOJPop%252BkWRK6kVRDw%3D%3D"
+  },
+  {
+    "ref": "J2",
+    "value": "TO MOTOR VM",
+    "stype": "CONNL",
+    "fp": "PinHeader_1x02_P2.54mm_Vertical",
+    "pins": {
+      "1": "VM_P",
+      "2": "SYSTEM_RET"
+    },
+    "sheet": "power",
+    "xy": [
+      218.44,
+      50.8
+    ],
+    "mpn": "M20-9990245",
+    "rating": "3A max per header contact; mating lead rating may be lower",
+    "note": "0.64mm square pins at 2.54mm pitch. Ordinary female jumper sockets fit. External current limiting required for the actual harness; 10A fuse is not jumper overload protection.",
+    "price": 0.15,
+    "uuid": "a9d1341d-0f88-569d-b52b-4c1959cf0c43",
+    "manufacturer": "Harwin",
+    "mouser": "855-M20-9990245",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.com/en/ProductDetail/Harwin/M20-9990245?qs=Jph8NoUxIfUDXEB%252Bi9kJRA%3D%3D"
+  },
+  {
+    "ref": "J3",
+    "value": "FROM CHARGE IC",
+    "stype": "CONN",
+    "fp": "PinHeader_1x02_P2.54mm_Vertical",
+    "pins": {
+      "1": "CHG_SENSE_SOURCE",
+      "2": "SYSTEM_RET"
+    },
+    "sheet": "power",
+    "xy": [
+      30.48,
+      119.38
+    ],
+    "mpn": "M20-9990245",
+    "rating": "3A max per header contact; mating lead rating may be lower",
+    "note": "0.64mm square pins at 2.54mm pitch. Ordinary female jumper sockets fit. External current limiting required for the actual harness; 10A fuse is not jumper overload protection.",
+    "price": 0.15,
+    "uuid": "27a16721-757a-52be-a7c6-0866ed2b09fc",
+    "manufacturer": "Harwin",
+    "mouser": "855-M20-9990245",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.com/en/ProductDetail/Harwin/M20-9990245?qs=Jph8NoUxIfUDXEB%252Bi9kJRA%3D%3D"
+  },
+  {
+    "ref": "F3",
+    "value": "10A / 125VDC",
+    "stype": "F",
+    "fp": "Fuse_SCHURTER_UMT-H_5.3x16",
+    "pins": {
+      "1": "CHARGE_SW_P",
+      "2": "BAT_C_P"
+    },
+    "sheet": "power",
+    "xy": [
+      193.04,
+      119.38
+    ],
+    "mpn": "3403.0284.23",
+    "rating": "10A time lag; Schurter UMT-H",
+    "note": "",
+    "price": 2.4,
+    "uuid": "d39d0f84-77e6-519f-b3cd-23f3dc07e6fa",
+    "manufacturer": "Schurter",
+    "mouser": "693-3403.0284.23",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.com/en/ProductDetail/Schurter/3403.0284.23?qs=n51ddIYULBnOdP86rljzJw%3D%3D"
+  },
+  {
+    "ref": "J4",
+    "value": "TO BATTERY CHARGE",
+    "stype": "CONNL",
+    "fp": "PinHeader_1x02_P2.54mm_Vertical",
+    "pins": {
+      "1": "BAT_C_P",
+      "2": "BAT_C_RET"
+    },
+    "sheet": "power",
+    "xy": [
+      248.92,
+      119.38
+    ],
+    "mpn": "M20-9990245",
+    "rating": "3A max per header contact; mating lead rating may be lower",
+    "note": "0.64mm square pins at 2.54mm pitch. Ordinary female jumper sockets fit. External current limiting required for the actual harness; 10A fuse is not jumper overload protection.",
+    "price": 0.15,
+    "uuid": "4403ae41-2a3a-5230-b216-0bfe7d2aa06a",
+    "manufacturer": "Harwin",
+    "mouser": "855-M20-9990245",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.com/en/ProductDetail/Harwin/M20-9990245?qs=Jph8NoUxIfUDXEB%252Bi9kJRA%3D%3D"
+  },
+  {
+    "ref": "J5",
+    "value": "EXTERNAL 12V ONLY",
+    "stype": "CONN",
+    "fp": "PinHeader_1x02_P2.54mm_Vertical",
+    "pins": {
+      "1": "EXT_12V",
+      "2": "COIL_RET"
+    },
+    "sheet": "power",
+    "xy": [
+      30.48,
+      190.5
+    ],
+    "mpn": "M20-9990245",
+    "rating": "3A header / LV signals",
+    "note": "",
+    "price": 0.25,
+    "uuid": "469e5e09-fc47-5d02-923b-8194b2f09ddb",
+    "manufacturer": "Harwin",
+    "mouser": "855-M20-9990245",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.com/en/ProductDetail/Harwin/M20-9990245?qs=Jph8NoUxIfUDXEB%252Bi9kJRA%3D%3D"
+  },
+  {
+    "ref": "D3",
+    "value": "SS14",
+    "stype": "D",
+    "fp": "D_SMA",
+    "pins": {
+      "1": "COIL_P",
+      "2": "EXT_12V"
+    },
+    "sheet": "power",
+    "xy": [
+      83.82,
+      190.5
+    ],
+    "mpn": "SS14-E3/61T",
+    "rating": "40V 1A Schottky",
+    "note": "Reverse input protection",
+    "price": 0.1,
+    "uuid": "0c16bde1-b55d-5bf7-a9a3-d4bab8b70de3",
+    "manufacturer": "Vishay Semiconductors",
+    "mouser": "625-SS14-E3",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.com/es/ProductDetail/Vishay-Semiconductors/SS14-E3-61T?qs=x2jpVgRnAtMLNL7KZbtr8g%3D%3D"
+  },
+  {
+    "ref": "D4",
+    "value": "SS14 / FLYBACK",
+    "stype": "DV",
+    "fp": "D_SMA",
+    "pins": {
+      "1": "COIL_P",
+      "2": "COIL_RET"
+    },
+    "sheet": "power",
+    "xy": [
+      121.92,
+      210.82
+    ],
+    "mpn": "SS14-E3/61T",
+    "rating": "40V 1A Schottky",
+    "note": "Flyback diode across the single K1 coil; no shared-coil timing dependency.",
+    "price": 0.1,
+    "uuid": "746be4f5-f0f5-59e4-b26d-3420cf5e5e6f",
+    "manufacturer": "Vishay Semiconductors",
+    "mouser": "625-SS14-E3",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.com/es/ProductDetail/Vishay-Semiconductors/SS14-E3-61T?qs=x2jpVgRnAtMLNL7KZbtr8g%3D%3D"
+  },
+  {
+    "ref": "R3",
+    "value": "4.7k",
+    "stype": "RV",
+    "fp": "R_0805_2012Metric",
+    "pins": {
+      "1": "COIL_P",
+      "2": "COIL_LED_A"
+    },
+    "sheet": "power",
+    "xy": [
+      162.56,
+      203.2
+    ],
+    "mpn": "RC0805FR-074K7L",
+    "rating": "1%, 0.125W",
+    "note": "",
+    "price": 0.03,
+    "uuid": "cb10ccb8-c77c-5112-88c6-874e7fabd42f",
+    "manufacturer": "YAGEO",
+    "mouser": "603-RC0805FR-074K7L",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.com/en/ProductDetail/YAGEO/RC0805FR-074K7L?qs=VLOqbHBAO5cYXbrd7RTmuQ%3D%3D"
+  },
+  {
+    "ref": "D6",
+    "value": "CHARGE / AMBER",
+    "stype": "LED",
+    "fp": "LED_0805_2012Metric",
+    "pins": {
+      "1": "COIL_RET",
+      "2": "COIL_LED_A"
+    },
+    "sheet": "power",
+    "xy": [
+      162.56,
+      233.68
+    ],
+    "mpn": "LTST-C170KSKT",
+    "rating": "0805 amber",
+    "note": "",
+    "price": 0.15,
+    "uuid": "3774fb8e-8a38-5a2f-b1f7-973bb2576bd5",
+    "manufacturer": "LITEON",
+    "mouser": "859-LTST-C170KSKT",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.com/ProductDetail/LITEON/LTST-C170KSKT?qs=AE3TPmDL7tsrsw78NmHd9g%3D%3D"
+  },
+  {
+    "ref": "F2",
+    "value": "1A / 125VDC",
+    "stype": "F",
+    "fp": "Fuse_Littelfuse_NANO2_452-454",
+    "pins": {
+      "1": "BAT_FUSED_P",
+      "2": "AUX_FUSED_P"
+    },
+    "sheet": "supply",
+    "xy": [
+      45.72,
+      58.42
+    ],
+    "mpn": "0454001.MR",
+    "rating": "1A time lag 125VDC",
+    "note": "",
+    "price": 0.65,
+    "uuid": "368eb0b7-c9ce-5969-a321-9fea9b435f65",
+    "manufacturer": "Littelfuse",
+    "mouser": "576-0454001.MR",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://my.mouser.com/ProductDetail/Littelfuse/0454001MR?qs=OJFHm2hVE4HNO1R0t5yEZQ%3D%3D"
+  },
+  {
+    "ref": "D1",
+    "value": "SS110",
+    "stype": "D",
+    "fp": "D_SMA",
+    "pins": {
+      "1": "AUX_IN_P",
+      "2": "AUX_FUSED_P"
+    },
+    "sheet": "supply",
+    "xy": [
+      73.66,
+      58.42
+    ],
+    "mpn": "SS110-LTP",
+    "rating": "100V 1A Schottky",
+    "note": "Auxiliary reverse polarity protection only",
+    "price": 0.2,
+    "uuid": "999f6b54-6ddd-5384-ad3a-06e4cf92386b",
+    "manufacturer": "Micro Commercial Components (MCC)",
+    "mouser": "833-SS110-LTP",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.pl/ProductDetail/Micro-Commercial-Components-MCC/SS110-LTP?qs=cLwp4wpikzD6Qv6YsbIGng%3D%3D"
+  },
+  {
+    "ref": "D2",
+    "value": "SMBJ58A",
+    "stype": "DV",
+    "fp": "D_SMB",
+    "pins": {
+      "1": "AUX_IN_P",
+      "2": "BAT_P_RET"
+    },
+    "sheet": "supply",
+    "xy": [
+      91.44,
+      93.98
+    ],
+    "mpn": "SMBJ58A",
+    "rating": "58V standoff / 93.6V rated pulse clamp",
+    "note": "Transient clamp only; not sustained overvoltage regulation 58 V standoff, unidirectional 600 W SMB TVS; same polarity/package. Replaces Littelfuse purchasing selection.",
+    "price": 0.3,
+    "uuid": "f9061244-f87e-5138-84ae-5cca58848db7",
+    "manufacturer": "Bourns",
+    "mouser": "652-SMBJ58A",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.com/en/ProductDetail/Bourns/SMBJ58A?qs=%252Bf8Cd6aE5bzWheyRq8Oq0w%3D%3D"
+  },
+  {
+    "ref": "C1",
+    "value": "4.7u / 100V",
+    "stype": "C",
+    "fp": "TDK_CNC6_1210_Recommended",
+    "pins": {
+      "1": "AUX_IN_P",
+      "2": "BAT_P_RET"
+    },
+    "sheet": "supply",
+    "xy": [
+      116.84,
+      93.98
+    ],
+    "mpn": "CNC6P1X7R2A475K250AE",
+    "rating": "X7R, 10%, 1210; 3.2 x 2.5 x 2.5 mm",
+    "note": "TDK CNC6 reflow lands applied: 1.1 x 2.5 mm pads, 2.2 mm gap. Nominal body height 2.5 mm. Correct underside orientation required. DC-bias effective capacitance and ripple remain bench checks.",
+    "price": 0.8,
+    "uuid": "8bdf14a6-017f-54aa-80a4-de813e69d4e1",
+    "manufacturer": "TDK",
+    "mouser": "810-CNC6P1X7R2A475K2",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.com/ProductDetail/TDK/CNC6P1X7R2A475K250AE?qs=PzGy0jfpSMslEF4uGpLa7Q%3D%3D"
+  },
+  {
+    "ref": "C2",
+    "value": "100n / 100V",
+    "stype": "C",
+    "fp": "C_0805_2012Metric",
+    "pins": {
+      "1": "AUX_IN_P",
+      "2": "BAT_P_RET"
+    },
+    "sheet": "supply",
+    "xy": [
+      142.24,
+      93.98
+    ],
+    "mpn": "C2012X7R2A104K125AA",
+    "rating": "X7R, 10%, 0805",
+    "note": "",
+    "price": 0.15,
+    "uuid": "b3178e12-fec2-5a4d-96b9-89db2c65e9b2",
+    "manufacturer": "TDK",
+    "mouser": "810-C2012X7R2A104K",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.com/en/ProductDetail/TDK/C2012X7R2A104K125AA?qs=NRhsANhppD9J0ZsT2%2Fo%2F7Q%3D%3D"
+  },
+  {
+    "ref": "U1",
+    "value": "TMR 6-4811WI",
+    "stype": "DCDC",
+    "fp": "TRACO_TMR6WI_SIP8_TopView",
+    "pins": {
+      "1": "BAT_P_RET",
+      "2": "AUX_IN_P",
+      "3": null,
+      "5": null,
+      "6": "ISO_5V",
+      "7": "SYSTEM_RET",
+      "8": null
+    },
+    "sheet": "supply",
+    "xy": [
+      210.82,
+      68.58
+    ],
+    "mpn": "TMR 6-4811WI",
+    "rating": "18-75Vin; 5V/1.2A; functional isolation",
+    "note": "Remote pin open = always on. Total demo 5V budget 500mA pending load/thermal verification.",
+    "price": 25.24,
+    "uuid": "e13f22c0-f56e-50a9-9601-a11ab8c490c8",
+    "manufacturer": "TRACO Power",
+    "mouser": "495-TMR6-4811WI",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.com/ProductDetail/TRACO-Power/TMR-6-4811WI?qs=ckJk83FOD0UAmUqczzNEJg%3D%3D"
+  },
+  {
+    "ref": "C3",
+    "value": "10u / 16V",
+    "stype": "C",
+    "fp": "C_0805_2012Metric",
+    "pins": {
+      "1": "ISO_5V",
+      "2": "SYSTEM_RET"
+    },
+    "sheet": "supply",
+    "xy": [
+      254,
+      93.98
+    ],
+    "mpn": "C2012X5R1C106K085AC",
+    "rating": "X5R, 10%, 0805, 0.85 mm height",
+    "note": "Stocked but NRND (not recommended for new designs) per Mouser. Selected for this MVP; not obsolete or special order.",
+    "price": 0.2,
+    "uuid": "aa0add3e-7542-5c51-a9a5-4a46b03b8130",
+    "manufacturer": "TDK",
+    "mouser": "810-C2012X5R1C106K-2",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.com/en/ProductDetail/TDK/C2012X5R1C106K085AC?qs=sGAEpiMZZMs7ZEmUmaUL04RYFBjQqIMtFN%2FMKg4reUg%3D"
+  },
+  {
+    "ref": "C4",
+    "value": "100n/100V",
+    "stype": "C",
+    "fp": "C_0805_2012Metric",
+    "pins": {
+      "1": "ISO_5V",
+      "2": "SYSTEM_RET"
+    },
+    "sheet": "supply",
+    "xy": [
+      279.4,
+      93.98
+    ],
+    "mpn": "C2012X7R2A104K125AA",
+    "rating": "X7R, 10%, 0805",
+    "note": "Voltage rating increased from 50 V to 100 V; same capacitance and package. Shares C2 purchasing SKU.",
+    "price": 0.05,
+    "uuid": "542e9153-9bb1-5dff-986b-31bd8ebaace0",
+    "manufacturer": "TDK",
+    "mouser": "810-C2012X7R2A104K",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.com/en/ProductDetail/TDK/C2012X7R2A104K125AA?qs=NRhsANhppD9J0ZsT2%2Fo%2F7Q%3D%3D"
+  },
+  {
+    "ref": "R4",
+    "value": "2.2k",
+    "stype": "RV",
+    "fp": "R_0805_2012Metric",
+    "pins": {
+      "1": "ISO_5V",
+      "2": "POWER_LED_A"
+    },
+    "sheet": "supply",
+    "xy": [
+      312.42,
+      78.74
+    ],
+    "mpn": "RC0805FR-072K2L",
+    "rating": "1% 0.125W",
+    "note": "",
+    "price": 0.03,
+    "uuid": "1870746a-4e94-5a20-ba30-9beae46c39f4",
+    "manufacturer": "YAGEO",
+    "mouser": "603-RC0805FR-072K2L",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://my.mouser.com/en/ProductDetail/YAGEO/RC0805FR-072K2L?qs=CSLd874fYV2eT6iKTza3nw%3D%3D"
+  },
+  {
+    "ref": "D5",
+    "value": "5V ON / GREEN",
+    "stype": "LED",
+    "fp": "LED_0805_2012Metric",
+    "pins": {
+      "1": "SYSTEM_RET",
+      "2": "POWER_LED_A"
+    },
+    "sheet": "supply",
+    "xy": [
+      312.42,
+      109.22
+    ],
+    "mpn": "LTST-C170KGKT",
+    "rating": "0805 green",
+    "note": "",
+    "price": 0.15,
+    "uuid": "98b86ccf-8143-5b5a-a2b6-ae7197abef4b",
+    "manufacturer": "LITEON",
+    "mouser": "859-LTST-C170KGKT",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://eu.mouser.com/en/ProductDetail/LITEON/LTST-C170KGKT?qs=o1ACzGp%252Bek3F8d3sLmVFGg%3D%3D"
+  },
+  {
+    "ref": "U2",
+    "value": "LM66100DCKR",
+    "stype": "IDEAL",
+    "fp": "SOT-363_SC-70-6",
+    "pins": {
+      "1": "ISO_5V",
+      "2": "SYSTEM_RET",
+      "3": "MCU_5V",
+      "4": null,
+      "5": "MCU_ST",
+      "6": "MCU_5V"
+    },
+    "sheet": "io",
+    "xy": [
+      73.66,
+      53.34
+    ],
+    "mpn": "LM66100DCKR",
+    "rating": "1.5-5.5V / 1.5A",
+    "note": "CE tied to output for reverse-current blocking. Unused ST grounded through explicit 0-ohm configuration link.",
+    "price": 0.8,
+    "uuid": "3325ede4-7ad2-5e1b-ad3c-2362d5f6a431",
+    "manufacturer": "Texas Instruments",
+    "mouser": "595-LM66100DCKR",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.de/ProductDetail/Texas-Instruments/LM66100DCKR?qs=vLWxofP3U2y2yPPrXoBBoA%3D%3D"
+  },
+  {
+    "ref": "R5",
+    "value": "0R / ST GND LINK",
+    "stype": "R",
+    "fp": "R_0805_2012Metric",
+    "pins": {
+      "1": "MCU_ST",
+      "2": "SYSTEM_RET"
+    },
+    "sheet": "io",
+    "xy": [
+      132.08,
+      88.9
+    ],
+    "mpn": "RC0805JR-070RL",
+    "rating": "0 ohm configuration link",
+    "note": "Grounds unused ST as recommended by TI; removable for diagnostics.",
+    "price": 0.03,
+    "uuid": "8ddded1a-7621-5489-b210-d766f529ea24",
+    "manufacturer": "YAGEO",
+    "mouser": "603-RC0805JR-070RL",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://eu.mouser.com/fr/ProductDetail/YAGEO/RC0805JR-070RL?qs=3ldFlDWnkKyEhdaPjQHEFA%3D%3D"
+  },
+  {
+    "ref": "C5",
+    "value": "1u / 16V",
+    "stype": "C",
+    "fp": "C_0805_2012Metric",
+    "pins": {
+      "1": "MCU_5V",
+      "2": "SYSTEM_RET"
+    },
+    "sheet": "io",
+    "xy": [
+      119.38,
+      60.96
+    ],
+    "mpn": "GRM21BR71C105KA01L",
+    "rating": "X7R 0805, 16V",
+    "note": "",
+    "price": 0.12,
+    "uuid": "8103242d-bcef-5d47-a5a9-c69e7759a384",
+    "manufacturer": "Murata Electronics",
+    "mouser": "81-GRM40X105K16L",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://my.mouser.com/en/ProductDetail/Murata-Electronics/GRM21BR71C105KA01L?qs=WNiIrCCjU2Tw%2F0lnBzRiBw%3D%3D"
+  },
+  {
+    "ref": "J6",
+    "value": "MCU 5V OUT",
+    "stype": "CONN",
+    "fp": "PinHeader_1x02_P2.54mm_Vertical",
+    "pins": {
+      "1": "MCU_5V",
+      "2": "SYSTEM_RET"
+    },
+    "sheet": "io",
+    "xy": [
+      157.48,
+      45.720000000000006
+    ],
+    "mpn": "M20-9990245",
+    "rating": "3A header / LV signals",
+    "note": "",
+    "price": 0.25,
+    "uuid": "a8d14c56-56d6-51cd-9ce2-5cc7943f39ca",
+    "manufacturer": "Harwin",
+    "mouser": "855-M20-9990245",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.com/en/ProductDetail/Harwin/M20-9990245?qs=Jph8NoUxIfUDXEB%252Bi9kJRA%3D%3D"
+  },
+  {
+    "ref": "U3",
+    "value": "LM66100DCKR",
+    "stype": "IDEAL",
+    "fp": "SOT-363_SC-70-6",
+    "pins": {
+      "1": "ISO_5V",
+      "2": "SYSTEM_RET",
+      "3": "COMM_5V",
+      "4": null,
+      "5": "COMM_ST",
+      "6": "COMM_5V"
+    },
+    "sheet": "io",
+    "xy": [
+      73.66,
+      124.46
+    ],
+    "mpn": "LM66100DCKR",
+    "rating": "1.5-5.5V / 1.5A",
+    "note": "CE tied to output for reverse-current blocking. Unused ST grounded through explicit 0-ohm configuration link.",
+    "price": 0.8,
+    "uuid": "93cb5614-18f5-5063-b52d-87fd9f953833",
+    "manufacturer": "Texas Instruments",
+    "mouser": "595-LM66100DCKR",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.de/ProductDetail/Texas-Instruments/LM66100DCKR?qs=vLWxofP3U2y2yPPrXoBBoA%3D%3D"
+  },
+  {
+    "ref": "R6",
+    "value": "0R / ST GND LINK",
+    "stype": "R",
+    "fp": "R_0805_2012Metric",
+    "pins": {
+      "1": "COMM_ST",
+      "2": "SYSTEM_RET"
+    },
+    "sheet": "io",
+    "xy": [
+      132.08,
+      160.01999999999998
+    ],
+    "mpn": "RC0805JR-070RL",
+    "rating": "0 ohm configuration link",
+    "note": "Grounds unused ST as recommended by TI; removable for diagnostics.",
+    "price": 0.03,
+    "uuid": "9d3c3a39-105e-5f9e-9140-60e54f0f31c4",
+    "manufacturer": "YAGEO",
+    "mouser": "603-RC0805JR-070RL",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://eu.mouser.com/fr/ProductDetail/YAGEO/RC0805JR-070RL?qs=3ldFlDWnkKyEhdaPjQHEFA%3D%3D"
+  },
+  {
+    "ref": "C6",
+    "value": "1u / 16V",
+    "stype": "C",
+    "fp": "C_0805_2012Metric",
+    "pins": {
+      "1": "COMM_5V",
+      "2": "SYSTEM_RET"
+    },
+    "sheet": "io",
+    "xy": [
+      119.38,
+      132.07999999999998
+    ],
+    "mpn": "GRM21BR71C105KA01L",
+    "rating": "X7R 0805, 16V",
+    "note": "",
+    "price": 0.12,
+    "uuid": "5b08dd7a-208b-5db7-8202-b68990c9449b",
+    "manufacturer": "Murata Electronics",
+    "mouser": "81-GRM40X105K16L",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://my.mouser.com/en/ProductDetail/Murata-Electronics/GRM21BR71C105KA01L?qs=WNiIrCCjU2Tw%2F0lnBzRiBw%3D%3D"
+  },
+  {
+    "ref": "J7",
+    "value": "COMM 5V OUT",
+    "stype": "CONN",
+    "fp": "PinHeader_1x02_P2.54mm_Vertical",
+    "pins": {
+      "1": "COMM_5V",
+      "2": "SYSTEM_RET"
+    },
+    "sheet": "io",
+    "xy": [
+      157.48,
+      116.83999999999999
+    ],
+    "mpn": "M20-9990245",
+    "rating": "3A header / LV signals",
+    "note": "",
+    "price": 0.25,
+    "uuid": "5f36695e-c846-5e87-8f0f-de2ee55d0282",
+    "manufacturer": "Harwin",
+    "mouser": "855-M20-9990245",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.com/en/ProductDetail/Harwin/M20-9990245?qs=Jph8NoUxIfUDXEB%252Bi9kJRA%3D%3D"
+  },
+  {
+    "ref": "J8",
+    "value": "THROTTLE POWER",
+    "stype": "CONN",
+    "fp": "PinHeader_1x02_P2.54mm_Vertical",
+    "pins": {
+      "1": "ISO_5V",
+      "2": "SYSTEM_RET"
+    },
+    "sheet": "io",
+    "xy": [
+      233.68,
+      43.18
+    ],
+    "mpn": "M20-9990245",
+    "rating": "3A header / LV signals",
+    "note": "",
+    "price": 0.25,
+    "uuid": "c90d63fd-3b55-5c6f-a6f4-8b29fa32666e",
+    "manufacturer": "Harwin",
+    "mouser": "855-M20-9990245",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.com/en/ProductDetail/Harwin/M20-9990245?qs=Jph8NoUxIfUDXEB%252Bi9kJRA%3D%3D"
+  },
+  {
+    "ref": "J9",
+    "value": "THROTTLE SIGNAL",
+    "stype": "CONN",
+    "fp": "PinHeader_1x02_P2.54mm_Vertical",
+    "pins": {
+      "1": "THROTTLE_RAW",
+      "2": "SYSTEM_RET"
+    },
+    "sheet": "io",
+    "xy": [
+      233.68,
+      88.9
+    ],
+    "mpn": "M20-9990245",
+    "rating": "3A header / LV signals",
+    "note": "",
+    "price": 0.25,
+    "uuid": "da1e4451-7168-51ee-9dec-f3734509dba4",
+    "manufacturer": "Harwin",
+    "mouser": "855-M20-9990245",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.com/en/ProductDetail/Harwin/M20-9990245?qs=Jph8NoUxIfUDXEB%252Bi9kJRA%3D%3D"
+  },
+  {
+    "ref": "R1",
+    "value": "12.1k / 1%",
+    "stype": "R",
+    "fp": "R_0805_2012Metric",
+    "pins": {
+      "1": "THROTTLE_RAW",
+      "2": "THROTTLE_ADC"
+    },
+    "sheet": "io",
+    "xy": [
+      302.26,
+      88.9
+    ],
+    "mpn": "RC0805FR-0712K1L",
+    "rating": "1% 0.125W",
+    "note": "",
+    "price": 0.03,
+    "uuid": "ec767409-32de-5ef2-9584-49b5d2c2bca1",
+    "manufacturer": "YAGEO",
+    "mouser": "603-RC0805FR-0712K1L",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.com/en/ProductDetail/YAGEO/RC0805FR-0712K1L?qs=8Y8p%252BasKcI7lbohZuGlfhw%3D%3D"
+  },
+  {
+    "ref": "R2",
+    "value": "15k / 1%",
+    "stype": "RV",
+    "fp": "R_0805_2012Metric",
+    "pins": {
+      "1": "THROTTLE_ADC",
+      "2": "SYSTEM_RET"
+    },
+    "sheet": "io",
+    "xy": [
+      327.66,
+      111.76
+    ],
+    "mpn": "RC0805FR-0715KL",
+    "rating": "1% 0.125W",
+    "note": "",
+    "price": 0.03,
+    "uuid": "07fe176c-e62a-50fa-8423-8dc17f1bb57f",
+    "manufacturer": "YAGEO",
+    "mouser": "603-RC0805FR-0715KL",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.com/en/ProductDetail/YAGEO/RC0805FR-0715KL?qs=8Y8p%252BasKcI4opTh4HnCDuA%3D%3D"
+  },
+  {
+    "ref": "C7",
+    "value": "100n/100V",
+    "stype": "C",
+    "fp": "C_0805_2012Metric",
+    "pins": {
+      "1": "THROTTLE_ADC",
+      "2": "SYSTEM_RET"
+    },
+    "sheet": "io",
+    "xy": [
+      353.06,
+      111.76
+    ],
+    "mpn": "C2012X7R2A104K125AA",
+    "rating": "X7R, 10%, 0805",
+    "note": "Voltage rating increased from 50 V to 100 V; same capacitance and package. Shares C2 purchasing SKU.",
+    "price": 0.05,
+    "uuid": "e3767de8-5adc-5287-9d59-830a583d1d8c",
+    "manufacturer": "TDK",
+    "mouser": "810-C2012X7R2A104K",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.com/en/ProductDetail/TDK/C2012X7R2A104K125AA?qs=NRhsANhppD9J0ZsT2%2Fo%2F7Q%3D%3D"
+  },
+  {
+    "ref": "J10",
+    "value": "MCU THROTTLE ADC",
+    "stype": "CONN",
+    "fp": "PinHeader_1x02_P2.54mm_Vertical",
+    "pins": {
+      "1": "THROTTLE_ADC",
+      "2": "SYSTEM_RET"
+    },
+    "sheet": "io",
+    "xy": [
+      370.84,
+      88.9
+    ],
+    "mpn": "M20-9990245",
+    "rating": "3A header / LV signals",
+    "note": "",
+    "price": 0.25,
+    "uuid": "ce8493c7-920d-50b9-86e6-2c30eefe640d",
+    "manufacturer": "Harwin",
+    "mouser": "855-M20-9990245",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.com/en/ProductDetail/Harwin/M20-9990245?qs=Jph8NoUxIfUDXEB%252Bi9kJRA%3D%3D"
+  },
+  {
+    "ref": "H1",
+    "value": "M3 / NYLON",
+    "stype": "HOLE",
+    "fp": "MountingHole_3.2mm_M3",
+    "pins": {},
+    "sheet": "supply",
+    "xy": [
+      71.12,
+      200.66
+    ],
+    "mpn": "M3 nylon hardware",
+    "rating": "3.2mm NPTH",
+    "note": "",
+    "price": 0.1,
+    "uuid": "c39c208c-07da-538b-bca2-6c5a8ab4ef9a"
+  },
+  {
+    "ref": "H2",
+    "value": "M3 / NYLON",
+    "stype": "HOLE",
+    "fp": "MountingHole_3.2mm_M3",
+    "pins": {},
+    "sheet": "supply",
+    "xy": [
+      96.52,
+      200.66
+    ],
+    "mpn": "M3 nylon hardware",
+    "rating": "3.2mm NPTH",
+    "note": "",
+    "price": 0.1,
+    "uuid": "09fca5d0-d970-5dd7-b69e-edadb7a720ff"
+  },
+  {
+    "ref": "H3",
+    "value": "M3 / NYLON",
+    "stype": "HOLE",
+    "fp": "MountingHole_3.2mm_M3",
+    "pins": {},
+    "sheet": "supply",
+    "xy": [
+      121.91999999999999,
+      200.66
+    ],
+    "mpn": "M3 nylon hardware",
+    "rating": "3.2mm NPTH",
+    "note": "",
+    "price": 0.1,
+    "uuid": "774a7158-3c24-50ec-8aeb-ac62622f5009"
+  },
+  {
+    "ref": "H4",
+    "value": "M3 / NYLON",
+    "stype": "HOLE",
+    "fp": "MountingHole_3.2mm_M3",
+    "pins": {},
+    "sheet": "supply",
+    "xy": [
+      147.32,
+      200.66
+    ],
+    "mpn": "M3 nylon hardware",
+    "rating": "3.2mm NPTH",
+    "note": "",
+    "price": 0.1,
+    "uuid": "bab2383d-5215-54be-add0-49df93e1d8ca"
+  },
+  {
+    "ref": "U4",
+    "value": "LTV-817S-B",
+    "stype": "OPTO",
+    "fp": "SMDIP-4_W9.53mm",
+    "pins": {
+      "1": "COIL_OPTO_A",
+      "2": "COIL_RET",
+      "4": "MODE_COLLECTOR",
+      "3": "SYSTEM_RET"
+    },
+    "sheet": "mode",
+    "xy": [
+      114.3,
+      78.74
+    ],
+    "mpn": "LTV-817S-B",
+    "rating": "Optocoupler; CTR 130-260% at 5mA",
+    "note": "Isolated charge-mode indication only; no hardware motor inhibit.",
+    "price": 0.44,
+    "uuid": "83ce7aed-62ef-5f96-beeb-3c15560c3c1b",
+    "manufacturer": "LITEON",
+    "mouser": "859-LTV-817S-B",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.com/en/ProductDetail/LITEON/LTV-817S-B?qs=WAWaI72GHKy6iXsVhn7oGQ%3D%3D"
+  },
+  {
+    "ref": "R7",
+    "value": "2k / 1%",
+    "stype": "R",
+    "fp": "R_0805_2012Metric",
+    "pins": {
+      "1": "COIL_P",
+      "2": "COIL_OPTO_A"
+    },
+    "sheet": "mode",
+    "xy": [
+      63.5,
+      73.66
+    ],
+    "mpn": "RC0805FR-072KL",
+    "rating": "1% 0.125W",
+    "note": "Approximately 5mA optocoupler LED current from protected external 12V.",
+    "price": 0.03,
+    "uuid": "6e65ef06-bf74-53be-b74f-fa6a9db53510",
+    "manufacturer": "YAGEO",
+    "mouser": "603-RC0805FR-072KL",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.com/es/ProductDetail/YAGEO/RC0805FR-072KL?qs=QrWOOBGzeCYk%2Fx0gjMNmqg%3D%3D"
+  },
+  {
+    "ref": "R8",
+    "value": "1k / 1%",
+    "stype": "R",
+    "fp": "R_0805_2012Metric",
+    "pins": {
+      "1": "MODE_COLLECTOR",
+      "2": "CHARGE_MODE_N"
+    },
+    "sheet": "mode",
+    "xy": [
+      175.26,
+      73.66
+    ],
+    "mpn": "RC0805FR-071KL",
+    "rating": "1% 0.125W",
+    "note": "Series protection for open-collector GPIO connection.",
+    "price": 0.03,
+    "uuid": "268ceeb6-57b6-54ee-a66b-6660a833e1ea",
+    "manufacturer": "YAGEO",
+    "mouser": "603-RC0805FR-071KL",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://eu.mouser.com/en/ProductDetail/YAGEO/RC0805FR-071KL?qs=1ogmaHw32WJjeGY0DHXakQ%3D%3D"
+  },
+  {
+    "ref": "C8",
+    "value": "10n / 50V",
+    "stype": "C",
+    "fp": "C_0805_2012Metric",
+    "pins": {
+      "1": "CHARGE_MODE_N",
+      "2": "SYSTEM_RET"
+    },
+    "sheet": "mode",
+    "xy": [
+      215.9,
+      104.14
+    ],
+    "mpn": "C0805C103K5RACTU",
+    "rating": "X7R, 10%, 0805",
+    "note": "Noise filter; uses MCU internal 3.3V pull-up.",
+    "price": 0.05,
+    "uuid": "a423fd2c-ad6f-54a7-8c6e-b3fd51b2d87c",
+    "manufacturer": "KEMET",
+    "mouser": "80-C0805C103K5R",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.co.uk/en/ProductDetail/KEMET/C0805C103K5RACTU?qs=cw4evkOYbeJ17Si5k%2FymvA%3D%3D"
+  },
+  {
+    "ref": "J11",
+    "value": "CHARGE MODE / RETURN",
+    "stype": "CONN",
+    "fp": "PinHeader_1x02_P2.54mm_Vertical",
+    "pins": {
+      "1": "CHARGE_MODE_N",
+      "2": "SYSTEM_RET"
+    },
+    "sheet": "mode",
+    "xy": [
+      259.08,
+      73.66
+    ],
+    "mpn": "M20-9990245",
+    "rating": "3A header / LV signals",
+    "note": "",
+    "price": 0.25,
+    "uuid": "89597450-10cd-5d39-9015-6f567e48e291",
+    "manufacturer": "Harwin",
+    "mouser": "855-M20-9990245",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.com/en/ProductDetail/Harwin/M20-9990245?qs=Jph8NoUxIfUDXEB%252Bi9kJRA%3D%3D"
+  },
+  {
+    "ref": "U5",
+    "value": "LM70860RRXR",
+    "stype": "BUCK",
+    "fp": "TI_RRX0029B_6x6",
+    "pins": {
+      "1": "BAT_FUSED_P",
+      "2": "BAT_FUSED_P",
+      "3": "BAT_FUSED_P",
+      "4": "BAT_BOOT",
+      "5": "BAT_SW_BOOT",
+      "6": "BAT_P_RET",
+      "7": null,
+      "8": "BAT_VDDA",
+      "9": "BAT_EN",
+      "10": null,
+      "11": "BAT_ISNS",
+      "12": "BAT_BUCK_RAW",
+      "13": "BAT_CONFIG",
+      "14": "BAT_RT",
+      "15": "BAT_COMP",
+      "16": "BAT_FB",
+      "17": "BAT_P_RET",
+      "18": "BAT_VDDA",
+      "19": "BAT_VCC",
+      "20": "BAT_SW",
+      "21": "BAT_SW",
+      "22": "BAT_SW",
+      "23": "BAT_P_RET",
+      "24": "BAT_P_RET",
+      "25": "BAT_P_RET",
+      "26": "BAT_P_RET",
+      "27": "BAT_FUSED_P",
+      "28": "BAT_FUSED_P",
+      "29": "BAT_FUSED_P",
+      "30": "BAT_P_RET"
+    },
+    "sheet": "buck",
+    "xy": [
+      185.42,
+      106.68
+    ],
+    "mpn": "LM70860RRXR",
+    "rating": "80V input; 6A target; AUTO; internal compensation",
+    "note": "BIAS to return because output exceeds 30V. Controller ground pad 30 required.",
+    "price": 6.0,
+    "uuid": "b6c1ace3-5743-524b-928b-eea905136301",
+    "manufacturer": "Texas Instruments",
+    "mouser": "595-LM70860RRXR",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.fr/ProductDetail/Texas-Instruments/LM70860RRXR?qs=olJun0bQHM9pFS2lMy77Eg%3D%3D"
+  },
+  {
+    "ref": "R9",
+    "value": "442k",
+    "stype": "R",
+    "fp": "R_0603_1608Metric",
+    "pins": {
+      "1": "BAT_BUCK_RAW",
+      "2": "BAT_FB_SERIES"
+    },
+    "sheet": "buck",
+    "xy": [
+      43.18,
+      48.26
+    ],
+    "mpn": "RT0603BRD07442KL",
+    "rating": "0.1%, 25 ppm/K, 0603",
+    "note": "Use 442k + new 4.02k R31 = 446.02k. Replaces unavailable 446k; preserves buck setpoint within 0.0016 V nominal.",
+    "price": 0.12,
+    "uuid": "356c3678-e88b-5fdf-9b81-ff5ef2f3e84d",
+    "manufacturer": "YAGEO",
+    "mouser": "603-RT0603BRD07442KL",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.co.uk/en/ProductDetail/YAGEO/RT0603BRD07442KL?qs=oz8GmW2iRssLDMxi0Z4wvw%3D%3D"
+  },
+  {
+    "ref": "R10",
+    "value": "10k",
+    "stype": "R",
+    "fp": "R_0603_1608Metric",
+    "pins": {
+      "1": "BAT_FB",
+      "2": "BAT_P_RET"
+    },
+    "sheet": "buck",
+    "xy": [
+      43.18,
+      78.74
+    ],
+    "mpn": "RT0603BRD0710KL",
+    "rating": "0.1% except R17 1%",
+    "note": "",
+    "price": 0.12,
+    "uuid": "66f68d8e-3b4f-586c-8f00-e3fc30138b48",
+    "manufacturer": "YAGEO",
+    "mouser": "603-RT0603BRD0710KL",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://br.mouser.com/en/ProductDetail/YAGEO/RT0603BRD0710KL?qs=Br90QIIERxSXuxEMyECqGA%3D%3D"
+  },
+  {
+    "ref": "R11",
+    "value": "49.9k",
+    "stype": "R",
+    "fp": "R_0603_1608Metric",
+    "pins": {
+      "1": "BAT_RT",
+      "2": "BAT_P_RET"
+    },
+    "sheet": "buck",
+    "xy": [
+      43.18,
+      109.22
+    ],
+    "mpn": "RT0603BRD0749K9L",
+    "rating": "0.1% except R17 1%",
+    "note": "",
+    "price": 0.12,
+    "uuid": "6f5e1a87-259a-51e7-af2f-0fe2b1331c8d",
+    "manufacturer": "YAGEO",
+    "mouser": "603-RT0603BRD0749K9L",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.com/en/ProductDetail/YAGEO/RT0603BRD0749K9L?qs=%2Ff7pOCXLR5f6ipgUI5aOHA%3D%3D"
+  },
+  {
+    "ref": "R12",
+    "value": "29.4k",
+    "stype": "R",
+    "fp": "R_0603_1608Metric",
+    "pins": {
+      "1": "BAT_CONFIG",
+      "2": "BAT_P_RET"
+    },
+    "sheet": "buck",
+    "xy": [
+      43.18,
+      139.7
+    ],
+    "mpn": "RT0603BRD0729K4L",
+    "rating": "0.1% except R17 1%",
+    "note": "",
+    "price": 0.12,
+    "uuid": "f4fe195f-0756-5909-a483-c0f00e122ffc",
+    "manufacturer": "YAGEO",
+    "mouser": "603-RT0603BRD0729K4L",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.de/ProductDetail/YAGEO/RT0603BRD0729K4L?qs=gY0y7AQI9SNgML1yP%2FE%2FLA%3D%3D"
+  },
+  {
+    "ref": "R13",
+    "value": "100k",
+    "stype": "R",
+    "fp": "R_0603_1608Metric",
+    "pins": {
+      "1": "BAT_VDDA",
+      "2": "BAT_COMP"
+    },
+    "sheet": "buck",
+    "xy": [
+      43.18,
+      170.18
+    ],
+    "mpn": "TNPW0603100KBEEA",
+    "rating": "0.1%, 25 ppm/K, 0603",
+    "note": "",
+    "price": 0.12,
+    "uuid": "d8ed5f70-d2f0-51e1-968e-8b3ffe054e7a",
+    "manufacturer": "Vishay",
+    "mouser": "71-TNPW0603100KBEEA",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.com/en/ProductDetail/Vishay/TNPW0603100KBEEA?qs=80vFmtL7BC9RsqlOJE1GSA%3D%3D"
+  },
+  {
+    "ref": "R14",
+    "value": "383k",
+    "stype": "R",
+    "fp": "R_0603_1608Metric",
+    "pins": {
+      "1": "BAT_FUSED_P",
+      "2": "BAT_EN"
+    },
+    "sheet": "buck",
+    "xy": [
+      111.76,
+      48.26
+    ],
+    "mpn": "RT0603BRD07383KL",
+    "rating": "0.1% except R17 1%",
+    "note": "",
+    "price": 0.12,
+    "uuid": "19f5218c-e4b8-5284-aa93-2343949dad96",
+    "manufacturer": "YAGEO",
+    "mouser": "603-RT0603BRD07383KL",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://ar.mouser.com/ProductDetail/YAGEO/RT0603BRD07383KL?qs=m9MW%2FJRFFS0dA7lhmgxBlA%3D%3D"
+  },
+  {
+    "ref": "R15",
+    "value": "10k",
+    "stype": "R",
+    "fp": "R_0603_1608Metric",
+    "pins": {
+      "1": "BAT_EN",
+      "2": "BAT_P_RET"
+    },
+    "sheet": "buck",
+    "xy": [
+      111.76,
+      78.74
+    ],
+    "mpn": "RT0603BRD0710KL",
+    "rating": "0.1% except R17 1%",
+    "note": "",
+    "price": 0.12,
+    "uuid": "912e7ea6-80be-5d83-961c-e6900126bab2",
+    "manufacturer": "YAGEO",
+    "mouser": "603-RT0603BRD0710KL",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://br.mouser.com/en/ProductDetail/YAGEO/RT0603BRD0710KL?qs=Br90QIIERxSXuxEMyECqGA%3D%3D"
+  },
+  {
+    "ref": "R17",
+    "value": "1R",
+    "stype": "R",
+    "fp": "R_0603_1608Metric",
+    "pins": {
+      "1": "BAT_BOOT_R",
+      "2": "BAT_BOOT"
+    },
+    "sheet": "buck",
+    "xy": [
+      111.76,
+      109.22
+    ],
+    "mpn": "RC0603FR-071RL",
+    "rating": "0.1% except R17 1%",
+    "note": "",
+    "price": 0.12,
+    "uuid": "32470d37-a2dd-53c9-a1f3-8b8363d3cdb9",
+    "manufacturer": "YAGEO",
+    "mouser": "603-RC0603FR-071RL",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.com/en/ProductDetail/YAGEO/RC0603FR-071RL?qs=VU8sRB4EgwCpR02Ip%252BqS4Q%3D%3D"
+  },
+  {
+    "ref": "L1",
+    "value": "33uH / SRP1265A",
+    "stype": "L",
+    "fp": "Bourns_SRP1265A_13.5x12.5mm",
+    "pins": {
+      "1": "BAT_SW",
+      "2": "BAT_ISNS"
+    },
+    "sheet": "buck",
+    "xy": [
+      294.64,
+      48.26
+    ],
+    "mpn": "SRP1265A-330M",
+    "rating": "20%; 8 A Irms; 11 A Isat at 20% drop; DCR max 58 mOhm",
+    "note": "Bourns manufacturer lands applied: 3.1 x 5.0 mm pads, 8.0 mm gap. Nominal 13.5 x 12.5 x 6.2 mm body. Max-DCR copper loss about 0.52 W at 3 A / 2.09 W at 6 A before heating/core loss. Hardware thermal and fault qualification pending.",
+    "price": 7,
+    "uuid": "1ecc9814-d1a5-5519-bd18-cd49359d0000",
+    "manufacturer": "Bourns",
+    "mouser": "652-SRP1265A-330M",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://lv.mouser.com/en/ProductDetail/Bourns/SRP1265A-330M?qs=sGAEpiMZZMukHu%252BjC5l7YXQ8MACoviigEP0bLU9HVeE%3D",
+    "datasheet": "https://www.bourns.com/docs/product-datasheets/srp1265a.pdf"
+  },
+  {
+    "ref": "R16",
+    "value": "6m / 1%",
+    "stype": "R",
+    "fp": "Vishay_WSL2512_5m_6m9",
+    "pins": {
+      "1": "BAT_ISNS",
+      "2": "BAT_BUCK_RAW"
+    },
+    "sheet": "buck",
+    "xy": [
+      294.64,
+      78.74
+    ],
+    "mpn": "WSL25126L000FEA",
+    "rating": "1%, 1 W, WSL2512 low-ohm land pattern",
+    "note": "8.3-10.4 A peak threshold range; not a harness current limiter. Vishay 5-6.9 mOhm lands applied: 2.11 x 3.68 mm pads, 3.18 mm gap. Separate Kelvin pickups.",
+    "price": 0.8,
+    "uuid": "eb6ed8a5-cb92-55ea-9a3a-6d384d3a8156",
+    "manufacturer": "Vishay",
+    "mouser": "71-WSL25126L000FEA",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.com/en/ProductDetail/Vishay-Dale/WSL25126L000FEA?qs=ViWNInbc%252BeXme%252BvwXzggfQ%3D%3D",
+    "datasheet": "https://www.vishay.com/docs/30100/wsl.pdf"
+  },
+  {
+    "ref": "D7",
+    "value": "STPST10H100SB",
+    "stype": "DPOWER",
+    "fp": "TO-252-3_TabPin2",
+    "pins": {
+      "1": "BAT_BUCK_RAW",
+      "3": "BAT_BUCK_RAW",
+      "2": "BAT_36_P"
+    },
+    "sheet": "buck",
+    "xy": [
+      294.64,
+      109.22
+    ],
+    "mpn": "STPST10H100SB-TR",
+    "rating": "100V/10A diode; both anode terminals connected",
+    "note": "Approximately 0.5V drop at 5A; 2.7W heat. No sustained backfeed into buck.",
+    "price": 1.2,
+    "uuid": "247e46f4-24de-5e07-8bd7-2f2518d04ebd",
+    "manufacturer": "STMicroelectronics",
+    "mouser": "511-STPST10H100SB-TR",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.de/de/ProductDetail/STMicroelectronics/STPST10H100SB-TR?qs=Jm2GQyTW%2Fbh7JNyZ273QjA%3D%3D"
+  },
+  {
+    "ref": "C9",
+    "value": "4.7u/100V",
+    "stype": "C",
+    "fp": "TDK_CNC6_1210_Recommended",
+    "pins": {
+      "1": "BAT_FUSED_P",
+      "2": "BAT_P_RET"
+    },
+    "sheet": "buck",
+    "xy": [
+      43.18,
+      210.82
+    ],
+    "mpn": "CNC6P1X7R2A475K250AE",
+    "rating": "X7R, 10%, 1210; 3.2 x 2.5 x 2.5 mm",
+    "note": "TDK CNC6 reflow lands applied: 1.1 x 2.5 mm pads, 2.2 mm gap. Nominal body height 2.5 mm. Correct underside orientation required. DC-bias effective capacitance and ripple remain bench checks.",
+    "price": 0.55,
+    "uuid": "d2f402b0-a8b1-5172-a435-15cf32026e67",
+    "manufacturer": "TDK",
+    "mouser": "810-CNC6P1X7R2A475K2",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.com/ProductDetail/TDK/CNC6P1X7R2A475K250AE?qs=PzGy0jfpSMslEF4uGpLa7Q%3D%3D"
+  },
+  {
+    "ref": "C10",
+    "value": "4.7u/100V",
+    "stype": "C",
+    "fp": "TDK_CNC6_1210_Recommended",
+    "pins": {
+      "1": "BAT_FUSED_P",
+      "2": "BAT_P_RET"
+    },
+    "sheet": "buck",
+    "xy": [
+      78.74,
+      210.82
+    ],
+    "mpn": "CNC6P1X7R2A475K250AE",
+    "rating": "X7R, 10%, 1210; 3.2 x 2.5 x 2.5 mm",
+    "note": "TDK CNC6 reflow lands applied: 1.1 x 2.5 mm pads, 2.2 mm gap. Nominal body height 2.5 mm. Correct underside orientation required. DC-bias effective capacitance and ripple remain bench checks.",
+    "price": 0.55,
+    "uuid": "22bc968e-db9d-53e9-a091-70924924991a",
+    "manufacturer": "TDK",
+    "mouser": "810-CNC6P1X7R2A475K2",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.com/ProductDetail/TDK/CNC6P1X7R2A475K250AE?qs=PzGy0jfpSMslEF4uGpLa7Q%3D%3D"
+  },
+  {
+    "ref": "C11",
+    "value": "10n/100V",
+    "stype": "C",
+    "fp": "C_0402_1005Metric",
+    "pins": {
+      "1": "BAT_FUSED_P",
+      "2": "BAT_P_RET"
+    },
+    "sheet": "buck",
+    "xy": [
+      114.3,
+      210.82
+    ],
+    "mpn": "C1005X7S2A103K050BB",
+    "rating": "10nF, 100V, X7S, 0402",
+    "note": "0402 high-frequency bypass directly across adjacent VIN/PGND; C12 retains 100nF and C9/C10 bulk ceramic bypass.",
+    "price": 0.55,
+    "uuid": "777e8b8b-8f97-53e9-8d30-3b07e88f15ee",
+    "manufacturer": "TDK",
+    "mouser": "810-C1005X7S2A103K",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.com/en/ProductDetail/TDK/C1005X7S2A103K050BB?qs=NRhsANhppD%2Fx3aSsRvWeNg%3D%3D"
+  },
+  {
+    "ref": "C12",
+    "value": "100n/100V",
+    "stype": "C",
+    "fp": "C_0603_1608Metric",
+    "pins": {
+      "1": "BAT_FUSED_P",
+      "2": "BAT_P_RET"
+    },
+    "sheet": "buck",
+    "xy": [
+      149.86,
+      210.82
+    ],
+    "mpn": "GRM188R72A104KA35D",
+    "rating": "Verify effective capacitance / ripple current / polarity",
+    "note": "",
+    "price": 0.55,
+    "uuid": "808f13d9-f412-5bcf-96b1-facb2cc1f62e",
+    "manufacturer": "Murata Electronics",
+    "mouser": "81-GRM188R72A104KA35",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.com/es/ProductDetail/Murata-Electronics/GRM188R72A104KA35D?qs=P%252BBA3F6RM%2F5aaC9LFKRzYw%3D%3D"
+  },
+  {
+    "ref": "C13",
+    "value": "4.7u/16V",
+    "stype": "C",
+    "fp": "C_0603_1608Metric",
+    "pins": {
+      "1": "BAT_VCC",
+      "2": "BAT_P_RET"
+    },
+    "sheet": "buck",
+    "xy": [
+      233.68,
+      210.82
+    ],
+    "mpn": "GRM188R61C475KE11D",
+    "rating": "Verify effective capacitance / ripple current / polarity",
+    "note": "",
+    "price": 0.55,
+    "uuid": "8275738b-5a80-598e-9a09-7b4fdf30b9d4",
+    "manufacturer": "Murata Electronics",
+    "mouser": "81-GRM188R61C475KE1D",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.com/en/ProductDetail/Murata-Electronics/GRM188R61C475KE11D?qs=eeBpzGFlv%252B%252Bm7AuGy9xEcg%3D%3D"
+  },
+  {
+    "ref": "C14",
+    "value": "100n/100V",
+    "stype": "C",
+    "fp": "C_0603_1608Metric",
+    "pins": {
+      "1": "BAT_VDDA",
+      "2": "BAT_P_RET"
+    },
+    "sheet": "buck",
+    "xy": [
+      198.12,
+      210.82
+    ],
+    "mpn": "GRM188R72A104KA35D",
+    "rating": "X7R, 10%, 0603",
+    "note": "Voltage rating increased from 16 V to 100 V. Same capacitance/package; shares C12 purchasing SKU.",
+    "price": 0.55,
+    "uuid": "0ef89337-1aca-5de9-b9a3-5e88e263d2a8",
+    "manufacturer": "Murata",
+    "mouser": "81-GRM188R72A104KA35",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.com/es/ProductDetail/Murata-Electronics/GRM188R72A104KA35D?qs=P%252BBA3F6RM%2F5aaC9LFKRzYw%3D%3D"
+  },
+  {
+    "ref": "C15",
+    "value": "47n/25V",
+    "stype": "C",
+    "fp": "C_0603_1608Metric",
+    "pins": {
+      "1": "BAT_BOOT_R",
+      "2": "BAT_SW_BOOT"
+    },
+    "sheet": "buck",
+    "xy": [
+      111.76,
+      154.94
+    ],
+    "mpn": "C0603C473K3RACTU",
+    "rating": "X7R, 10%, 0603",
+    "note": "",
+    "price": 0.55,
+    "uuid": "a1876d7c-2ec3-50ff-bbcf-a9f452e2d7be",
+    "manufacturer": "KEMET",
+    "mouser": "80-C0603C473K3R",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://eu.mouser.com/en/ProductDetail/80-C0603C473K3R"
+  },
+  {
+    "ref": "C16",
+    "value": "4.7u/100V",
+    "stype": "C",
+    "fp": "TDK_CNC6_1210_Recommended",
+    "pins": {
+      "1": "BAT_BUCK_RAW",
+      "2": "BAT_P_RET"
+    },
+    "sheet": "buck",
+    "xy": [
+      269.24,
+      210.82
+    ],
+    "mpn": "CNC6P1X7R2A475K250AE",
+    "rating": "X7R, 10%, 1210; 3.2 x 2.5 x 2.5 mm",
+    "note": "TDK CNC6 reflow lands applied: 1.1 x 2.5 mm pads, 2.2 mm gap. Nominal body height 2.5 mm. Correct underside orientation required. DC-bias effective capacitance and ripple remain bench checks.",
+    "price": 0.55,
+    "uuid": "f6396b7b-4631-5f23-94b0-de4b009f101e",
+    "manufacturer": "TDK",
+    "mouser": "810-CNC6P1X7R2A475K2",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.com/ProductDetail/TDK/CNC6P1X7R2A475K250AE?qs=PzGy0jfpSMslEF4uGpLa7Q%3D%3D"
+  },
+  {
+    "ref": "C17",
+    "value": "4.7u/100V",
+    "stype": "C",
+    "fp": "TDK_CNC6_1210_Recommended",
+    "pins": {
+      "1": "BAT_BUCK_RAW",
+      "2": "BAT_P_RET"
+    },
+    "sheet": "buck",
+    "xy": [
+      304.8,
+      210.82
+    ],
+    "mpn": "CNC6P1X7R2A475K250AE",
+    "rating": "X7R, 10%, 1210; 3.2 x 2.5 x 2.5 mm",
+    "note": "TDK CNC6 reflow lands applied: 1.1 x 2.5 mm pads, 2.2 mm gap. Nominal body height 2.5 mm. Correct underside orientation required. DC-bias effective capacitance and ripple remain bench checks.",
+    "price": 0.55,
+    "uuid": "1fd3151d-be3e-5e29-9d32-d8672079ca2a",
+    "manufacturer": "TDK",
+    "mouser": "810-CNC6P1X7R2A475K2",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.com/ProductDetail/TDK/CNC6P1X7R2A475K250AE?qs=PzGy0jfpSMslEF4uGpLa7Q%3D%3D"
+  },
+  {
+    "ref": "C18",
+    "value": "270u/63V",
+    "stype": "C",
+    "fp": "CP_Radial_D10.0mm_P5.00mm_H25",
+    "pins": {
+      "1": "BAT_BUCK_RAW",
+      "2": "BAT_P_RET"
+    },
+    "sheet": "buck",
+    "xy": [
+      340.36,
+      157.48
+    ],
+    "mpn": "EEU-FR1J271L",
+    "rating": "20%; D10 x H25 mm; 5 mm pitch; 0.6 mm leads; 1.5 A ripple at 100 kHz / 105 C; 33 mOhm max impedance at 100 kHz / 20 C; 10000 h at 105 C",
+    "note": "Replaces cart-backordered EEU-FR1J221L. Same body, pitch, voltage, ripple and impedance ratings; capacitance rises 22.7%. Check buck startup, loop stability and relay inrush during Rev M verification. Not an identical electrical substitute.",
+    "price": 1.3,
+    "uuid": "9e2578bf-d519-5bb4-b869-8e4ce55aa3a8",
+    "manufacturer": "Panasonic Industry",
+    "mouser": "667-EEU-FR1J271L",
+    "stock_evidence": "User confirmed: Ships Now",
+    "stock_source": "User confirmation in this conversation",
+    "supplier_url": "https://au.mouser.com/en/ProductDetail/Panasonic-Industry/EEU-FR1J271L?qs=sGAEpiMZZMvwFf0viD3Y3UQZTqF4ErAnkN3c2pq%252BSog%3D",
+    "datasheet": "https://industrial.panasonic.com/ww/products/pt/aluminum-cap-lead/models/EEUFR1J271L"
+  },
+  {
+    "ref": "C19",
+    "value": "100u/100V",
+    "stype": "C",
+    "fp": "CP_Radial_D10.0mm_P5.00mm_H20",
+    "pins": {
+      "1": "BAT_FUSED_P",
+      "2": "BAT_P_RET"
+    },
+    "sheet": "buck",
+    "xy": [
+      375.92,
+      157.48
+    ],
+    "mpn": "EEU-FR2A101",
+    "rating": "Verify effective capacitance / ripple current / polarity",
+    "note": "",
+    "price": 1.3,
+    "uuid": "d39631ef-d813-516c-9935-698d5304d28c",
+    "manufacturer": "Panasonic",
+    "mouser": "667-EEU-FR2A101",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://eu.mouser.com/ProductDetail/Panasonic/EEU-FR2A101?qs=n7vHx8wJlDHCZg6DRLuY%252Bw%3D%3D"
+  },
+  {
+    "ref": "C20",
+    "value": "270u/63V",
+    "stype": "C",
+    "fp": "CP_Radial_D10_P5_H25_PolarityBelow",
+    "pins": {
+      "1": "BAT_36_P",
+      "2": "BAT_P_RET"
+    },
+    "sheet": "buck",
+    "xy": [
+      375.92,
+      210.82
+    ],
+    "mpn": "EEU-FR1J271L",
+    "rating": "20%; D10 x H25 mm; 5 mm pitch; 0.6 mm leads; 1.5 A ripple at 100 kHz / 105 C; 33 mOhm max impedance at 100 kHz / 20 C; 10000 h at 105 C",
+    "note": "Replaces cart-backordered EEU-FR1J221L. Same body, pitch, voltage, ripple and impedance ratings; capacitance rises 22.7%. Check buck startup, loop stability and relay inrush during Rev M verification. Not an identical electrical substitute.",
+    "price": 1.3,
+    "uuid": "51e16eac-003b-5e9e-9032-6e2870035b52",
+    "manufacturer": "Panasonic Industry",
+    "mouser": "667-EEU-FR1J271L",
+    "stock_evidence": "User confirmed: Ships Now",
+    "stock_source": "User confirmation in this conversation",
+    "supplier_url": "https://au.mouser.com/en/ProductDetail/Panasonic-Industry/EEU-FR1J271L?qs=sGAEpiMZZMvwFf0viD3Y3UQZTqF4ErAnkN3c2pq%252BSog%3D",
+    "datasheet": "https://industrial.panasonic.com/ww/products/pt/aluminum-cap-lead/models/EEUFR1J271L"
+  },
+  {
+    "ref": "U6",
+    "value": "TLV3012BIDBVR",
+    "stype": "CLAMP",
+    "fp": "SOT-23-6",
+    "pins": {
+      "1": "CLAMP_OUT",
+      "2": "SYSTEM_RET",
+      "3": "CLAMP_SENSE",
+      "4": "CLAMP_REF",
+      "5": "CLAMP_REF",
+      "6": "ISO_5V"
+    },
+    "sheet": "clamp",
+    "xy": [
+      139.7,
+      78.74
+    ],
+    "mpn": "TLV3012BIDBVR",
+    "rating": "1.242V ref; push-pull; POR low",
+    "note": "Powered from existing isolated 5V.",
+    "price": 1.5,
+    "uuid": "d7ea4fd5-17a0-59e2-ae76-859b6abfe5ef",
+    "manufacturer": "Texas Instruments",
+    "mouser": "595-TLV3012BIDBVR",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.com/en/ProductDetail/Texas-Instruments/TLV3012BIDBVR?qs=3Rah4i%252BhyCH9tZq4dUkfSw%3D%3D"
+  },
+  {
+    "ref": "Q1",
+    "value": "DMN10H220L-7",
+    "stype": "NMOS",
+    "fp": "SOT-23",
+    "pins": {
+      "1": "CLAMP_GATE",
+      "2": "SYSTEM_RET",
+      "3": "CLAMP_DRAIN"
+    },
+    "sheet": "clamp",
+    "xy": [
+      279.4,
+      104.14
+    ],
+    "mpn": "DMN10H220L-7",
+    "rating": "100V; Rds max 0.25ohm at 4.5V",
+    "note": "Switched shunt; not linear mode.",
+    "price": 0.35,
+    "uuid": "64525cdb-40bf-57a0-b1cc-9fd272bac515",
+    "manufacturer": "Diodes Incorporated",
+    "mouser": "621-DMN10H220L-7",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.com/en/ProductDetail/Diodes-Incorporated/DMN10H220L-7?qs=M%2FOdCRO8QQ1UQcucluOqow%3D%3D"
+  },
+  {
+    "ref": "R18",
+    "value": "294k",
+    "stype": "R",
+    "fp": "R_0603_1608Metric",
+    "pins": {
+      "1": "VM_P",
+      "2": "CLAMP_TOP_SERIES"
+    },
+    "sheet": "clamp",
+    "xy": [
+      48.26,
+      48.26
+    ],
+    "mpn": "TNPW0603294KBEEN",
+    "rating": "0.1%, 25 ppm/K, 0603",
+    "note": "Use 294k + new 4.02k R32 = 298.02k. Replaces unavailable 298k; ideal clamp threshold changes about +2.5 mV. Prefer BEEN stock; BEEA is a packaging alternate.",
+    "price": 0.1,
+    "uuid": "8eba0bea-5e84-5403-9630-4d4c4ab11790",
+    "manufacturer": "Vishay",
+    "mouser": "71-TNPW0603294KBEEN",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.com/en/c/passive-components/resistors/smd-resistors-chip-resistors/?case+code+-+in=0603&resistance=294+kOhms"
+  },
+  {
+    "ref": "R19",
+    "value": "10k",
+    "stype": "R",
+    "fp": "R_0603_1608Metric",
+    "pins": {
+      "1": "CLAMP_SENSE",
+      "2": "SYSTEM_RET"
+    },
+    "sheet": "clamp",
+    "xy": [
+      48.26,
+      83.82
+    ],
+    "mpn": "RT0603BRD0710KL",
+    "rating": "0.1% R18-R20; 1% others",
+    "note": "",
+    "price": 0.1,
+    "uuid": "041fc189-626f-50dc-8229-90a56c7ed3c9",
+    "manufacturer": "YAGEO",
+    "mouser": "603-RT0603BRD0710KL",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://br.mouser.com/en/ProductDetail/YAGEO/RT0603BRD0710KL?qs=Br90QIIERxSXuxEMyECqGA%3D%3D"
+  },
+  {
+    "ref": "R20",
+    "value": "1.5M",
+    "stype": "R",
+    "fp": "R_0603_1608Metric",
+    "pins": {
+      "1": "CLAMP_OUT",
+      "2": "CLAMP_SENSE"
+    },
+    "sheet": "clamp",
+    "xy": [
+      48.26,
+      119.38
+    ],
+    "mpn": "MCT0603MD1504BP500",
+    "rating": "0.1%, 25 ppm/K, 0603",
+    "note": "",
+    "price": 0.1,
+    "uuid": "d94dd82b-fbce-558d-bfac-46144a78c06f",
+    "manufacturer": "Vishay / Beyschlag",
+    "mouser": "594-MCT0603MD1504BP5",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://eu.mouser.com/en/ProductDetail/Vishay-Beyschlag/MCT0603MD1504BP500?qs=sGAEpiMZZMvdGkrng054tzrpBd13L%252B8i4K4317ck3JXDtIoxWN0cIw%3D%3D"
+  },
+  {
+    "ref": "R21",
+    "value": "100R",
+    "stype": "R",
+    "fp": "R_0603_1608Metric",
+    "pins": {
+      "1": "CLAMP_OUT",
+      "2": "CLAMP_GATE"
+    },
+    "sheet": "clamp",
+    "xy": [
+      223.52,
+      104.14
+    ],
+    "mpn": "RC0603FR-07100RL",
+    "rating": "0.1% R18-R20; 1% others",
+    "note": "",
+    "price": 0.1,
+    "uuid": "8604842d-2b1e-5331-abb5-8a972884a7a7",
+    "manufacturer": "YAGEO",
+    "mouser": "603-RC0603FR-07100RL",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.fr/fr/ProductDetail/YAGEO/RC0603FR-07100RL?qs=NEN%2FsE%2FLsvPIwIWKCOS4%2FA%3D%3D"
+  },
+  {
+    "ref": "R22",
+    "value": "100k",
+    "stype": "R",
+    "fp": "R_0603_1608Metric",
+    "pins": {
+      "1": "CLAMP_GATE",
+      "2": "SYSTEM_RET"
+    },
+    "sheet": "clamp",
+    "xy": [
+      223.52,
+      149.86
+    ],
+    "mpn": "RC0603FR-07100KL",
+    "rating": "0.1% R18-R20; 1% others",
+    "note": "",
+    "price": 0.1,
+    "uuid": "befabb48-c746-5449-8b94-02076c38c61c",
+    "manufacturer": "YAGEO",
+    "mouser": "603-RC0603FR-07100KL",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.pl/pl/ProductDetail/YAGEO/RC0603FR-07100KL?qs=e1ok2LiJcmaihem8Va5%2Fsw%3D%3D"
+  },
+  {
+    "ref": "R23",
+    "value": "1k / HP",
+    "stype": "R",
+    "fp": "R_2512_6332Metric",
+    "pins": {
+      "1": "VM_P",
+      "2": "CLAMP_DRAIN"
+    },
+    "sheet": "clamp",
+    "xy": [
+      91.44,
+      180.34
+    ],
+    "mpn": "CRCW25121K00FKEGHP",
+    "rating": "1.5W at70C / 2W terminal <=105C",
+    "note": "Eight parallel; ~12W bank at38.5V, brief transients only until thermal validation.",
+    "price": 0.45,
+    "uuid": "ec3798f2-2d1c-57ac-aa98-7343a1be5f92",
+    "manufacturer": "Vishay",
+    "mouser": "71-CRCW25121K00FKEGH",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.com/en/ProductDetail/Vishay/CRCW25121K00FKEGHP?qs=FlFvgi4rxBxxON%252BaL1o0tw%3D%3D"
+  },
+  {
+    "ref": "R24",
+    "value": "1k / HP",
+    "stype": "R",
+    "fp": "R_2512_6332Metric",
+    "pins": {
+      "1": "VM_P",
+      "2": "CLAMP_DRAIN"
+    },
+    "sheet": "clamp",
+    "xy": [
+      167.64,
+      180.34
+    ],
+    "mpn": "CRCW25121K00FKEGHP",
+    "rating": "1.5W at70C / 2W terminal <=105C",
+    "note": "Eight parallel; ~12W bank at38.5V, brief transients only until thermal validation.",
+    "price": 0.45,
+    "uuid": "7d988a09-1323-53f9-9abe-b458daa60025",
+    "manufacturer": "Vishay",
+    "mouser": "71-CRCW25121K00FKEGH",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.com/en/ProductDetail/Vishay/CRCW25121K00FKEGHP?qs=FlFvgi4rxBxxON%252BaL1o0tw%3D%3D"
+  },
+  {
+    "ref": "R25",
+    "value": "1k / HP",
+    "stype": "R",
+    "fp": "R_2512_6332Metric",
+    "pins": {
+      "1": "VM_P",
+      "2": "CLAMP_DRAIN"
+    },
+    "sheet": "clamp",
+    "xy": [
+      243.84,
+      180.34
+    ],
+    "mpn": "CRCW25121K00FKEGHP",
+    "rating": "1.5W at70C / 2W terminal <=105C",
+    "note": "Eight parallel; ~12W bank at38.5V, brief transients only until thermal validation.",
+    "price": 0.45,
+    "uuid": "c51607e3-adf9-569a-b809-e55b224ab7e6",
+    "manufacturer": "Vishay",
+    "mouser": "71-CRCW25121K00FKEGH",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.com/en/ProductDetail/Vishay/CRCW25121K00FKEGHP?qs=FlFvgi4rxBxxON%252BaL1o0tw%3D%3D"
+  },
+  {
+    "ref": "R26",
+    "value": "1k / HP",
+    "stype": "R",
+    "fp": "R_2512_6332Metric",
+    "pins": {
+      "1": "VM_P",
+      "2": "CLAMP_DRAIN"
+    },
+    "sheet": "clamp",
+    "xy": [
+      320.04,
+      180.34
+    ],
+    "mpn": "CRCW25121K00FKEGHP",
+    "rating": "1.5W at70C / 2W terminal <=105C",
+    "note": "Eight parallel; ~12W bank at38.5V, brief transients only until thermal validation.",
+    "price": 0.45,
+    "uuid": "07256f62-98de-5234-8316-84b463f31f1e",
+    "manufacturer": "Vishay",
+    "mouser": "71-CRCW25121K00FKEGH",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.com/en/ProductDetail/Vishay/CRCW25121K00FKEGHP?qs=FlFvgi4rxBxxON%252BaL1o0tw%3D%3D"
+  },
+  {
+    "ref": "R27",
+    "value": "1k / HP",
+    "stype": "R",
+    "fp": "R_2512_6332Metric",
+    "pins": {
+      "1": "VM_P",
+      "2": "CLAMP_DRAIN"
+    },
+    "sheet": "clamp",
+    "xy": [
+      91.44,
+      210.82
+    ],
+    "mpn": "CRCW25121K00FKEGHP",
+    "rating": "1.5W at70C / 2W terminal <=105C",
+    "note": "Eight parallel; ~12W bank at38.5V, brief transients only until thermal validation.",
+    "price": 0.45,
+    "uuid": "db8f7553-3df4-589d-bca8-ae580bd5533b",
+    "manufacturer": "Vishay",
+    "mouser": "71-CRCW25121K00FKEGH",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.com/en/ProductDetail/Vishay/CRCW25121K00FKEGHP?qs=FlFvgi4rxBxxON%252BaL1o0tw%3D%3D"
+  },
+  {
+    "ref": "R28",
+    "value": "1k / HP",
+    "stype": "R",
+    "fp": "R_2512_6332Metric",
+    "pins": {
+      "1": "VM_P",
+      "2": "CLAMP_DRAIN"
+    },
+    "sheet": "clamp",
+    "xy": [
+      167.64,
+      210.82
+    ],
+    "mpn": "CRCW25121K00FKEGHP",
+    "rating": "1.5W at70C / 2W terminal <=105C",
+    "note": "Eight parallel; ~12W bank at38.5V, brief transients only until thermal validation.",
+    "price": 0.45,
+    "uuid": "f643bdec-1c98-53cc-9d0b-9f27784ba988",
+    "manufacturer": "Vishay",
+    "mouser": "71-CRCW25121K00FKEGH",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.com/en/ProductDetail/Vishay/CRCW25121K00FKEGHP?qs=FlFvgi4rxBxxON%252BaL1o0tw%3D%3D"
+  },
+  {
+    "ref": "R29",
+    "value": "1k / HP",
+    "stype": "R",
+    "fp": "R_2512_6332Metric",
+    "pins": {
+      "1": "VM_P",
+      "2": "CLAMP_DRAIN"
+    },
+    "sheet": "clamp",
+    "xy": [
+      243.84,
+      210.82
+    ],
+    "mpn": "CRCW25121K00FKEGHP",
+    "rating": "1.5W at70C / 2W terminal <=105C",
+    "note": "Eight parallel; ~12W bank at38.5V, brief transients only until thermal validation.",
+    "price": 0.45,
+    "uuid": "68ba9cc6-b867-58d7-ab2a-7a190041ff9e",
+    "manufacturer": "Vishay",
+    "mouser": "71-CRCW25121K00FKEGH",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.com/en/ProductDetail/Vishay/CRCW25121K00FKEGHP?qs=FlFvgi4rxBxxON%252BaL1o0tw%3D%3D"
+  },
+  {
+    "ref": "R30",
+    "value": "1k / HP",
+    "stype": "R",
+    "fp": "R_2512_6332Metric",
+    "pins": {
+      "1": "VM_P",
+      "2": "CLAMP_DRAIN"
+    },
+    "sheet": "clamp",
+    "xy": [
+      320.04,
+      210.82
+    ],
+    "mpn": "CRCW25121K00FKEGHP",
+    "rating": "1.5W at70C / 2W terminal <=105C",
+    "note": "Eight parallel; ~12W bank at38.5V, brief transients only until thermal validation.",
+    "price": 0.45,
+    "uuid": "209bfe31-38bb-5d05-b07f-757c35727a18",
+    "manufacturer": "Vishay",
+    "mouser": "71-CRCW25121K00FKEGH",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.com/en/ProductDetail/Vishay/CRCW25121K00FKEGHP?qs=FlFvgi4rxBxxON%252BaL1o0tw%3D%3D"
+  },
+  {
+    "ref": "C21",
+    "value": "270u/63V",
+    "stype": "C",
+    "fp": "CP_Radial_D10.0mm_P5.00mm_H25",
+    "pins": {
+      "1": "VM_P",
+      "2": "SYSTEM_RET"
+    },
+    "sheet": "clamp",
+    "xy": [
+      350.52,
+      63.5
+    ],
+    "mpn": "EEU-FR1J271L",
+    "rating": "20%; D10 x H25 mm; 5 mm pitch; 0.6 mm leads; 1.5 A ripple at 100 kHz / 105 C; 33 mOhm max impedance at 100 kHz / 20 C; 10000 h at 105 C",
+    "note": "Replaces cart-backordered EEU-FR1J221L. Same body, pitch, voltage, ripple and impedance ratings; capacitance rises 22.7%. Check buck startup, loop stability and relay inrush during Rev M verification. Not an identical electrical substitute.",
+    "price": 1.8,
+    "uuid": "3d5cbd9b-a021-5be3-9d1b-c4923c613386",
+    "manufacturer": "Panasonic Industry",
+    "mouser": "667-EEU-FR1J271L",
+    "stock_evidence": "User confirmed: Ships Now",
+    "stock_source": "User confirmation in this conversation",
+    "supplier_url": "https://au.mouser.com/en/ProductDetail/Panasonic-Industry/EEU-FR1J271L?qs=sGAEpiMZZMvwFf0viD3Y3UQZTqF4ErAnkN3c2pq%252BSog%3D",
+    "datasheet": "https://industrial.panasonic.com/ww/products/pt/aluminum-cap-lead/models/EEUFR1J271L"
+  },
+  {
+    "ref": "C22",
+    "value": "100n/100V",
+    "stype": "C",
+    "fp": "C_0603_1608Metric",
+    "pins": {
+      "1": "ISO_5V",
+      "2": "SYSTEM_RET"
+    },
+    "sheet": "clamp",
+    "xy": [
+      180.34,
+      48.26
+    ],
+    "mpn": "GRM188R72A104KA35D",
+    "rating": "X7R, 10%, 0603",
+    "note": "Voltage rating increased from 16 V to 100 V. Same capacitance/package; shares C12 purchasing SKU.",
+    "price": 0.1,
+    "uuid": "ae8c285e-6eee-5cf1-99a0-ce904f50cc00",
+    "manufacturer": "Murata",
+    "mouser": "81-GRM188R72A104KA35",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.com/es/ProductDetail/Murata-Electronics/GRM188R72A104KA35D?qs=P%252BBA3F6RM%2F5aaC9LFKRzYw%3D%3D"
+  },
+  {
+    "ref": "C23",
+    "value": "1n/50V",
+    "stype": "C",
+    "fp": "C_0603_1608Metric",
+    "pins": {
+      "1": "CLAMP_REF",
+      "2": "SYSTEM_RET"
+    },
+    "sheet": "clamp",
+    "xy": [
+      180.34,
+      139.7
+    ],
+    "mpn": "C0603C102J5GACTU",
+    "rating": "C0G, 5%, 0603; 1.6 x 0.8 x 0.8 mm nominal",
+    "note": "Replaces cart-backordered GRM1885C1H102JA01D. Same capacitance, tolerance, dielectric, voltage and 0603 package; retain existing pads.",
+    "price": 0.1,
+    "uuid": "49297096-109e-58e6-adf1-454db8722fa8",
+    "manufacturer": "KEMET",
+    "mouser": "80-C0603C102J5G",
+    "stock_evidence": "User confirmed: Ships Now",
+    "stock_source": "User confirmation in this conversation",
+    "supplier_url": "https://www.mouser.de/de/ProductDetail/KEMET/C0603C102J5GACTU?qs=qG1y%252BaZBm0OW8vYbh%252BA%252Bbw%3D%3D",
+    "datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C0603C102J5GACTU"
+  },
+  {
+    "ref": "C24",
+    "value": "100p/50V",
+    "stype": "C",
+    "fp": "C_0603_1608Metric",
+    "pins": {
+      "1": "CLAMP_SENSE",
+      "2": "SYSTEM_RET"
+    },
+    "sheet": "clamp",
+    "xy": [
+      48.26,
+      154.94
+    ],
+    "mpn": "GRM1885C1H101JA01D",
+    "rating": "C21 10mm diameter 5mm pitch; others ceramic",
+    "note": "",
+    "price": 0.1,
+    "uuid": "28fb78c4-bd87-52e3-be35-7b13129db252",
+    "manufacturer": "Murata Electronics",
+    "mouser": "81-GRM39C101J50",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://nl.mouser.com/ProductDetail/Murata-Electronics/GRM1885C1H101JA01D?qs=H3lwsW1hsDt1I4guwPQ00A%3D%3D"
+  },
+  {
+    "ref": "R31",
+    "value": "4.02k",
+    "stype": "R",
+    "fp": "R_0603_1608Metric",
+    "pins": {
+      "1": "BAT_FB_SERIES",
+      "2": "BAT_FB"
+    },
+    "sheet": "buck",
+    "xy": [
+      111.76,
+      185.42
+    ],
+    "mpn": "RT0603BRD074K02L",
+    "rating": "0.1%, 25 ppm/K, 0603",
+    "note": "Fitted in series with R9: 442k + 4.02k = 446.02k; nominal raw buck setpoint 36.4816 V.",
+    "price": 0,
+    "uuid": "5e2bdbb8-63a3-5464-b11e-4a71abea11f4",
+    "manufacturer": "YAGEO",
+    "mouser": "603-RT0603BRD074K02L",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://au.mouser.com/en/ProductDetail/YAGEO/RT0603BRD074K02L?qs=sGAEpiMZZMvdGkrng054t6XtPyronp4Q7W5csGlaVCI%3D"
+  },
+  {
+    "ref": "R32",
+    "value": "4.02k",
+    "stype": "R",
+    "fp": "R_0603_1608Metric",
+    "pins": {
+      "1": "CLAMP_TOP_SERIES",
+      "2": "CLAMP_SENSE"
+    },
+    "sheet": "clamp",
+    "xy": [
+      111.76,
+      139.7
+    ],
+    "mpn": "RT0603BRD074K02L",
+    "rating": "0.1%, 25 ppm/K, 0603",
+    "note": "Fitted in series with R18: 294k + 4.02k = 298.02k; nominal clamp thresholds 38.503 / 37.509 V.",
+    "price": 0,
+    "uuid": "8ea3a224-14fb-5ce7-aaa1-866931c1a8e3",
+    "manufacturer": "YAGEO",
+    "mouser": "603-RT0603BRD074K02L",
+    "stock_evidence": "Cart: Ships Now",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://au.mouser.com/en/ProductDetail/YAGEO/RT0603BRD074K02L?qs=sGAEpiMZZMvdGkrng054t6XtPyronp4Q7W5csGlaVCI%3D"
+  },
+  {
+    "ref": "U7",
+    "value": "INA237 / 0x40",
+    "stype": "INA237",
+    "fp": "VSSOP-10_3x3mm_P0.5mm",
+    "pins": {
+      "1": "BAT_P_RET",
+      "2": "BAT_P_RET",
+      "3": null,
+      "4": "BAT_SDA",
+      "5": "BAT_SCL",
+      "6": "BAT_SENSE_3V3",
+      "7": "BAT_P_RET",
+      "8": "BAT_VBUS_F",
+      "9": "BAT_INM_F",
+      "10": "BAT_INP_F"
+    },
+    "sheet": "soc",
+    "xy": [
+      91.44,
+      76.2
+    ],
+    "uuid": "f067d733-21cc-529e-9531-159b9b9f7245",
+    "mpn": "INA237AIDGSR",
+    "mouser": "595-INA237AIDGSR",
+    "manufacturer": "Texas Instruments",
+    "rating": "85V bus; 2.7-5.5V supply",
+    "note": "Address 0x40; +/-163.84mV shunt range; 5mOhm shunt; calibration required.",
+    "price": 0,
+    "datasheet": "https://www.ti.com/lit/ds/symlink/ina237.pdf",
+    "stock_evidence": "Mouser indexed in-stock listing; verify cart before order"
+  },
+  {
+    "ref": "U8",
+    "value": "INA237 / 0x41",
+    "stype": "INA237",
+    "fp": "VSSOP-10_3x3mm_P0.5mm",
+    "pins": {
+      "1": "SYSTEM_RET",
+      "2": "SENSE_3V3",
+      "3": null,
+      "4": "SOC_SDA",
+      "5": "SOC_SCL",
+      "6": "SENSE_3V3",
+      "7": "SYSTEM_RET",
+      "8": "CHG_VBUS_F",
+      "9": "CHG_INM_F",
+      "10": "CHG_INP_F"
+    },
+    "sheet": "soc",
+    "xy": [
+      294.64,
+      76.2
+    ],
+    "uuid": "87298289-5bd1-5a27-b5e1-42b8476a01ae",
+    "mpn": "INA237AIDGSR",
+    "mouser": "595-INA237AIDGSR",
+    "manufacturer": "Texas Instruments",
+    "rating": "85V bus; 2.7-5.5V supply",
+    "note": "Address 0x41; +/-163.84mV shunt range; 5mOhm shunt; calibration required.",
+    "price": 0,
+    "datasheet": "https://www.ti.com/lit/ds/symlink/ina237.pdf",
+    "stock_evidence": "Mouser indexed in-stock listing; verify cart before order"
+  },
+  {
+    "ref": "U9",
+    "value": "ISO1640B-Q1",
+    "stype": "ISO1640",
+    "fp": "SOIC-8_3.9x4.9mm_P1.27mm",
+    "pins": {
+      "1": "BAT_SENSE_3V3",
+      "2": "BAT_SDA",
+      "3": "BAT_SCL",
+      "4": "BAT_P_RET",
+      "5": "SYSTEM_RET",
+      "6": "SOC_SCL",
+      "7": "SOC_SDA",
+      "8": "SENSE_3V3"
+    },
+    "sheet": "soc",
+    "xy": [
+      203.2,
+      177.8
+    ],
+    "uuid": "6ac15587-4c52-5a86-bcbf-8a8758164f3e",
+    "mpn": "ISO1640BQDRQ1",
+    "mouser": "595-ISO1640BQDRQ1",
+    "manufacturer": "Texas Instruments",
+    "rating": "SOIC8; independent supplies/returns",
+    "note": "No copper across 3mm projected isolation corridor; no slot.",
+    "price": 0,
+    "datasheet": "https://www.ti.com/lit/ds/symlink/iso1640-q1.pdf",
+    "stock_evidence": "Mouser indexed in-stock listing; verify cart before order"
+  },
+  {
+    "ref": "U10",
+    "value": "TPS7A4001 / 3.31V",
+    "stype": "TPS7A4001",
+    "fp": "TI_DGN0008B_3x3_0p65",
+    "pins": {
+      "1": "BAT_SENSE_3V3",
+      "2": "BAT_SENSE_FB",
+      "3": "BAT_P_RET",
+      "4": "BAT_P_RET",
+      "5": "AUX_IN_P",
+      "6": "BAT_P_RET",
+      "7": "BAT_P_RET",
+      "8": "AUX_IN_P",
+      "9": "BAT_P_RET"
+    },
+    "sheet": "soc",
+    "xy": [
+      91.44,
+      190.5
+    ],
+    "uuid": "41c72d61-f6fa-5a02-969e-e6383f26b6a0",
+    "mpn": "TPS7A4001DGNT",
+    "mouser": "595-TPS7A4001DGNT",
+    "manufacturer": "Texas Instruments",
+    "rating": "100V 50mA LDO; 3.3135V nominal",
+    "note": "Powered after existing F2/D1; count its draw through R33; thermal pad must be soldered.",
+    "price": 0,
+    "datasheet": "https://www.ti.com/lit/ds/symlink/tps7a4001.pdf",
+    "stock_evidence": "Mouser indexed in-stock listing; verify cart before order"
+  },
+  {
+    "ref": "R33",
+    "value": "5m / 2W / 1%",
+    "stype": "R",
+    "fp": "Vishay_WSL2512_5m_6m9",
+    "pins": {
+      "1": "BAT_SENSE_SOURCE",
+      "2": "BAT_FUSED_P"
+    },
+    "sheet": "soc",
+    "xy": [
+      91.44,
+      30.48
+    ],
+    "uuid": "9d65cbc1-c736-521b-a013-13e20006533b",
+    "mpn": "WSL25125L000FEA18",
+    "mouser": "71-WSL25125L000FEA18",
+    "manufacturer": "Vishay",
+    "rating": "5mOhm 2W 1%; not a board-current rating",
+    "note": "Kelvin pickups on inner pad edges; nominal .5W at 10A; existing 3A headers remain the limit.",
+    "price": 1.78,
+    "datasheet": "https://www.vishay.com/docs/31057/wslhigh.pdf",
+    "stock_evidence": "Indexed Mouser listing: 5,014 can ship immediately; retrieved 2026-10-07; cart not checked",
+    "supplier_url": "https://www.mouser.com/en/ProductDetail/Vishay-Dale/WSL25125L000FEA18?qs=ViWNInbc%252BeXPcEEx0d1CiQ%3D%3D"
+  },
+  {
+    "ref": "R34",
+    "value": "5m / 2W / 1%",
+    "stype": "R",
+    "fp": "Vishay_WSL2512_5m_6m9",
+    "pins": {
+      "1": "CHG_SENSE_SOURCE",
+      "2": "CHARGER_P"
+    },
+    "sheet": "soc",
+    "xy": [
+      294.64,
+      30.48
+    ],
+    "uuid": "0adab33a-7a8f-5db3-9cba-32db9f24eb79",
+    "mpn": "WSL25125L000FEA18",
+    "mouser": "71-WSL25125L000FEA18",
+    "manufacturer": "Vishay",
+    "rating": "5mOhm 2W 1%; not a board-current rating",
+    "note": "Kelvin pickups on inner pad edges; nominal .5W at 10A; existing 3A headers remain the limit.",
+    "price": 1.78,
+    "datasheet": "https://www.vishay.com/docs/31057/wslhigh.pdf",
+    "stock_evidence": "Indexed Mouser listing: 5,014 can ship immediately; retrieved 2026-10-07; cart not checked",
+    "supplier_url": "https://www.mouser.com/en/ProductDetail/Vishay-Dale/WSL25125L000FEA18?qs=ViWNInbc%252BeXPcEEx0d1CiQ%3D%3D"
+  },
+  {
+    "ref": "R35",
+    "value": "100R",
+    "stype": "R",
+    "fp": "R_0603_1608Metric",
+    "pins": {
+      "1": "BAT_SENSE_SOURCE",
+      "2": "BAT_INP_F"
+    },
+    "sheet": "soc",
+    "xy": [
+      40.64,
+      55.88
+    ],
+    "mpn": "RC0603FR-07100RL",
+    "rating": "100 ohm, 1%, 0603, 0.1 W",
+    "note": "Rev M SOC sensing support; same stocked part as R21",
+    "price": 0.1,
+    "uuid": "1910befd-5ce0-5e0e-a75d-8666210c349d",
+    "manufacturer": "YAGEO",
+    "mouser": "603-RC0603FR-07100RL",
+    "stock_evidence": "Existing Rev L SKU reused",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.fr/fr/ProductDetail/YAGEO/RC0603FR-07100RL?qs=NEN%2FsE%2FLsvPIwIWKCOS4%2FA%3D%3D"
+  },
+  {
+    "ref": "R36",
+    "value": "100R",
+    "stype": "R",
+    "fp": "R_0603_1608Metric",
+    "pins": {
+      "1": "BAT_FUSED_P",
+      "2": "BAT_INM_F"
+    },
+    "sheet": "soc",
+    "xy": [
+      40.64,
+      91.44
+    ],
+    "mpn": "RC0603FR-07100RL",
+    "rating": "100 ohm, 1%, 0603, 0.1 W",
+    "note": "Rev M SOC sensing support; same stocked part as R21",
+    "price": 0.1,
+    "uuid": "43b70f55-8e0b-5159-b1da-d31d7d5a8aed",
+    "manufacturer": "YAGEO",
+    "mouser": "603-RC0603FR-07100RL",
+    "stock_evidence": "Existing Rev L SKU reused",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.fr/fr/ProductDetail/YAGEO/RC0603FR-07100RL?qs=NEN%2FsE%2FLsvPIwIWKCOS4%2FA%3D%3D"
+  },
+  {
+    "ref": "R37",
+    "value": "100R",
+    "stype": "R",
+    "fp": "R_0603_1608Metric",
+    "pins": {
+      "1": "CHG_SENSE_SOURCE",
+      "2": "CHG_INP_F"
+    },
+    "sheet": "soc",
+    "xy": [
+      243.84,
+      55.88
+    ],
+    "mpn": "RC0603FR-07100RL",
+    "rating": "100 ohm, 1%, 0603, 0.1 W",
+    "note": "Rev M SOC sensing support; same stocked part as R21",
+    "price": 0.1,
+    "uuid": "82837cf2-d535-5fe5-aad2-df154535d2e9",
+    "manufacturer": "YAGEO",
+    "mouser": "603-RC0603FR-07100RL",
+    "stock_evidence": "Existing Rev L SKU reused",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.fr/fr/ProductDetail/YAGEO/RC0603FR-07100RL?qs=NEN%2FsE%2FLsvPIwIWKCOS4%2FA%3D%3D"
+  },
+  {
+    "ref": "R38",
+    "value": "100R",
+    "stype": "R",
+    "fp": "R_0603_1608Metric",
+    "pins": {
+      "1": "CHARGER_P",
+      "2": "CHG_INM_F"
+    },
+    "sheet": "soc",
+    "xy": [
+      243.84,
+      91.44
+    ],
+    "mpn": "RC0603FR-07100RL",
+    "rating": "100 ohm, 1%, 0603, 0.1 W",
+    "note": "Rev M SOC sensing support; same stocked part as R21",
+    "price": 0.1,
+    "uuid": "028fa6e9-16cc-5e49-83be-c53f909cfe1d",
+    "manufacturer": "YAGEO",
+    "mouser": "603-RC0603FR-07100RL",
+    "stock_evidence": "Existing Rev L SKU reused",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.fr/fr/ProductDetail/YAGEO/RC0603FR-07100RL?qs=NEN%2FsE%2FLsvPIwIWKCOS4%2FA%3D%3D"
+  },
+  {
+    "ref": "R39",
+    "value": "100R",
+    "stype": "R",
+    "fp": "R_0603_1608Metric",
+    "pins": {
+      "1": "BAT_FUSED_P",
+      "2": "BAT_VBUS_F"
+    },
+    "sheet": "soc",
+    "xy": [
+      40.64,
+      127
+    ],
+    "mpn": "RC0603FR-07100RL",
+    "rating": "100 ohm, 1%, 0603, 0.1 W",
+    "note": "Rev M SOC sensing support; same stocked part as R21",
+    "price": 0.1,
+    "uuid": "d3485bf8-0c97-5803-8c01-484ba9bd2121",
+    "manufacturer": "YAGEO",
+    "mouser": "603-RC0603FR-07100RL",
+    "stock_evidence": "Existing Rev L SKU reused",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.fr/fr/ProductDetail/YAGEO/RC0603FR-07100RL?qs=NEN%2FsE%2FLsvPIwIWKCOS4%2FA%3D%3D"
+  },
+  {
+    "ref": "R40",
+    "value": "100R",
+    "stype": "R",
+    "fp": "R_0603_1608Metric",
+    "pins": {
+      "1": "CHARGER_P",
+      "2": "CHG_VBUS_F"
+    },
+    "sheet": "soc",
+    "xy": [
+      243.84,
+      127
+    ],
+    "mpn": "RC0603FR-07100RL",
+    "rating": "100 ohm, 1%, 0603, 0.1 W",
+    "note": "Rev M SOC sensing support; same stocked part as R21",
+    "price": 0.1,
+    "uuid": "2ce72fae-98f5-5fec-bcc6-52044e87c551",
+    "manufacturer": "YAGEO",
+    "mouser": "603-RC0603FR-07100RL",
+    "stock_evidence": "Existing Rev L SKU reused",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.fr/fr/ProductDetail/YAGEO/RC0603FR-07100RL?qs=NEN%2FsE%2FLsvPIwIWKCOS4%2FA%3D%3D"
+  },
+  {
+    "ref": "R41",
+    "value": "4.02k",
+    "stype": "R",
+    "fp": "R_0603_1608Metric",
+    "pins": {
+      "1": "BAT_SENSE_3V3",
+      "2": "BAT_SDA"
+    },
+    "sheet": "soc",
+    "xy": [
+      152.4,
+      55.88
+    ],
+    "mpn": "RT0603BRD074K02L",
+    "rating": "0.1%, 25 ppm/K, 0603",
+    "note": "Rev M SOC sensing support; same stocked part as R31",
+    "price": 0,
+    "uuid": "2c1f9a71-d964-5c95-b99b-91da3c989993",
+    "manufacturer": "YAGEO",
+    "mouser": "603-RT0603BRD074K02L",
+    "stock_evidence": "Existing Rev L SKU reused",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://au.mouser.com/en/ProductDetail/YAGEO/RT0603BRD074K02L?qs=sGAEpiMZZMvdGkrng054t6XtPyronp4Q7W5csGlaVCI%3D"
+  },
+  {
+    "ref": "R42",
+    "value": "4.02k",
+    "stype": "R",
+    "fp": "R_0603_1608Metric",
+    "pins": {
+      "1": "BAT_SENSE_3V3",
+      "2": "BAT_SCL"
+    },
+    "sheet": "soc",
+    "xy": [
+      152.4,
+      91.44
+    ],
+    "mpn": "RT0603BRD074K02L",
+    "rating": "0.1%, 25 ppm/K, 0603",
+    "note": "Rev M SOC sensing support; same stocked part as R31",
+    "price": 0,
+    "uuid": "fc9222b5-6967-5407-94b0-aa5c6556a372",
+    "manufacturer": "YAGEO",
+    "mouser": "603-RT0603BRD074K02L",
+    "stock_evidence": "Existing Rev L SKU reused",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://au.mouser.com/en/ProductDetail/YAGEO/RT0603BRD074K02L?qs=sGAEpiMZZMvdGkrng054t6XtPyronp4Q7W5csGlaVCI%3D"
+  },
+  {
+    "ref": "R43",
+    "value": "4.02k",
+    "stype": "R",
+    "fp": "R_0603_1608Metric",
+    "pins": {
+      "1": "SENSE_3V3",
+      "2": "SOC_SDA"
+    },
+    "sheet": "soc",
+    "xy": [
+      355.6,
+      55.88
+    ],
+    "mpn": "RT0603BRD074K02L",
+    "rating": "0.1%, 25 ppm/K, 0603",
+    "note": "Rev M SOC sensing support; same stocked part as R31",
+    "price": 0,
+    "uuid": "cc0b9263-af47-59a0-a227-46130918c0d0",
+    "manufacturer": "YAGEO",
+    "mouser": "603-RT0603BRD074K02L",
+    "stock_evidence": "Existing Rev L SKU reused",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://au.mouser.com/en/ProductDetail/YAGEO/RT0603BRD074K02L?qs=sGAEpiMZZMvdGkrng054t6XtPyronp4Q7W5csGlaVCI%3D"
+  },
+  {
+    "ref": "R44",
+    "value": "4.02k",
+    "stype": "R",
+    "fp": "R_0603_1608Metric",
+    "pins": {
+      "1": "SENSE_3V3",
+      "2": "SOC_SCL"
+    },
+    "sheet": "soc",
+    "xy": [
+      355.6,
+      91.44
+    ],
+    "mpn": "RT0603BRD074K02L",
+    "rating": "0.1%, 25 ppm/K, 0603",
+    "note": "Rev M SOC sensing support; same stocked part as R31",
+    "price": 0,
+    "uuid": "c24c6750-a24e-50f6-a087-f08dbb1d04f3",
+    "manufacturer": "YAGEO",
+    "mouser": "603-RT0603BRD074K02L",
+    "stock_evidence": "Existing Rev L SKU reused",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://au.mouser.com/en/ProductDetail/YAGEO/RT0603BRD074K02L?qs=sGAEpiMZZMvdGkrng054t6XtPyronp4Q7W5csGlaVCI%3D"
+  },
+  {
+    "ref": "R46",
+    "value": "10k",
+    "stype": "R",
+    "fp": "R_0603_1608Metric",
+    "pins": {
+      "1": "BAT_SENSE_FB",
+      "2": "BAT_P_RET"
+    },
+    "sheet": "soc",
+    "xy": [
+      152.4,
+      228.6
+    ],
+    "mpn": "RT0603BRD0710KL",
+    "rating": "0.1% except R17 1%",
+    "note": "Rev M SOC sensing support; same stocked part as R10",
+    "price": 0.12,
+    "uuid": "6d580b62-d88a-5020-8b3c-e5781e5266c1",
+    "manufacturer": "YAGEO",
+    "mouser": "603-RT0603BRD0710KL",
+    "stock_evidence": "Existing Rev L SKU reused",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://br.mouser.com/en/ProductDetail/YAGEO/RT0603BRD0710KL?qs=Br90QIIERxSXuxEMyECqGA%3D%3D"
+  },
+  {
+    "ref": "R45",
+    "value": "18.2k / 1%",
+    "stype": "R",
+    "fp": "R_0603_1608Metric",
+    "pins": {
+      "1": "BAT_SENSE_3V3",
+      "2": "BAT_SENSE_FB"
+    },
+    "sheet": "soc",
+    "xy": [
+      152.4,
+      198.12
+    ],
+    "uuid": "c46556a5-ed22-5bf0-9f86-95ba7e0b9f0b",
+    "mpn": "RT0603FRE0718K2L",
+    "mouser": "603-RT0603FRE0718K2L",
+    "manufacturer": "Yageo",
+    "rating": "18.2 kohm, 1%, 0603, 0.1 W",
+    "note": "Sets LDO to 1.175*(1+18.2/10)=3.3135V.",
+    "price": 0.1,
+    "stock_evidence": "Mouser indexed listing: 14,882 dispatch immediately; retrieved 2026-10-07; cart not checked",
+    "datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_51_RoHS_L_12.pdf"
+  },
+  {
+    "ref": "C25",
+    "value": "100n/100V",
+    "stype": "C",
+    "fp": "C_0603_1608Metric",
+    "pins": {
+      "1": "BAT_SENSE_3V3",
+      "2": "BAT_P_RET"
+    },
+    "sheet": "soc",
+    "xy": [
+      142.24,
+      127
+    ],
+    "mpn": "GRM188R72A104KA35D",
+    "rating": "Verify effective capacitance / ripple current / polarity",
+    "note": "Rev M SOC sensing support; same stocked part as C12",
+    "price": 0.55,
+    "uuid": "6ab74797-07d9-54e3-8ea1-3cc3ec949711",
+    "manufacturer": "Murata Electronics",
+    "mouser": "81-GRM188R72A104KA35",
+    "stock_evidence": "Existing Rev L SKU reused",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.com/es/ProductDetail/Murata-Electronics/GRM188R72A104KA35D?qs=P%252BBA3F6RM%2F5aaC9LFKRzYw%3D%3D"
+  },
+  {
+    "ref": "C26",
+    "value": "100n/100V",
+    "stype": "C",
+    "fp": "C_0603_1608Metric",
+    "pins": {
+      "1": "SENSE_3V3",
+      "2": "SYSTEM_RET"
+    },
+    "sheet": "soc",
+    "xy": [
+      345.44,
+      127
+    ],
+    "mpn": "GRM188R72A104KA35D",
+    "rating": "Verify effective capacitance / ripple current / polarity",
+    "note": "Rev M SOC sensing support; same stocked part as C12",
+    "price": 0.55,
+    "uuid": "d5de93f0-8402-555b-9b8b-c5c6d66d055e",
+    "manufacturer": "Murata Electronics",
+    "mouser": "81-GRM188R72A104KA35",
+    "stock_evidence": "Existing Rev L SKU reused",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.com/es/ProductDetail/Murata-Electronics/GRM188R72A104KA35D?qs=P%252BBA3F6RM%2F5aaC9LFKRzYw%3D%3D"
+  },
+  {
+    "ref": "C27",
+    "value": "100n/100V",
+    "stype": "C",
+    "fp": "C_0603_1608Metric",
+    "pins": {
+      "1": "BAT_SENSE_3V3",
+      "2": "BAT_P_RET"
+    },
+    "sheet": "soc",
+    "xy": [
+      152.4,
+      162.56
+    ],
+    "mpn": "GRM188R72A104KA35D",
+    "rating": "Verify effective capacitance / ripple current / polarity",
+    "note": "Rev M SOC sensing support; same stocked part as C12",
+    "price": 0.55,
+    "uuid": "b54d7d56-6d33-546b-8871-8d1382eccd10",
+    "manufacturer": "Murata Electronics",
+    "mouser": "81-GRM188R72A104KA35",
+    "stock_evidence": "Existing Rev L SKU reused",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.com/es/ProductDetail/Murata-Electronics/GRM188R72A104KA35D?qs=P%252BBA3F6RM%2F5aaC9LFKRzYw%3D%3D"
+  },
+  {
+    "ref": "C28",
+    "value": "100n/100V",
+    "stype": "C",
+    "fp": "C_0603_1608Metric",
+    "pins": {
+      "1": "SENSE_3V3",
+      "2": "SYSTEM_RET"
+    },
+    "sheet": "soc",
+    "xy": [
+      254,
+      162.56
+    ],
+    "mpn": "GRM188R72A104KA35D",
+    "rating": "Verify effective capacitance / ripple current / polarity",
+    "note": "Rev M SOC sensing support; same stocked part as C12",
+    "price": 0.55,
+    "uuid": "8b5f783c-72fb-5396-b976-8ec9bb6bd570",
+    "manufacturer": "Murata Electronics",
+    "mouser": "81-GRM188R72A104KA35",
+    "stock_evidence": "Existing Rev L SKU reused",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.com/es/ProductDetail/Murata-Electronics/GRM188R72A104KA35D?qs=P%252BBA3F6RM%2F5aaC9LFKRzYw%3D%3D"
+  },
+  {
+    "ref": "C29",
+    "value": "4.7u / 100V",
+    "stype": "C",
+    "fp": "TDK_CNC6_1210_Recommended",
+    "pins": {
+      "1": "AUX_IN_P",
+      "2": "BAT_P_RET"
+    },
+    "sheet": "soc",
+    "xy": [
+      30.48,
+      177.8
+    ],
+    "mpn": "CNC6P1X7R2A475K250AE",
+    "rating": "X7R, 10%, 1210; 3.2 x 2.5 x 2.5 mm",
+    "note": "Rev M SOC sensing support; same stocked part as C1",
+    "price": 0.8,
+    "uuid": "bf8c1eee-dbd0-5f33-84dc-b0327b3fc597",
+    "manufacturer": "TDK",
+    "mouser": "810-CNC6P1X7R2A475K2",
+    "stock_evidence": "Existing Rev L SKU reused",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.com/ProductDetail/TDK/CNC6P1X7R2A475K250AE?qs=PzGy0jfpSMslEF4uGpLa7Q%3D%3D"
+  },
+  {
+    "ref": "C30",
+    "value": "10u / 16V",
+    "stype": "C",
+    "fp": "C_0805_2012Metric",
+    "pins": {
+      "1": "BAT_SENSE_3V3",
+      "2": "BAT_P_RET"
+    },
+    "sheet": "soc",
+    "xy": [
+      40.64,
+      228.6
+    ],
+    "mpn": "C2012X5R1C106K085AC",
+    "rating": "X5R, 10%, 0805, 0.85 mm height",
+    "note": "Rev M SOC sensing support; same stocked part as C3",
+    "price": 0.2,
+    "uuid": "1ea985b4-131c-5c6f-a5c7-7fd1ca84a4cf",
+    "manufacturer": "TDK",
+    "mouser": "810-C2012X5R1C106K-2",
+    "stock_evidence": "Existing Rev L SKU reused",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.com/en/ProductDetail/TDK/C2012X5R1C106K085AC?qs=sGAEpiMZZMs7ZEmUmaUL04RYFBjQqIMtFN%2FMKg4reUg%3D"
+  },
+  {
+    "ref": "C31",
+    "value": "10u / 16V",
+    "stype": "C",
+    "fp": "C_0805_2012Metric",
+    "pins": {
+      "1": "BAT_SENSE_3V3",
+      "2": "BAT_P_RET"
+    },
+    "sheet": "soc",
+    "xy": [
+      91.44,
+      238.76
+    ],
+    "mpn": "C2012X5R1C106K085AC",
+    "rating": "X5R, 10%, 0805, 0.85 mm height",
+    "note": "Rev M SOC sensing support; same stocked part as C3",
+    "price": 0.2,
+    "uuid": "ecdd1ee0-40fd-5346-9eb7-d7fed164e97e",
+    "manufacturer": "TDK",
+    "mouser": "810-C2012X5R1C106K-2",
+    "stock_evidence": "Existing Rev L SKU reused",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.com/en/ProductDetail/TDK/C2012X5R1C106K085AC?qs=sGAEpiMZZMs7ZEmUmaUL04RYFBjQqIMtFN%2FMKg4reUg%3D"
+  },
+  {
+    "ref": "C32",
+    "value": "10n / 50V",
+    "stype": "C",
+    "fp": "C_0805_2012Metric",
+    "pins": {
+      "1": "BAT_INP_F",
+      "2": "BAT_INM_F"
+    },
+    "sheet": "soc",
+    "xy": [
+      81.28,
+      127
+    ],
+    "mpn": "C0805C103K5RACTU",
+    "rating": "X7R, 10%, 0805",
+    "note": "Rev M SOC sensing support; same stocked part as C8",
+    "price": 0.05,
+    "uuid": "241617d1-49a5-59b7-9cdd-2da3eb74e48f",
+    "manufacturer": "KEMET",
+    "mouser": "80-C0805C103K5R",
+    "stock_evidence": "Existing Rev L SKU reused",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.co.uk/en/ProductDetail/KEMET/C0805C103K5RACTU?qs=cw4evkOYbeJ17Si5k%2FymvA%3D%3D"
+  },
+  {
+    "ref": "C33",
+    "value": "10n / 50V",
+    "stype": "C",
+    "fp": "C_0805_2012Metric",
+    "pins": {
+      "1": "CHG_INP_F",
+      "2": "CHG_INM_F"
+    },
+    "sheet": "soc",
+    "xy": [
+      284.48,
+      127
+    ],
+    "mpn": "C0805C103K5RACTU",
+    "rating": "X7R, 10%, 0805",
+    "note": "Rev M SOC sensing support; same stocked part as C8",
+    "price": 0.05,
+    "uuid": "a737b10a-618f-52d4-8ba2-f419a96ca341",
+    "manufacturer": "KEMET",
+    "mouser": "80-C0805C103K5R",
+    "stock_evidence": "Existing Rev L SKU reused",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.co.uk/en/ProductDetail/KEMET/C0805C103K5RACTU?qs=cw4evkOYbeJ17Si5k%2FymvA%3D%3D"
+  },
+  {
+    "ref": "C34",
+    "value": "100n / 100V",
+    "stype": "C",
+    "fp": "C_0805_2012Metric",
+    "pins": {
+      "1": "BAT_VBUS_F",
+      "2": "BAT_P_RET"
+    },
+    "sheet": "soc",
+    "xy": [
+      111.76,
+      127
+    ],
+    "mpn": "C2012X7R2A104K125AA",
+    "rating": "X7R, 10%, 0805",
+    "note": "Rev M SOC sensing support; same stocked part as C2",
+    "price": 0.15,
+    "uuid": "d96cb214-a52a-5ca0-b45a-875272a7d1b2",
+    "manufacturer": "TDK",
+    "mouser": "810-C2012X7R2A104K",
+    "stock_evidence": "Existing Rev L SKU reused",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.com/en/ProductDetail/TDK/C2012X7R2A104K125AA?qs=NRhsANhppD9J0ZsT2%2Fo%2F7Q%3D%3D"
+  },
+  {
+    "ref": "C35",
+    "value": "100n / 100V",
+    "stype": "C",
+    "fp": "C_0805_2012Metric",
+    "pins": {
+      "1": "CHG_VBUS_F",
+      "2": "SYSTEM_RET"
+    },
+    "sheet": "soc",
+    "xy": [
+      314.96,
+      127
+    ],
+    "mpn": "C2012X7R2A104K125AA",
+    "rating": "X7R, 10%, 0805",
+    "note": "Rev M SOC sensing support; same stocked part as C2",
+    "price": 0.15,
+    "uuid": "3557e156-c1ee-56c1-9ac6-e35485f18ad1",
+    "manufacturer": "TDK",
+    "mouser": "810-C2012X7R2A104K",
+    "stock_evidence": "Existing Rev L SKU reused",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.com/en/ProductDetail/TDK/C2012X7R2A104K125AA?qs=NRhsANhppD9J0ZsT2%2Fo%2F7Q%3D%3D"
+  },
+  {
+    "ref": "J12",
+    "value": "SOC SDA / SCL",
+    "stype": "CONN",
+    "fp": "PinHeader_1x02_P2.54mm_Vertical",
+    "pins": {
+      "1": "SOC_SDA",
+      "2": "SOC_SCL"
+    },
+    "sheet": "soc",
+    "xy": [
+      304.8,
+      177.8
+    ],
+    "mpn": "M20-9990245",
+    "rating": "3A header / LV signals",
+    "note": "Rev M SOC sensing support; same stocked part as J11",
+    "price": 0.25,
+    "uuid": "e2b6bb9f-47a2-57f6-9448-4f71ffab5d4e",
+    "manufacturer": "Harwin",
+    "mouser": "855-M20-9990245",
+    "stock_evidence": "Existing Rev L SKU reused",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.com/en/ProductDetail/Harwin/M20-9990245?qs=Jph8NoUxIfUDXEB%252Bi9kJRA%3D%3D"
+  },
+  {
+    "ref": "U11",
+    "value": "TLV75533 / LOCAL 3V3",
+    "stype": "TLV75533",
+    "fp": "SOT-23-5",
+    "pins": {
+      "1": "ISO_5V",
+      "2": "SYSTEM_RET",
+      "3": "ISO_5V",
+      "4": null,
+      "5": "SENSE_3V3"
+    },
+    "sheet": "soc",
+    "xy": [
+      345.44,
+      200.66
+    ],
+    "uuid": "57535c1f-1d2f-4534-a645-1b16892ac725",
+    "mpn": "TLV75533PDBVR",
+    "mouser": "595-TLV75533PDBVR",
+    "manufacturer": "Texas Instruments",
+    "rating": "3.3 V fixed LDO; 1.45-5.5 V input; 500 mA IC rating",
+    "note": "Internal sensing supply only, from ISO_5V / SYSTEM_RET. EN tied to IN; no external 3.3 V supply connection.",
+    "price": 0.45,
+    "datasheet": "https://www.ti.com/lit/ds/symlink/tlv755p.pdf",
+    "stock_evidence": "Mouser indexed regional listing: 79,173 in stock; retrieved 2026-10-07, index crawled about 3 weeks earlier; live cart not verified",
+    "supplier_url": "https://www.mouser.com/en/ProductDetail/Texas-Instruments/TLV75533PDBVR?qs=55YtniHzbhAKEwqeO2xJXQ%3D%3D"
+  },
+  {
+    "ref": "C36",
+    "value": "10u / 16V",
+    "stype": "C",
+    "fp": "C_0805_2012Metric",
+    "pins": {
+      "1": "ISO_5V",
+      "2": "SYSTEM_RET"
+    },
+    "sheet": "soc",
+    "xy": [
+      284.48,
+      220.98
+    ],
+    "mpn": "C2012X5R1C106K085AC",
+    "rating": "X5R, 10%, 0805, 0.85 mm height",
+    "note": "Rev N local 3.3 V LDO bypass; same selected 10 uF / 16 V SKU as C3. Verify effective capacitance remains above 0.47 uF.",
+    "price": 0.2,
+    "uuid": "68cb513a-8e0b-44e2-a652-dea604390564",
+    "manufacturer": "TDK",
+    "mouser": "810-C2012X5R1C106K-2",
+    "stock_evidence": "Reuses prior user-confirmed Ships Now SKU; increased quantity not reserved.",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.com/en/ProductDetail/TDK/C2012X5R1C106K085AC?qs=sGAEpiMZZMs7ZEmUmaUL04RYFBjQqIMtFN%2FMKg4reUg%3D"
+  },
+  {
+    "ref": "C37",
+    "value": "10u / 16V",
+    "stype": "C",
+    "fp": "C_0805_2012Metric",
+    "pins": {
+      "1": "SENSE_3V3",
+      "2": "SYSTEM_RET"
+    },
+    "sheet": "soc",
+    "xy": [
+      381,
+      220.98
+    ],
+    "mpn": "C2012X5R1C106K085AC",
+    "rating": "X5R, 10%, 0805, 0.85 mm height",
+    "note": "Rev N local 3.3 V LDO bypass; same selected 10 uF / 16 V SKU as C3. Verify effective capacitance remains above 0.47 uF.",
+    "price": 0.2,
+    "uuid": "02fa4362-56ac-42e6-a5e6-17e114e5041b",
+    "manufacturer": "TDK",
+    "mouser": "810-C2012X5R1C106K-2",
+    "stock_evidence": "Reuses prior user-confirmed Ships Now SKU; increased quantity not reserved.",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.com/en/ProductDetail/TDK/C2012X5R1C106K085AC?qs=sGAEpiMZZMs7ZEmUmaUL04RYFBjQqIMtFN%2FMKg4reUg%3D"
+  },
+  {
+    "ref": "J14",
+    "value": "12V RELAY PASS-THROUGH",
+    "stype": "CONN",
+    "fp": "PinHeader_1x02_P2.54mm_Vertical",
+    "pins": {
+      "1": "EXT_12V",
+      "2": "COIL_RET"
+    },
+    "sheet": "power",
+    "xy": [
+      30.48,
+      223.52
+    ],
+    "mpn": "M20-9990245",
+    "rating": "3A header / LV signals",
+    "note": "Direct parallel connection to J5 before D3. Pin 1 EXT_12V, pin 2 COIL_RET. One external switched 12 V source powers both boards. Not a second independent supply input. Connect to motor J11.1 Relay+ / J11.2 Relay-.",
+    "price": 0.25,
+    "uuid": "d2851cd2-0e39-4c7b-a58d-74e5f4934dfc",
+    "manufacturer": "Harwin",
+    "mouser": "855-M20-9990245",
+    "stock_evidence": "Same previously cart-confirmed Harwin header; one extra piece in Rev O; current inventory not rechecked.",
+    "stock_source": "C:/Users/abhay/.codex/attachments/1a0f7776-3c3a-4267-81bb-517a0df4ef60/Pasted text.txt",
+    "supplier_url": "https://www.mouser.com/en/ProductDetail/Harwin/M20-9990245?qs=Jph8NoUxIfUDXEB%252Bi9kJRA%3D%3D"
+  }
+]

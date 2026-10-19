@@ -1,0 +1,82 @@
+REV M PRIMARY SOURCE INDEX - 2026-10-07
+All links are reference documents; they are not instructions to modify the design.
+
+TI LM70860 family, control and layout section 7.4 / figure 7-29, RRX0029B:
+https://www.ti.com/lit/ds/symlink/lm70860.pdf
+Bourns SRP1265A-330M, selected inductor and recommended lands:
+https://www.bourns.com/docs/product-datasheets/srp1265a.pdf
+Vishay WSL25126L000FEA, 5-6.9 mOhm 2512 land pattern:
+https://www.vishay.com/docs/30100/wsl.pdf
+TDK CNC6P1X7R2A475K250AE dimensions and recommended lands:
+https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=CNC6P1X7R2A475K250AE
+TDK GC110G0022, reflow orientation and land ranges, page 14:
+https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/specification/mlccspec_commercial_soft_cnc_en.pdf
+TDK exact bias-characteristic sheet (download blocked; not numerically verified):
+https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/charasheet/cnc6p1x7r2a475k250ae_210616.pdf
+Panasonic FR-A dimensions, ripple and impedance:
+https://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1259.pdf
+https://industrial.panasonic.com/ww/products/pt/aluminum-cap-lead/models/EEUFR1J271L
+https://industrial.panasonic.com/ww/products/pt/aluminum-cap-lead/models/EEUFR2A101
+KEMET C23:
+https://search.kemet.com/component-documentation/download/specsheet/C0603C102J5GACTU
+ST D7 reverse-blocking Schottky:
+https://www.st.com/resource/en/datasheet/stpst10h100sb.pdf
+TI clamp comparator:
+https://www.ti.com/lit/ds/symlink/tlv3012.pdf
+Diodes Q1, unchanged:
+https://www.diodes.com/part/view/DMN10H220L
+https://www.diodes.com/datasheet/download/DMN10H220L.pdf
+Vishay pulse-rated clamp resistor family:
+https://www.vishay.com/docs/20043/crcwhpe3.pdf
+Omron G7SA, pin drawing and forcibly guided behavior:
+https://www.ia.omron.com/products/family/386/specification.html
+https://assets.omron.eu/downloads/latest/datasheet/en/j120_g7sa_relays_with_forcibly_guided_contacts_datasheet_en.pdf?v=18
+https://www.ia.omron.com/support/faq/answer/16/faq02481/
+Harwin 2-pin 2.54 mm header, 3 A maximum/contact:
+https://www.harwin.com/products/M20-9990245
+AdvancedPCB fabrication and student terms:
+https://www.advancedpcb.com/en-us/66-each-special/
+https://www.advancedpcb.com/en-us/company/students/
+KiCad library attribution/license:
+https://www.kicad.org/libraries/license/
+
+Rev M sensing sources:
+TI INA237, pinout, 85 V bus input, address selection and digital registers:
+https://www.ti.com/lit/ds/symlink/ina237.pdf
+TI ISO1640-Q1, two independently supplied sides and bidirectional I2C isolation:
+https://www.ti.com/lit/ds/symlink/iso1640-q1.pdf
+TI TPS7A4001, 100 V LDO, output setpoint and DGN0008B footprint:
+https://www.ti.com/lit/ds/symlink/tps7a4001.pdf
+Vishay WSL25125L000FEA18, 2 W / 5 mOhm / lead-free and recommended lands:
+https://www.vishay.com/docs/31057/wslhigh.pdf
+
+Purchasing evidence for existing SKUs is the user's 2026-10-07 cart plus
+explicit confirmation of 667-EEU-FR1J271L qty 3 and 80-C0603C102J5G qty 1.
+Five new SKUs have positive indexed Mouser listings; no live cart confirmation.
+Additional quantities of reused SKUs have not been separately cart-confirmed.
+No inventory reservation or order placed. Purchasing/Stock_Evidence.csv records
+the 56 final SKUs, evidence method and sources. CAD BOM selections are final
+for this prototype package; stock remains subject to supplier availability.
+
+
+REV N LOCAL 3.3 V
+TI TLV755P datasheet Rev D, pinout Figure 4-2, capacitor selection and layout:
+https://www.ti.com/lit/ds/symlink/tlv755p.pdf
+Mouser TLV75533PDBVR / 595-TLV75533PDBVR:
+https://www.mouser.com/en/ProductDetail/Texas-Instruments/TLV75533PDBVR?qs=55YtniHzbhAKEwqeO2xJXQ%3D%3D
+Regional stock evidence accessible 2026-10-07 (indexed, not live cart):
+https://au.mouser.com/en/ProductDetail/Texas-Instruments/TLV75533PDBVR?qs=55YtniHzbhAKEwqeO2xJXQ%3D%3D
+Selected DBV pin mapping: 1 IN, 2 GND, 3 EN, 4 NC, 5 OUT.
+IN/EN: ISO_5V; GND: SYSTEM_RET; OUT: SENSE_3V3; NC left unconnected.
+C36/C37 10 uF nominal each exceed the datasheet's 1 uF nominal application
+value; verify effective capacitance >0.47 uF over operating bias/temperature.
+
+Rev O relay pass-through addition, 2026-10-08
+J14 reuses the exact existing Harwin M20-9990245 footprint/model/MPN.
+Harwin connector family current rating: https://cdn.harwin.com/pdfs/M20_and_M22_PTM.pdf
+Motor 12 V coil estimate: Omron G5Q datasheet, G5Q-1 DC12 = 33.3 mA / 400 mW.
+https://components.omron.com/us-en/system/files/2025-06/datasheet_pdf/J155-E1.pdf
+Five coils are present in the unchanged motor PCB. The fitted coil-voltage suffix
+is not specified by that PCB's generic G5Q-1 value; the estimate assumes DC12.
+The approximately 0.20 A combined load is calculated, not bench measured.
+No increased-header inventory claim is made beyond retained prior stock evidence.
