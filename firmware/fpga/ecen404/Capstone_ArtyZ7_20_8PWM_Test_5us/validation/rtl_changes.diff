@@ -1,0 +1,26 @@
+--- original/rtl/dab_mc_controller.v
++++ 5us/rtl/dab_mc_controller.v
+@@ -2,9 +2,9 @@
+ // Primary-side fixed-pattern demonstration controller, not a closed-loop charger.
+ // No current sensor. Vg polarity selects Table I sequences; no measured IL exists.
+ module dab_mc_controller #(
+-    parameter integer PWM_PERIOD_CYCLES = 1000,
+-    parameter integer ACTIVE_CYCLES = 250,
+-    parameter integer STEP_DELAY_CYCLES = 10,
++    parameter integer PWM_PERIOD_CYCLES = 10000,
++    parameter integer ACTIVE_CYCLES = 2500,
++    parameter integer STEP_DELAY_CYCLES = 500,
+     parameter integer ADC_ZERO_CODE = 2256,
+     parameter integer ADC_HYSTERESIS = 8,
+     parameter integer QUALIFY_SAMPLES = 3,
+--- original/rtl/commutation_cell.v
++++ 5us/rtl/commutation_cell.v
+@@ -25,7 +25,7 @@
+ 
+ `timescale 1ns/1ps
+ module commutation_cell #(
+-    parameter STEP_DELAY_CYCLES = 10   // 10 x 10 ns = 100 ns per step
++    parameter STEP_DELAY_CYCLES = 500   // 500 x 10 ns = 5 us per step
+ )(
+     input  wire clk,
+     input  wire reset,       // active-high synchronous reset
