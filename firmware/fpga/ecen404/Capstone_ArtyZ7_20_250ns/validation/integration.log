@@ -1,0 +1,36 @@
+#-----------------------------------------------------------
+# xsim v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Wed Sep 23 12:24:12 2026
+# Process ID         : 34116
+# Current directory  : C:/Users/mrric/Documents/Codex/2026-09-12/oka/outputs/Capstone_ArtyZ7_20_250ns/build_xsim
+# Command line       : xsim.exe -log arty_sim.log -mode tcl -source {xsim.dir/arty_sim/xsim_script.tcl}
+# Log file           : C:/Users/mrric/Documents/Codex/2026-09-12/oka/outputs/Capstone_ArtyZ7_20_250ns/build_xsim/arty_sim.log
+# Journal file       : C:/Users/mrric/Documents/Codex/2026-09-12/oka/outputs/Capstone_ArtyZ7_20_250ns/build_xsim\xsim.jou
+# Running On         : RG
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : AMD Ryzen 9 8945HX with Radeon Graphics        
+# CPU Frequency      : 2495 MHz
+# CPU Physical cores : 16
+# CPU Logical cores  : 32
+# Host memory        : 16962 MB
+# Swap memory        : 19327 MB
+# Total Virtual      : 36289 MB
+# Available Virtual  : 5747 MB
+#-----------------------------------------------------------
+source xsim.dir/arty_sim/xsim_script.tcl
+# xsim {arty_sim} -autoloadwcfg -tclbatch {../scripts/standalone_waves.tcl}
+Time resolution is 1 ps
+source ../scripts/standalone_waves.tcl
+## add_wave /arty_z7_tb/dut/vg_pol /arty_z7_tb/dut/adc_raw
+## add_wave /arty_z7_tb/dut/pwm_a /arty_z7_tb/dut/pwm_b
+## add_wave /arty_z7_tb/gate_en /arty_z7_tb/dut/fault_latched
+## add_wave /arty_z7_tb/sa1 /arty_z7_tb/sa2 /arty_z7_tb/sb1 /arty_z7_tb/sb2
+## add_wave /arty_z7_tb/sc1 /arty_z7_tb/sc2 /arty_z7_tb/sd1 /arty_z7_tb/sd2
+## run all
+PASS: Arty clock/XADC integration, positive/negative 250 ns sequences, 100 kHz PWM, arming, stop, reset, ADC timeout/rail faults. Samples=        157 periods=         12
+$finish called at time : 430 us : File "C:/Users/mrric/Documents/Codex/2026-09-12/oka/outputs/Capstone_ArtyZ7_20_250ns/sim/arty_z7_tb.sv" Line 71
+INFO: [Common 17-206] Exiting xsim at Wed Sep 23 12:24:15 2026...

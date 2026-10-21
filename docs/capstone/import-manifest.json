@@ -1,0 +1,2840 @@
+[
+  {
+    "source": "Capstone PCB 403.kicad_pro",
+    "destination": "hardware/capstone/project-settings/Capstone PCB 403.kicad_pro",
+    "sha256": "987ba705ef9d46913fe294e74ecbd183a8967d79e248f494cf664e07ae76ddc8",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone PCB 404 Revised.kicad_pro",
+    "destination": "hardware/capstone/project-settings/Capstone PCB 404 Revised.kicad_pro",
+    "sha256": "ba944fb28f2ebf5c6f2854cd6280ff0aeeafb245bede4739477f4b5284e5221d",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.cache/wt/project.wpc",
+    "destination": "",
+    "sha256": "e088bfa7eb56112d358042d1de394ddde74fe2d040d49408c18410f570a45a11",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.cache/wt/synthesis.wdf",
+    "destination": "",
+    "sha256": "42e8a78e42f5ee1ff4fa61d5dabafeb06a44e7e1d5b03ec50b0e78d65795e986",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.cache/wt/synthesis_details.wdf",
+    "destination": "",
+    "sha256": "c2433e37a27d83f181dafd22c54777c16a515755dc60d98ffb0152c8353f507b",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.cache/wt/webtalk_pa.xml",
+    "destination": "",
+    "sha256": "2a33b1a095454549c42b7d35cbbed140ffcb85cc5bc7dce2d425ba39b8ef98e4",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/mref/matrix_converter_pwm/component.xml",
+    "destination": "",
+    "sha256": "103b4c7f2304c5b2950f91cbe0ac3dcc5a26405aa43d70733d76616022a7d8e9",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/mref/matrix_converter_pwm/xgui/matrix_converter_pwm_v1_0.tcl",
+    "destination": "",
+    "sha256": "e0725b60cdc4cd625ee059e557ee3f5569fcd085edf601849e69e4d438080d96",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/hdl/system_wrapper.v",
+    "destination": "firmware/fpga/ecen403/DEMO v1.gen/sources_1/bd/system/hdl/system_wrapper.v",
+    "sha256": "5bf4cab9dcf1800698f9b9dc1b522f089e5122f2d9b14e6f90caf43d2ad02b82",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/hw_handoff/system.hwh",
+    "destination": "",
+    "sha256": "9a41dd04568f8e367955dd580f19c9861886c3401c4381d58e372a7808bb996b",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/ip/system_duty_const_0/sim/system_duty_const_0.cpp",
+    "destination": "",
+    "sha256": "a7704fc5e1c19e8cf090e4631d8eacf0394036047bd1e5d45ec48a42364e08de",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/ip/system_duty_const_0/sim/system_duty_const_0.h",
+    "destination": "",
+    "sha256": "f995e792a9b78db0b99c0706bb745c9e95a19ebefaf94a5fae674a362c607b25",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/ip/system_duty_const_0/sim/system_duty_const_0.v",
+    "destination": "",
+    "sha256": "f0b70e114ca9590a41ba92acae89815ce82be610da64b51ec200d4d30a67e4c6",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/ip/system_duty_const_0/sim/system_duty_const_0_stub.sv",
+    "destination": "",
+    "sha256": "11e6a1a130eb85ccf5f45ef1ea65b1112a5a969f6e8b49365e5cf819a2329487",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/ip/system_duty_const_0/sim/xlconstant_v1_1_10.h",
+    "destination": "",
+    "sha256": "404c78d87b435b522ccb10eaea67159ab95713e590dc14e37d3493ab72407dd7",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/ip/system_duty_const_0/synth/system_duty_const_0.v",
+    "destination": "",
+    "sha256": "626bfe3ba07d77d442b81a172d0e9c8b7c26d32d05ed6210c7603375530b3089",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/ip/system_duty_const_0/system_duty_const_0.xml",
+    "destination": "",
+    "sha256": "53b5c264e93f010fc7058f54ec2c6a27ed76154e4143871b61b53d3647890f8a",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/ip/system_matrix_converter_pwm_0_0/sim/system_matrix_converter_pwm_0_0.v",
+    "destination": "",
+    "sha256": "95f04d6cdf4f9add68367de8a5742710f1b48ca8899d58d69ae8b20a52fa48a3",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/ip/system_matrix_converter_pwm_0_0/synth/system_matrix_converter_pwm_0_0.v",
+    "destination": "",
+    "sha256": "df1cd340fc0ae38ee2ae93e1b9882c7cd0b876538265e8dfed121022f1aa0eff",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/ip/system_matrix_converter_pwm_0_0/system_matrix_converter_pwm_0_0.dcp",
+    "destination": "",
+    "sha256": "2a180309a14e81c5e28d9786a1451d7cdd042a271ff037e31d7fb2d3cc0e115d",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/ip/system_matrix_converter_pwm_0_0/system_matrix_converter_pwm_0_0.xml",
+    "destination": "",
+    "sha256": "f3930cddb2ed1fbc57b24b4c1f73513a5b76469ad9a516f1dd42c9469cc7fced",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/ip/system_matrix_converter_pwm_0_0/system_matrix_converter_pwm_0_0_sim_netlist.v",
+    "destination": "",
+    "sha256": "9ecea964c82b7b3ac6f47543163f72883218625a0d18e1f2c52b9d420a69c4e2",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/ip/system_matrix_converter_pwm_0_0/system_matrix_converter_pwm_0_0_sim_netlist.vhdl",
+    "destination": "",
+    "sha256": "f0b7eeb476079ccb07edeb36350e68847a3f94c26b79302ac268614382397f46",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/ip/system_matrix_converter_pwm_0_0/system_matrix_converter_pwm_0_0_stub.v",
+    "destination": "",
+    "sha256": "c6d42d4dddf626e2f07e6f60ff0f315d1e5b8a2e39fa64c85a662e82cdfaa063",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/ip/system_matrix_converter_pwm_0_0/system_matrix_converter_pwm_0_0_stub.vhdl",
+    "destination": "",
+    "sha256": "dab72540299226d8c9277af1a64122803f981e5a1b26c5924d2c5b8766d01681",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v",
+    "destination": "",
+    "sha256": "dd6246285ff8b6c9c85fe82cd4f31be017cb3b9d1c50ebd35753522b2d9137a7",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/ip/system_processing_system7_0_0/hdl/verilog/system_processing_system7_0_0.hwdef",
+    "destination": "",
+    "sha256": "c26f1675f98cf9357a4f2e7b80deb679b47913a92f1843443fbcd1bfbd7556c3",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/ip/system_processing_system7_0_0/ps7_init.c",
+    "destination": "",
+    "sha256": "341f6bcf428597840508c3b2b4e7b6fef87bd2dafcca1c524ed9a80ad05721c6",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/ip/system_processing_system7_0_0/ps7_init.h",
+    "destination": "",
+    "sha256": "97ee088ee40156841d97947e415dab882553fae955e397368acc297f16380e5e",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/ip/system_processing_system7_0_0/ps7_init.html",
+    "destination": "",
+    "sha256": "7a82078219b8b4a07bbc2ba38b882482b0497a51195e103d72419a3ecbbb70e2",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/ip/system_processing_system7_0_0/ps7_init.tcl",
+    "destination": "",
+    "sha256": "201e974807d65371f57914804803fbeff5f7cf964d129d42e576945e205bdce5",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/ip/system_processing_system7_0_0/ps7_init_gpl.c",
+    "destination": "",
+    "sha256": "f389e880009d4d6dab3adf0494d367b4f517287dec0eb60e7a1b927c515ff096",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/ip/system_processing_system7_0_0/ps7_init_gpl.h",
+    "destination": "",
+    "sha256": "aae85b243577e310de525a01f1202b12bfefb85718381e106b2c52c58466b953",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/ip/system_processing_system7_0_0/ps7_parameters.xml",
+    "destination": "",
+    "sha256": "6c0f6a6584d7f8959971f59650c5bcc0754656ce21fbd81161045b0541854088",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/ip/system_processing_system7_0_0/sim/libps7.dll",
+    "destination": "",
+    "sha256": "2eaf2f6216bffd8c3290601c480f03f7b848aee16d1b5a3d2b69a19e9de9acf8",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/ip/system_processing_system7_0_0/sim/libps7.so",
+    "destination": "",
+    "sha256": "2eaf2f6216bffd8c3290601c480f03f7b848aee16d1b5a3d2b69a19e9de9acf8",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/ip/system_processing_system7_0_0/sim/libremoteport.dll",
+    "destination": "",
+    "sha256": "2eaf2f6216bffd8c3290601c480f03f7b848aee16d1b5a3d2b69a19e9de9acf8",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/ip/system_processing_system7_0_0/sim/libremoteport.so",
+    "destination": "",
+    "sha256": "2eaf2f6216bffd8c3290601c480f03f7b848aee16d1b5a3d2b69a19e9de9acf8",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/ip/system_processing_system7_0_0/sim/system_processing_system7_0_0.cpp",
+    "destination": "",
+    "sha256": "c6962829d56f8e8e6d8befdc92c9ed7e10bbc17bd6ea616c29e0f3a90583cdc4",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/ip/system_processing_system7_0_0/sim/system_processing_system7_0_0.h",
+    "destination": "",
+    "sha256": "301f20dcaff09a4682b06c814f0bb937a7340ae98d03608b39c6be1b57bdc302",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/ip/system_processing_system7_0_0/sim/system_processing_system7_0_0.sv",
+    "destination": "",
+    "sha256": "1497d181c91df1eaab10cab61b2cf9b635db087e50b95b1b6cc183be34dd0d1b",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/ip/system_processing_system7_0_0/sim/system_processing_system7_0_0.v",
+    "destination": "",
+    "sha256": "797aac713b5b726c220dcdeb10b8fdddb8921d8969f61866a7f0e21530038e3a",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/ip/system_processing_system7_0_0/sim/system_processing_system7_0_0_sc.cpp",
+    "destination": "",
+    "sha256": "76cbbbcc03bced6eb702d718530528d4d8148f03f4cb112962189227f2cc527e",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/ip/system_processing_system7_0_0/sim/system_processing_system7_0_0_sc.h",
+    "destination": "",
+    "sha256": "1c5b5801819fb10c029e503f68a5aecbf5acd72c402b8b693b4586e9b5224882",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/ip/system_processing_system7_0_0/sim/system_processing_system7_0_0_stub.sv",
+    "destination": "",
+    "sha256": "b8dbe29fdb093cc56cc45922927e77e7effdbca5af58bcc9730ba5deae412bac",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/ip/system_processing_system7_0_0/sim_tlm/b_transport_converter.h",
+    "destination": "",
+    "sha256": "c567943eba560bd7cd37578df9bf83c79e5f76c74e7fe7bb0c7d1b71cb5e64f1",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/ip/system_processing_system7_0_0/sim_tlm/processing_system7_v5_5_tlm.cpp",
+    "destination": "",
+    "sha256": "1b834e950a2cdbd2dd755ba7741abca0d3eb58f4cd737a3cdd93b88a2287f890",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/ip/system_processing_system7_0_0/sim_tlm/processing_system7_v5_5_tlm.h",
+    "destination": "",
+    "sha256": "36e6333b874b7eeb78ea3b0c6f092582fac1f8602b3c2ad08956c097a5fa6c73",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/ip/system_processing_system7_0_0/sim_tlm/xilinx-zynq.cc",
+    "destination": "",
+    "sha256": "e091ee1f3546d4c31f51fe061fe0ba27be711ed15b372c9699fd8ba99fe48d38",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/ip/system_processing_system7_0_0/sim_tlm/xilinx-zynq.h",
+    "destination": "",
+    "sha256": "939fb576f890b5f7b9298a01405f91877d09f6b503d45ba2680d0d03e61a5ebe",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/ip/system_processing_system7_0_0/synth/system_processing_system7_0_0.v",
+    "destination": "",
+    "sha256": "f395082a0aad314ed14babd6415d7ec45d5dacbc0fd8d963966808648043b20d",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0.dcp",
+    "destination": "",
+    "sha256": "24e1a7a36818b1939f608e9476c356ca12e9805370bbffce2524b2c5f60dd663",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0.xdc",
+    "destination": "",
+    "sha256": "d65778ac6f2c8724b7c4cc89fa1c2e83ccb82733721d6d69685c10117c0c4f0b",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0.xml",
+    "destination": "",
+    "sha256": "88be3dddb37ba09c39ab8ecf0b0d686ec5b4e6613ed9577631b9c0b607223a33",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0_sim_netlist.v",
+    "destination": "",
+    "sha256": "277d7e633997ff5fc9ef47b6f6aa09732f39abc79a2319e3a6b0121c65d67372",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0_sim_netlist.vhdl",
+    "destination": "",
+    "sha256": "7a4c5369b5e22536180db8ceea4a5428b3fefa1ca0c7674d215748676b29f037",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0_stub.v",
+    "destination": "",
+    "sha256": "8aaab617560f36e28c6a2bd6a40e2f15834ea1e324017fe8f30f2085a86a79c8",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0_stub.vhdl",
+    "destination": "",
+    "sha256": "086735f3811d6a494301b1e713ba50433dcea608710f37d7ded9eea1579a6ea9",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/ipshared/4b52/hdl/verilog/processing_system7_v5_5_atc.v",
+    "destination": "",
+    "sha256": "811c4dfe038ce29f2fc6cdac9d112b4fceebca9a24c10dbe8169b7bf32d2f117",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/ipshared/4b52/hdl/verilog/processing_system7_v5_5_aw_atc.v",
+    "destination": "",
+    "sha256": "e15bca46b8cb0d6facb8e52801abc8d199c07e1b5402ced4bf3a949f15bea078",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/ipshared/4b52/hdl/verilog/processing_system7_v5_5_b_atc.v",
+    "destination": "",
+    "sha256": "f68d9832de2690f4a4e44f7e19856aaad8e8336cd6f34e976d5fc7e24d168d95",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/ipshared/4b52/hdl/verilog/processing_system7_v5_5_trace_buffer.v",
+    "destination": "",
+    "sha256": "96f6ee6b2d1bbd615a03b0dd70ffcf251f9d3b20495b97ef5e4f32885035b53e",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/ipshared/4b52/hdl/verilog/processing_system7_v5_5_w_atc.v",
+    "destination": "",
+    "sha256": "5ec81cabce1402912555bd56f15ef2566eb34d7fed26e58e4655eb2839fd3c3e",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/ipshared/9a25/hdl/processing_system7_vip_v1_0_24_apis.v",
+    "destination": "",
+    "sha256": "aef1a512b3851c671c9ca59de10ffb57e1845b998e515dade34a7363571ec530",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/ipshared/9a25/hdl/processing_system7_vip_v1_0_24_axi_acp.v",
+    "destination": "",
+    "sha256": "82f576f584285d55668630030b8eebadc697e0a2b3e94141ece948653b5bb1c9",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/ipshared/9a25/hdl/processing_system7_vip_v1_0_24_axi_gp.v",
+    "destination": "",
+    "sha256": "240d5531f551c675e52ec92831b02a31b02a5d815a13de8fb318fa65f755f1a9",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/ipshared/9a25/hdl/processing_system7_vip_v1_0_24_axi_hp.v",
+    "destination": "",
+    "sha256": "96c0ffdf7cc25c31c061be09c3c802c75597484245d31562a36e7f3da0ba79a5",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/ipshared/9a25/hdl/processing_system7_vip_v1_0_24_local_params.v",
+    "destination": "",
+    "sha256": "4b4d56baef55bead4c32ec8094ce8d705e94be53d99d043d69f5c24f355131c6",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/ipshared/9a25/hdl/processing_system7_vip_v1_0_24_reg_init.v",
+    "destination": "",
+    "sha256": "ebb205f61fc85ca5dcf06b99e8ee6636777d765d22eeee88efbd1e4c2d8c1234",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/ipshared/9a25/hdl/processing_system7_vip_v1_0_24_reg_params.v",
+    "destination": "",
+    "sha256": "6d3684711bf2440e5528790346a1e86d230daf72a89fc2ea99d195491eadb0f5",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/ipshared/9a25/hdl/processing_system7_vip_v1_0_24_unused_ports.v",
+    "destination": "",
+    "sha256": "00948a4e930e9bf2b98da7b378ce0adf10f44ae76be730977e49f9418ca5710b",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/ipshared/9a25/hdl/processing_system7_vip_v1_0_vl_rfs.sv",
+    "destination": "",
+    "sha256": "a8ea5002290e272eb93e3d78af20fa381cc4d1d1de3d1967bdb7afba851b9305",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/ipshared/a165/hdl/xlconstant_v1_1_vl_rfs.v",
+    "destination": "",
+    "sha256": "d3abca5b37a40883d63681a0abff31266b9c6d9f625eb45c66507ae713bcd438",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/ipshared/b16a/hdl/axi_vip_v1_1_vl_rfs.sv",
+    "destination": "",
+    "sha256": "abf4abfefaddbe9656f33a3d8ec65f80ef0eeff804a160782fdf36b3051abcd1",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/ipshared/ec67/hdl/axi_infrastructure_v1_1_0.vh",
+    "destination": "",
+    "sha256": "6f75042bd294dd05d9e4d326fe845e6bd44ec51637b1ad8ce66fbc295f16cc52",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v",
+    "destination": "",
+    "sha256": "64a5966a7f6c9f296102fb2816e0f4ac4808888b2b64bc0bdafae9ea019a72c4",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/sim/system.protoinst",
+    "destination": "",
+    "sha256": "d147c7887f1213a8e4f03a6fb98c8bff0ab5264ec849acd5d173212e5d1c297a",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/sim/system.v",
+    "destination": "",
+    "sha256": "670e7a05b41f43a840e06024675d6cf2efb2d719ba995a8e22809d37934fc8b8",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/synth/system.hwdef",
+    "destination": "",
+    "sha256": "7b6e3e03ba1da9b0fa392937859abb3ed6ec20cfe974b21da8f4c7dd17906dc7",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/synth/system.v",
+    "destination": "",
+    "sha256": "670e7a05b41f43a840e06024675d6cf2efb2d719ba995a8e22809d37934fc8b8",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/system.bda",
+    "destination": "",
+    "sha256": "597a9d966ac63dcfe1f08acab5ccdbd2750179d46384b69113d4c1b4a04fbf44",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/system.bxml",
+    "destination": "",
+    "sha256": "a1fa3c4a58192ea5ea3c218e3f134d33106de237d9f040b9302c8eb595086644",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/system.veo",
+    "destination": "",
+    "sha256": "7104ad544a053d0ac825f8b1141e51b1650e83b184ac48205a3d6cca8aec2aac",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/system.vho",
+    "destination": "",
+    "sha256": "e9db9134a906aee4213d4a8e326794a6f1731d15ba04b9d8072e4f76a5ac8179",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/system_ooc.xdc",
+    "destination": "",
+    "sha256": "5a4ed32edddef4770102c61ed8f84c59d933770599e77d24bb6687e561ea4215",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/system_sv.sv",
+    "destination": "",
+    "sha256": "17f7fa9f126f1dd714648475e39b0dbfc921b9429c5fdcc6e187b31b1d643058",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.gen/sources_1/bd/system/system_sv.sveo",
+    "destination": "",
+    "sha256": "09b70b0338bca684cc1235ab3d57ab94d0a07aea13a0fae363b5e2499414ae4b",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.hw/DEMO v1.lpr",
+    "destination": "",
+    "sha256": "99db584ede0b1fab63dba4a29dd4a606a45da4060000d585ac1e6d9b78ac8ac8",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.hw/hw_1/hw.xml",
+    "destination": "",
+    "sha256": "210e23c51231d11bffb73d2d5ccfd7227497fef3c07a35fe2b2d01fbb23d25f1",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.runs/.jobs/vrs_config_1.xml",
+    "destination": "",
+    "sha256": "d25ebac961ec481f7733e06368d8956a082eced79307226182eedb7f83645325",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.runs/.jobs/vrs_config_2.xml",
+    "destination": "",
+    "sha256": "0ea9fbf52940a8f75715df1fadd280286238b691704a40430c6e513bdd7247d7",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.runs/.jobs/vrs_config_3.xml",
+    "destination": "",
+    "sha256": "1bf59f83f9e04747e77b2c98cd0b4a8f5f6bdbde647c62be37bf0b770b681e64",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.runs/.jobs/vrs_config_4.xml",
+    "destination": "",
+    "sha256": "6a8c31961fcdd5e97b254acc6d9daaa1e6557a85cd1378690e0f0272285d807e",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.runs/synth_1/.vivado.begin.rst",
+    "destination": "",
+    "sha256": "9e48b64019b6549ee87f15b67bde4c216556fe9a56ec2a7795ceee7313446d75",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.runs/synth_1/.vivado.end.rst",
+    "destination": "",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.runs/synth_1/.Vivado_Synthesis.queue.rst",
+    "destination": "",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.runs/synth_1/.Xil/system_wrapper_propImpl.xdc",
+    "destination": "",
+    "sha256": "a76a72eb435645f3b1cc35bb88a7152291b1d04f5885dbeb392e868567995368",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.runs/synth_1/__synthesis_is_complete__",
+    "destination": "",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.runs/synth_1/dfx_runtime.txt",
+    "destination": "",
+    "sha256": "b75c9e4c66aa27b672ca9b417568b0eb52826563b51020c6a96eccbf45e9dea3",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.runs/synth_1/dont_touch.xdc",
+    "destination": "",
+    "sha256": "845d704746e48ce65b46c4acc66a630dc0c8a52198fd890b27491933b5716cfc",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.runs/synth_1/gen_run.xml",
+    "destination": "",
+    "sha256": "94237e10ad78a67429c1f7c5af707e80349f846df37d2ac8e2992c83dcb6928b",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.runs/synth_1/htr.txt",
+    "destination": "",
+    "sha256": "2ea0d3e4818118e8ee907163e6c2dc9722efa57ca294a28749f280a73a57b659",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.runs/synth_1/incr_synth_reason.pb",
+    "destination": "",
+    "sha256": "4a6432fe2cf0c71e1810790297e980172cefbb403bafe72cfbe4fcc0c22c3e38",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.runs/synth_1/ISEWrap.js",
+    "destination": "",
+    "sha256": "d906082cbc10c5eca7792a66a771770f43ed0fbffab7019c2b30adddbe398e4b",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.runs/synth_1/ISEWrap.sh",
+    "destination": "",
+    "sha256": "8090e9fdb921df47a7d031dd74ba04d3f074321ddfe13f30f004e00891bdea76",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.runs/synth_1/project.wdf",
+    "destination": "",
+    "sha256": "d24c0426e98f0140358bcc8717aa94a9435a16b8da942399fbf02a700050da0c",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.runs/synth_1/rundef.js",
+    "destination": "",
+    "sha256": "42b8f014386aea235fe7613e9da8680df0a22ebd2afc401fe1cb9e3a7526c759",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.runs/synth_1/runme.bat",
+    "destination": "",
+    "sha256": "3b7e573bdaf23a9c6e610b44a205a1bd9b9a4c37cb371d40fb43650e5da0c083",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.runs/synth_1/runme.log",
+    "destination": "",
+    "sha256": "1ffd33498057b15efdf93753e18bd53568efdf3dd13fdbc2a1d81bfdf661c3a9",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.runs/synth_1/runme.sh",
+    "destination": "",
+    "sha256": "147f4deaffab49ec4e6b6b8056484190286a29ae8f67046e8f6fe0e57b0888ff",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.runs/synth_1/system_wrapper.dcp",
+    "destination": "",
+    "sha256": "ee33d12180da7a54217b2509934509c4f8e333a7d70d80fa8eb7506664635c48",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.runs/synth_1/system_wrapper.tcl",
+    "destination": "",
+    "sha256": "eb715801fb96ecf5a90e30dbe9af237035cc3ca4c00ba99e840dda415aa38b8e",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.runs/synth_1/system_wrapper.vds",
+    "destination": "",
+    "sha256": "51d678e86fc74b1cc1d24461453c5a8fc83e5ff00f28e6ed12ac2600dacf5df7",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.runs/synth_1/system_wrapper_utilization_synth.pb",
+    "destination": "",
+    "sha256": "03374dbb91a8c796b697bac9b117a862f26ada5aee4c7aa819fdda8d164cc187",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.runs/synth_1/system_wrapper_utilization_synth.rpt",
+    "destination": "",
+    "sha256": "e479380f905891f3716a9f28ce88c9f5afc7ac8b6716ad7c46653eb513374d91",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.runs/synth_1/vivado.jou",
+    "destination": "",
+    "sha256": "fbe62248963f3b86d406945caedfd773c7f97844207554ce91273c6481824670",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.runs/synth_1/vivado.pb",
+    "destination": "",
+    "sha256": "b8e4b3ab923e55d3acaa39b40676f3f3bb714af9d3ffffde85fbf42dce182083",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.runs/system_matrix_converter_pwm_0_0_synth_1/.vivado.begin.rst",
+    "destination": "",
+    "sha256": "725f60fc496afc3748f0f99715740c33c4e9cfffc290d88ff45af4935e59318d",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.runs/system_matrix_converter_pwm_0_0_synth_1/.vivado.end.rst",
+    "destination": "",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.runs/system_matrix_converter_pwm_0_0_synth_1/.Vivado_Synthesis.queue.rst",
+    "destination": "",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.runs/system_matrix_converter_pwm_0_0_synth_1/__synthesis_is_complete__",
+    "destination": "",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.runs/system_matrix_converter_pwm_0_0_synth_1/dfx_runtime.txt",
+    "destination": "",
+    "sha256": "f5fd9144fd684e961e53f8a3bd4b7f1c78726c567a38b745ec9de2b1c06a1961",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.runs/system_matrix_converter_pwm_0_0_synth_1/gen_run.xml",
+    "destination": "",
+    "sha256": "25e1d7f15f82d83506905c7eb80aad9d0030b13058005b93a0935d68ed6009f3",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.runs/system_matrix_converter_pwm_0_0_synth_1/htr.txt",
+    "destination": "",
+    "sha256": "99e7fbaec099bb236f579bb902aff5a99f84cac76e1e44de5e82127e69b68bd5",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.runs/system_matrix_converter_pwm_0_0_synth_1/ISEWrap.js",
+    "destination": "",
+    "sha256": "d906082cbc10c5eca7792a66a771770f43ed0fbffab7019c2b30adddbe398e4b",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.runs/system_matrix_converter_pwm_0_0_synth_1/ISEWrap.sh",
+    "destination": "",
+    "sha256": "8090e9fdb921df47a7d031dd74ba04d3f074321ddfe13f30f004e00891bdea76",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.runs/system_matrix_converter_pwm_0_0_synth_1/rundef.js",
+    "destination": "",
+    "sha256": "a3af1786681fe69b97f1b95ecff286a455202f2e73537b7b5248eec6eac41eb8",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.runs/system_matrix_converter_pwm_0_0_synth_1/runme.bat",
+    "destination": "",
+    "sha256": "3b7e573bdaf23a9c6e610b44a205a1bd9b9a4c37cb371d40fb43650e5da0c083",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.runs/system_matrix_converter_pwm_0_0_synth_1/runme.log",
+    "destination": "",
+    "sha256": "4dde7d7c2ca5d1ce5fda064ee1283a55248609a28fe2b14ae532b32fb8efffa7",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.runs/system_matrix_converter_pwm_0_0_synth_1/runme.sh",
+    "destination": "",
+    "sha256": "7052a09d73ed4c5d7e59be630f4d75e681a15f8884403d3ae6b2140b9a7d27ee",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.runs/system_matrix_converter_pwm_0_0_synth_1/system_matrix_converter_pwm_0_0.dcp",
+    "destination": "",
+    "sha256": "2a180309a14e81c5e28d9786a1451d7cdd042a271ff037e31d7fb2d3cc0e115d",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.runs/system_matrix_converter_pwm_0_0_synth_1/system_matrix_converter_pwm_0_0.tcl",
+    "destination": "",
+    "sha256": "89a3b51e689612f6d07c7453c4af215c56e5e25310691fd69d7469e4ca9166e6",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.runs/system_matrix_converter_pwm_0_0_synth_1/system_matrix_converter_pwm_0_0.vds",
+    "destination": "",
+    "sha256": "74918dee0b7b516fe845eb2080e33e6690d33a91482dce6bf8b132b2fa62e7ab",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.runs/system_matrix_converter_pwm_0_0_synth_1/system_matrix_converter_pwm_0_0_utilization_synth.pb",
+    "destination": "",
+    "sha256": "613e0a9c9cb99d5a25b682c49e9ac065fd100dfd1e42c19801b75ae6ac985f00",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.runs/system_matrix_converter_pwm_0_0_synth_1/system_matrix_converter_pwm_0_0_utilization_synth.rpt",
+    "destination": "",
+    "sha256": "e7532c9484d136307081b2023776e105a9d27834aa02094dc2eb9382f16f9f8f",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.runs/system_matrix_converter_pwm_0_0_synth_1/vivado.jou",
+    "destination": "",
+    "sha256": "207b5bb05840cb70ca76b27991e445ce6a4888d66427f2e44426f2b2aae0f82b",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.runs/system_matrix_converter_pwm_0_0_synth_1/vivado.pb",
+    "destination": "",
+    "sha256": "0fe396f135b32bd6b5a4885582de62b29e78502a05336b3cf1fb703b095b8766",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.runs/system_processing_system7_0_0_synth_1/.vivado.begin.rst",
+    "destination": "",
+    "sha256": "f9dcbe2f3750a64a95b8bf879c32f88ba0786bdcad4b311a333f1c3d07770d55",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.runs/system_processing_system7_0_0_synth_1/.vivado.end.rst",
+    "destination": "",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.runs/system_processing_system7_0_0_synth_1/.Vivado_Synthesis.queue.rst",
+    "destination": "",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.runs/system_processing_system7_0_0_synth_1/.Xil/system_processing_system7_0_0_propImpl.xdc",
+    "destination": "",
+    "sha256": "2b256fa22499be37cdbd3c0eddaf92a2f99ec602b55e8881b8328737d169fe88",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.runs/system_processing_system7_0_0_synth_1/__synthesis_is_complete__",
+    "destination": "",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.runs/system_processing_system7_0_0_synth_1/dfx_runtime.txt",
+    "destination": "",
+    "sha256": "f5fd9144fd684e961e53f8a3bd4b7f1c78726c567a38b745ec9de2b1c06a1961",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.runs/system_processing_system7_0_0_synth_1/dont_touch.xdc",
+    "destination": "",
+    "sha256": "bb839929ecdbdbb9f4b39ff54ccce04304daa1e1f18106227e710b2d65586ce9",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.runs/system_processing_system7_0_0_synth_1/gen_run.xml",
+    "destination": "",
+    "sha256": "728e92b77f7b95faceea5307d5608b850df00b8c138ef4dc41ad3c49c786ac9c",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.runs/system_processing_system7_0_0_synth_1/htr.txt",
+    "destination": "",
+    "sha256": "376d98710fbe5f6e2820e1affd653fc561b27dc37ff9f56cb54a01a9c026d06b",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.runs/system_processing_system7_0_0_synth_1/ISEWrap.js",
+    "destination": "",
+    "sha256": "d906082cbc10c5eca7792a66a771770f43ed0fbffab7019c2b30adddbe398e4b",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.runs/system_processing_system7_0_0_synth_1/ISEWrap.sh",
+    "destination": "",
+    "sha256": "8090e9fdb921df47a7d031dd74ba04d3f074321ddfe13f30f004e00891bdea76",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.runs/system_processing_system7_0_0_synth_1/rundef.js",
+    "destination": "",
+    "sha256": "589a356793e45f61c7c6fc7d67b03d58aaa6082d1157dc9b669b87351aec67a6",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.runs/system_processing_system7_0_0_synth_1/runme.bat",
+    "destination": "",
+    "sha256": "3b7e573bdaf23a9c6e610b44a205a1bd9b9a4c37cb371d40fb43650e5da0c083",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.runs/system_processing_system7_0_0_synth_1/runme.log",
+    "destination": "",
+    "sha256": "6bfb597aacaf638d4a4f57cf8e5e906b4bdd00e7808e93dbcac811bf3b3459eb",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.runs/system_processing_system7_0_0_synth_1/runme.sh",
+    "destination": "",
+    "sha256": "84e0228e52dd1d86bbfea3aad97265a4710a98671d69e54d471cb6c0118933e1",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.runs/system_processing_system7_0_0_synth_1/system_processing_system7_0_0.dcp",
+    "destination": "",
+    "sha256": "24e1a7a36818b1939f608e9476c356ca12e9805370bbffce2524b2c5f60dd663",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.runs/system_processing_system7_0_0_synth_1/system_processing_system7_0_0.tcl",
+    "destination": "",
+    "sha256": "c3b07480f1582c7625c0426b28df69207035856b4bb86975a602d54c52e7dcfe",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.runs/system_processing_system7_0_0_synth_1/system_processing_system7_0_0.vds",
+    "destination": "",
+    "sha256": "0f297525dcb850b123577801434573d941a913a18fc988668a480865047d4ac4",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.runs/system_processing_system7_0_0_synth_1/system_processing_system7_0_0_utilization_synth.pb",
+    "destination": "",
+    "sha256": "f351e9204c055699219f8d0fcf8fa07cfa74b76ae32598a7ca40ef539c63cb5a",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.runs/system_processing_system7_0_0_synth_1/system_processing_system7_0_0_utilization_synth.rpt",
+    "destination": "",
+    "sha256": "298d3c4def7c5ad7655799cb4dc4c9c4867ce36452ea75cceea4ccb204f26e20",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.runs/system_processing_system7_0_0_synth_1/vivado.jou",
+    "destination": "",
+    "sha256": "91152d027c01cd702b5518e06c3c086d06a6285863bb57d316057e55f25f67c6",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.runs/system_processing_system7_0_0_synth_1/vivado.pb",
+    "destination": "",
+    "sha256": "eb03379647ebb0f2fcac678e4c6f15df47739544d2bf8180c4346a0789e4207c",
+    "disposition": "Generated Vivado cache/run/output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.srcs/constrs_1/imports/matrix_converter_v30/matrix_converter_zybo.xdc",
+    "destination": "firmware/fpga/ecen403/DEMO v1.srcs/constrs_1/imports/matrix_converter_v30/matrix_converter_zybo.xdc",
+    "sha256": "d354de01d249ddd6a0a0353a93a62a3d8ef7bc86d3392bf74ad2ace4dec85e87",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.srcs/constrs_1/imports/matrix_converter_v30b/matrix_converter_zybo.xdc",
+    "destination": "firmware/fpga/ecen403/DEMO v1.srcs/constrs_1/imports/matrix_converter_v30b/matrix_converter_zybo.xdc",
+    "sha256": "d354de01d249ddd6a0a0353a93a62a3d8ef7bc86d3392bf74ad2ace4dec85e87",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.srcs/sources_1/bd/system/ip/system_duty_const_0/system_duty_const_0.xci",
+    "destination": "firmware/fpga/ecen403/DEMO v1.srcs/sources_1/bd/system/ip/system_duty_const_0/system_duty_const_0.xci",
+    "sha256": "2dc4a83f5e4e0198dd53dfa5452400a3bc4f869b7254c077c5dbaecb09fe515a",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.srcs/sources_1/bd/system/ip/system_matrix_converter_pwm_0_0/system_matrix_converter_pwm_0_0.xci",
+    "destination": "firmware/fpga/ecen403/DEMO v1.srcs/sources_1/bd/system/ip/system_matrix_converter_pwm_0_0/system_matrix_converter_pwm_0_0.xci",
+    "sha256": "18e7eb695479a33169ec3ca2b0c3817b68b52559d63258a729652aabc8c08e79",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0.xci",
+    "destination": "firmware/fpga/ecen403/DEMO v1.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0.xci",
+    "sha256": "3eb0962f44650a2eb8f92b47667ac0611d1d7e4bd401bdf34bf0b136d5139623",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.srcs/sources_1/bd/system/system.bd",
+    "destination": "firmware/fpga/ecen403/DEMO v1.srcs/sources_1/bd/system/system.bd",
+    "sha256": "58c3cf504fff7230488c9c95ad89f58d442f0425423a8a2aaf0f35af0bb0eb86",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.srcs/sources_1/bd/system/system.bda",
+    "destination": "firmware/fpga/ecen403/DEMO v1.srcs/sources_1/bd/system/system.bda",
+    "sha256": "597a9d966ac63dcfe1f08acab5ccdbd2750179d46384b69113d4c1b4a04fbf44",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.srcs/sources_1/bd/system/ui/bd_c954508f.ui",
+    "destination": "firmware/fpga/ecen403/DEMO v1.srcs/sources_1/bd/system/ui/bd_c954508f.ui",
+    "sha256": "5d7e503faf2eeb08bd998617d1e571427ea231a131afa67f9775c1890fbb9985",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.srcs/sources_1/imports/matrix_converter_v30/matrix_converter_pwm.v",
+    "destination": "firmware/fpga/ecen403/DEMO v1.srcs/sources_1/imports/matrix_converter_v30/matrix_converter_pwm.v",
+    "sha256": "f47491bb340dd0737661505584e004e7f637ea878c21a90e3fea954615ffb980",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.srcs/sources_1/imports/matrix_converter_v30b/matrix_converter_pwm.v",
+    "destination": "firmware/fpga/ecen403/DEMO v1.srcs/sources_1/imports/matrix_converter_v30b/matrix_converter_pwm.v",
+    "sha256": "5c032c6305a020128ad559327257e1d15c48e93c07aa152a76b1798df1b56a08",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.srcs/utils_1/imports/synth_1/system_wrapper.dcp",
+    "destination": "firmware/fpga/ecen403/DEMO v1.srcs/utils_1/imports/synth_1/system_wrapper.dcp",
+    "sha256": "2faeb065217e250cdf0447268d8e71cca7bb27b0b21458248630765d023cbf42",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 403/DEMO v1.xpr",
+    "destination": "firmware/fpga/ecen403/DEMO v1.xpr",
+    "sha256": "4190e1741a0520f722671db4f84771e01a6b24e8f02b227c22b248cf13de4255",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20/build/capstone_arty_z7_20.cache/sim/ssm.db",
+    "destination": "",
+    "sha256": "095ca736116450310604551464d02de9e369e5ae4ee5c7e4bf62db47f8a7796f",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20/build/capstone_arty_z7_20.cache/wt/project.wpc",
+    "destination": "",
+    "sha256": "06d3eb49c12d16d5eeb1d8dd92f7c1d5e705db0198b48f6f871c1c232c4a63bb",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20/build/capstone_arty_z7_20.cache/wt/xsim.wdf",
+    "destination": "",
+    "sha256": "8f67524bd73f106bd4482ea18993d5925ee975f25bce1e3bc29455b4a21b6157",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20/build/capstone_arty_z7_20.hw/capstone_arty_z7_20.lpr",
+    "destination": "",
+    "sha256": "99db584ede0b1fab63dba4a29dd4a606a45da4060000d585ac1e6d9b78ac8ac8",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20/build/capstone_arty_z7_20.hw/hw_1/hw.xml",
+    "destination": "",
+    "sha256": "87105595fb6e8cf978a2fd7b985016e5186f14350cfd8d790863f51a42d96053",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20/build/capstone_arty_z7_20.sim/sim_1/behav/xsim/.usf.tcl_error.log",
+    "destination": "",
+    "sha256": "75cb7e960a839cfa25cd4d7f3aec405bb30904842adc4d0b59b048ded163723f",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20/build/capstone_arty_z7_20.xpr",
+    "destination": "",
+    "sha256": "bf22ac7cae9b236a89143bda18f4b31a4fc4fceabd11d6bb2997a69457b72e3a",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20/build_xsim/.Xil/xsim-59100-RG/.lpr",
+    "destination": "",
+    "sha256": "da5da3acc8f14fcd2fe515ac9c4140afd218a03fffab71139f82b9038ad27aeb",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20/build_xsim/arty_analog.txt",
+    "destination": "",
+    "sha256": "c71b0262867a6a11300f4f7b9e5f75e780c222bbaee5c5852584b8714b56bb69",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20/build_xsim/arty_sim.log",
+    "destination": "",
+    "sha256": "43e87ec86b00a9c368027e777319f6880d9aec1edb80fe743c68de55489bbd13",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20/build_xsim/arty_sim.wdb",
+    "destination": "",
+    "sha256": "6b2ef66642e5e9185c63b7f4abaf8a39d2dcedb1ca1006b6f6bae78cea627e40",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20/build_xsim/arty_sim_36732.backup.log",
+    "destination": "",
+    "sha256": "5f707478e6b1e31e0979b1951265a5128ba1e7056fb5760818be59ee0ce47ae1",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20/build_xsim/arty_sim_37628.backup.log",
+    "destination": "",
+    "sha256": "64d19aae528d373bfb48b023ea33873b16dee271102bbf1d24036f288d13a9d3",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20/build_xsim/dfx_runtime.txt",
+    "destination": "",
+    "sha256": "dc4c562ec534ec6ae12827b6d675ef5dbcc15f42e5a44e08d37a2fe80a825bfe",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20/build_xsim/hs_err_pid59100.log",
+    "destination": "",
+    "sha256": "70d2743c600a8874aef6e294313f42428a12a58c06a334bf0f24880d7c44cf62",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20/build_xsim/vivado_pid59100.str",
+    "destination": "",
+    "sha256": "731a410fb7e719ea805a00f0ac9a4cb10b4f4e0d526487c17081c7db949aff0a",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20/build_xsim/xelab.log",
+    "destination": "",
+    "sha256": "0e26a59b3fa6fd1baa17fa3435f8680ef9dec5073b3d861b7641194e3b51509c",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20/build_xsim/xelab.pb",
+    "destination": "",
+    "sha256": "1197d6c42b90845782166e97dffd1f361d57f6b231a618c6c68ff9529ebc5828",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20/build_xsim/xsim.dir/arty_sim/Compile_Options.txt",
+    "destination": "",
+    "sha256": "f6b772cab85bb2bd00eb2abf8c330107fb3e165f0e5e9e4d705794d413802755",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20/build_xsim/xsim.dir/arty_sim/TempBreakPointFile.txt",
+    "destination": "",
+    "sha256": "89bd34ab9b7056058ec7acc5470f6ec95f1ef47b9aeb329d53e24d38b9607451",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20/build_xsim/xsim.dir/arty_sim/xsim.dbg",
+    "destination": "",
+    "sha256": "cff17bba67586a670c4849b255ac5fd24c3024eea5a75177c88f8ad4601e358b",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20/build_xsim/xsim.dir/arty_sim/xsim.mem",
+    "destination": "",
+    "sha256": "6da667b653bdb68ac2031a35c96e8771ee78636ef958272b76f2eb0dafbcb235",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20/build_xsim/xsim.dir/arty_sim/xsim.reloc",
+    "destination": "",
+    "sha256": "844316b7e879f2372c40d8af28623e9304c1ee57305763328fdfa7efc71e584b",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20/build_xsim/xsim.dir/arty_sim/xsim.rtti",
+    "destination": "",
+    "sha256": "c7aac8be34fec9e4ecadb5df71cd5e4ec15f759f37352c537c7d681a8ba94493",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20/build_xsim/xsim.dir/arty_sim/xsim.svtype",
+    "destination": "",
+    "sha256": "783cfd123e5419099ef7711b3834dee263c2a3416a8408ee4e404ca126368540",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20/build_xsim/xsim.dir/arty_sim/xsim.type",
+    "destination": "",
+    "sha256": "cf1c5a4aa3dd8007f3756f2f3d607d67751cd98e99c8f5038c3f8b9fd06aa8c8",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20/build_xsim/xsim.dir/arty_sim/xsim.version",
+    "destination": "",
+    "sha256": "a15b42b7cedfdc50b6ac3c608a1a64d31d64690c57ccdd42e81a93c1c12b9468",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20/build_xsim/xsim.dir/arty_sim/xsim.xdbg",
+    "destination": "",
+    "sha256": "0835bbc4fd9bde84a4f4a8ae3e0d5e7812eb341ad8a4f3cd41df12d22cc50e39",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20/build_xsim/xsim.dir/arty_sim/xsim_script.tcl",
+    "destination": "",
+    "sha256": "c74041b4106a1bebebbf54acf7bc5e4e0f185e2237d418cc29d1342d6bcc5e6d",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20/build_xsim/xsim.dir/arty_sim/xsimcrash.log",
+    "destination": "",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20/build_xsim/xsim.dir/arty_sim/xsimk.exe",
+    "destination": "",
+    "sha256": "7db47ab3f1dc9c19b56e7b3cf37699064bc327558e552d3f8e83fa8b54409ed2",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20/build_xsim/xsim.dir/arty_sim/xsimkernel.log",
+    "destination": "",
+    "sha256": "c91e1bc8b7028e966bea963df63f0c8eaf356e6a89e0ac524e4c269b2d9c696b",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20/build_xsim/xsim.dir/arty_sim/xsimSettings.ini",
+    "destination": "",
+    "sha256": "1d4e3496f181ba2acc24cf188a3c10102ff50c2c83b5442da4ffffdc83c13b9d",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20/build_xsim/xsim.dir/work/arty_clock.sdb",
+    "destination": "",
+    "sha256": "8dc7ca55e255a08e600aec2b14a4a6c2511ef33082240c65c41dd23ae2de993a",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20/build_xsim/xsim.dir/work/arty_xadc.sdb",
+    "destination": "",
+    "sha256": "85aa826366cd5c73763441152c7736b3c50a5b9857832493dac67afc3939d6f8",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20/build_xsim/xsim.dir/work/arty_z7_tb.sdb",
+    "destination": "",
+    "sha256": "bb3dd8ea85fcc955b67c0bf4502b52b4dc087440cb84f3939255cc9737e1bdb8",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20/build_xsim/xsim.dir/work/arty_z7_top.sdb",
+    "destination": "",
+    "sha256": "dbf99fb53c8f1679c1b32d94d31226e6def321eac46528f76d927ffb8ddfac3c",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20/build_xsim/xsim.dir/work/commutation_cell.sdb",
+    "destination": "",
+    "sha256": "ffe7ad6886254af073d75074d1aaf99c8c19dadde47e417ce8e754896df6e56e",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20/build_xsim/xsim.dir/work/commutation_cell_tb.sdb",
+    "destination": "",
+    "sha256": "0edeef7e21e91ab41f4d5597600c694ee923439a02dcd4e85ffac02df1f18ade",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20/build_xsim/xsim.dir/work/dab_mc_controller.sdb",
+    "destination": "",
+    "sha256": "3985f0ce5c217899665e30d94d8986039028659e4f0a4f547d0bd937945c959d",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20/build_xsim/xsim.dir/work/glbl.sdb",
+    "destination": "",
+    "sha256": "f18cd261bc446ee270ae2cd8e970904c1acef0f7b636a09f392c15ba8a4aef29",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20/build_xsim/xsim.dir/work/work.rlx",
+    "destination": "",
+    "sha256": "20ee58de9dbae6a223debbdd53da5ccb36d91f509f481a5b41b3421d8e481eb7",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20/build_xsim/xsim.dir/xsim.version",
+    "destination": "",
+    "sha256": "a15b42b7cedfdc50b6ac3c608a1a64d31d64690c57ccdd42e81a93c1c12b9468",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20/build_xsim/xsim.jou",
+    "destination": "",
+    "sha256": "ab5db3a09941e6f67e722bbeb090687d924a1a5f396d8b7e79427147ac3ab062",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20/build_xsim/xsim.log",
+    "destination": "",
+    "sha256": "225d63ee9457c9f9c9daf386615dd0b9705f767c7cbc8eb322b845a147946ef9",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20/build_xsim/xsim_36732.backup.jou",
+    "destination": "",
+    "sha256": "6bb793efd07d7792f60eb138096d83ee8fccaba79aa3e2f9acac64694659388c",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20/build_xsim/xsim_37628.backup.jou",
+    "destination": "",
+    "sha256": "7cbf7335adca97fbc8365c9d7ea6c6539ab7a9e1fb779cd5b8fb17d485085a2a",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20/build_xsim/xsim_59100.backup.jou",
+    "destination": "",
+    "sha256": "4360380620d1f4c8b5faa82fa25e170d4fdcc5a257c4ddefd4adfe655e6fdd3f",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20/build_xsim/xvlog.log",
+    "destination": "",
+    "sha256": "242e5f8bcd95598d4315cf4a1ec7d465169c9762e455161182185f54cce884b4",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20/build_xsim/xvlog.pb",
+    "destination": "",
+    "sha256": "e753e090a91a121b05a352b06feacd000d81b62df2ca5ec9c39cb43ee5e76119",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20/constraints/arty_z7_20.xdc",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20/constraints/arty_z7_20.xdc",
+    "sha256": "a8b8b04b6078f7209e1e971db9006906e577297be21cf173cdc123ff88f5e4a5",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20/prebuilt/arty_z7_top.bit",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20/prebuilt/arty_z7_top.bit",
+    "sha256": "c280d5cc3e45d065a6051261bc56983b1550b9e8bab2fa687a4b2adc2f2e4ef7",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20/README.md",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20/README.md",
+    "sha256": "8353b2e3dbb85e6b66c90acaba0e2b10b7da26720642a6a964c1f4f7ded72e1d",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20/rtl/arty_clock.v",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20/rtl/arty_clock.v",
+    "sha256": "67bfc8f062e18b0e2a5a952ca6830949afec10d274d57d2dc0a90124e5baf886",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20/rtl/arty_xadc.v",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20/rtl/arty_xadc.v",
+    "sha256": "25b1365db29c629912c4dadcf38f73dc0baac8b96503ce452ab4ddea320b7d97",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20/rtl/arty_z7_top.v",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20/rtl/arty_z7_top.v",
+    "sha256": "b3f07592b6c1a46c61edb11f60f6dcc58720e0ffc9c59252348ffb6df8b45e42",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20/rtl/commutation_cell.v",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20/rtl/commutation_cell.v",
+    "sha256": "5478f31314d253d42196bf2faa4bb8f549120776cf4a22c7f03facf71d026be2",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20/rtl/dab_mc_controller.v",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20/rtl/dab_mc_controller.v",
+    "sha256": "2195daabf92fcd205320fcebb02aff57dfd22ff11804ffa2300d1a3fd824eed3",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20/scripts/build_bitstream.tcl",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20/scripts/build_bitstream.tcl",
+    "sha256": "a4749d26e0e80d959921dbaaaaaab21649a75aabde18814beb0ce7ea97d489c1",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20/scripts/create_project.tcl",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20/scripts/create_project.tcl",
+    "sha256": "a901091340295379c3f5140b2dfc388892571dcf227761b81618d8b5abe16adf",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20/scripts/run_simulation.tcl",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20/scripts/run_simulation.tcl",
+    "sha256": "3286fdab33a1b0730f613e658013bba236af1b17f954aa0a72232dbc290014c2",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20/scripts/run_standalone.cmd",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20/scripts/run_standalone.cmd",
+    "sha256": "1523f2fd671f8f156fae3b006986b8146a113fbae2fa3727e385771a7fd7f631",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20/scripts/standalone_waves.tcl",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20/scripts/standalone_waves.tcl",
+    "sha256": "6a298bfc4b2a29901bd4300a41e554053bd840ab8a39227fe52ad2c942729560",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20/scripts/tclstore_paths.tcl",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20/scripts/tclstore_paths.tcl",
+    "sha256": "812c30fff7f8e952df722663cca7a5d8b38b9dc65cb2a7ced9672781fd41883a",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20/SHA256SUMS.txt",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20/SHA256SUMS.txt",
+    "sha256": "6184931675e8bd64dfcb11355f4150b622999cdbe99cb04685a4cf5c866633d7",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20/sim/arty_analog.txt",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20/sim/arty_analog.txt",
+    "sha256": "c71b0262867a6a11300f4f7b9e5f75e780c222bbaee5c5852584b8714b56bb69",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20/sim/arty_z7_tb.sv",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20/sim/arty_z7_tb.sv",
+    "sha256": "0742eb4f3340b425b9405472f8263aa18eafa91b2a57f49f221a079a6fe82c68",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20/sim/commutation_cell_tb.sv",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20/sim/commutation_cell_tb.sv",
+    "sha256": "2eaab22e82c89620128559df5ebf451e96daa434e2ba81457c2a3e3f6a2b6e1c",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20/START_HERE.md",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20/START_HERE.md",
+    "sha256": "e51306ec925f521f291a0bd571b053eecf196b25cf9bb114c3f0cd30091ac574",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20/validation/drc.txt",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20/validation/drc.txt",
+    "sha256": "fa2053b8619045828b71bc4caceee9bbae7ca72056d1bef1d81e83a7830a25c4",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20/validation/integration.log",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20/validation/integration.log",
+    "sha256": "3374f8add4008194f5108eab17e9dc0d44452410f962afc2a1383150e24b582c",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20/validation/timing_summary.txt",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20/validation/timing_summary.txt",
+    "sha256": "56cf33c0f7e3dce8ec75c5624742f41716d043a5ff5eff46802701f131da3a25",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20/validation/unit.log",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20/validation/unit.log",
+    "sha256": "8404249af75c7258d228b2590d6e4abb47bd3598cde923ad17241be586e0e03b",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20/VALIDATION.md",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20/VALIDATION.md",
+    "sha256": "cf89fb17132edd3468e83ed342aa3c105f12507d0de36af71ff6ff4b49398474",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/build/capstone_arty_z7_20_250ns.cache/wt/project.wpc",
+    "destination": "",
+    "sha256": "868826f37ffb4c6f5b92e253c7d473f0effa236e823a5923a3691677b870cadb",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/build/capstone_arty_z7_20_250ns.hw/capstone_arty_z7_20_250ns.lpr",
+    "destination": "",
+    "sha256": "99db584ede0b1fab63dba4a29dd4a606a45da4060000d585ac1e6d9b78ac8ac8",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/build/capstone_arty_z7_20_250ns.hw/hw_1/hw.xml",
+    "destination": "",
+    "sha256": "0601ad4a362342b64090d07e3017f654890d66ba29dc88867fd2243ef5549e45",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/build/capstone_arty_z7_20_250ns.xpr",
+    "destination": "",
+    "sha256": "13bc455c0932beab3b95b86104b6b789059122d5b5978db3795397f23fa665fb",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/build_xsim/arty_analog.txt",
+    "destination": "",
+    "sha256": "a72668fe29a41ed6eff753c81bf151d15272747cc0f19e69e61390f7ed50ac3e",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/build_xsim/arty_sim.log",
+    "destination": "",
+    "sha256": "3315e27655f030c519147ab358da7b09cc5ccfd2f3ce094920c99eb2c421ce89",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/build_xsim/arty_sim.wdb",
+    "destination": "",
+    "sha256": "f5831b595d83a5604b569f96e8bf3020a06bdca0ae9d20fd835a51832abe1c60",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/build_xsim/arty_sim_34116.backup.log",
+    "destination": "",
+    "sha256": "a38518c23facc6d2d524e2ee14d52c39ec2a211068dfcc0008e10302aac7ea59",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/build_xsim/commutation_sim.log",
+    "destination": "",
+    "sha256": "849f413097332aaa0f025969a8ba7980cceb0ce12100816120ad526ead499a4b",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/build_xsim/dfx_runtime.txt",
+    "destination": "",
+    "sha256": "a913b7a5516b473c08e79a4cf854b29c96165d4dc0f0189d31e560e497d34ab2",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/build_xsim/xelab.log",
+    "destination": "",
+    "sha256": "0e26a59b3fa6fd1baa17fa3435f8680ef9dec5073b3d861b7641194e3b51509c",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/build_xsim/xelab.pb",
+    "destination": "",
+    "sha256": "1197d6c42b90845782166e97dffd1f361d57f6b231a618c6c68ff9529ebc5828",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/build_xsim/xsim.dir/arty_sim/Compile_Options.txt",
+    "destination": "",
+    "sha256": "f6b772cab85bb2bd00eb2abf8c330107fb3e165f0e5e9e4d705794d413802755",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/build_xsim/xsim.dir/arty_sim/TempBreakPointFile.txt",
+    "destination": "",
+    "sha256": "89bd34ab9b7056058ec7acc5470f6ec95f1ef47b9aeb329d53e24d38b9607451",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/build_xsim/xsim.dir/arty_sim/xsim.dbg",
+    "destination": "",
+    "sha256": "ef1b9a1381cab88cd49b9da107b43b3ef5a6d5df664ba1255d725276107b5272",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/build_xsim/xsim.dir/arty_sim/xsim.mem",
+    "destination": "",
+    "sha256": "304416bccaa0a2dd0a8302e908e0637898367257ee211baa9d515802dd8895c1",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/build_xsim/xsim.dir/arty_sim/xsim.reloc",
+    "destination": "",
+    "sha256": "9dafd19e03d049f87f921dcb0d4ba0722951aa9f24903f967ed03bc484dd901f",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/build_xsim/xsim.dir/arty_sim/xsim.rtti",
+    "destination": "",
+    "sha256": "cd18899a12fefa3d57963ccc8d18723f1e561d6bf496c6d4709e9bf697a5d9d4",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/build_xsim/xsim.dir/arty_sim/xsim.svtype",
+    "destination": "",
+    "sha256": "783cfd123e5419099ef7711b3834dee263c2a3416a8408ee4e404ca126368540",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/build_xsim/xsim.dir/arty_sim/xsim.type",
+    "destination": "",
+    "sha256": "cf1c5a4aa3dd8007f3756f2f3d607d67751cd98e99c8f5038c3f8b9fd06aa8c8",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/build_xsim/xsim.dir/arty_sim/xsim.version",
+    "destination": "",
+    "sha256": "a15b42b7cedfdc50b6ac3c608a1a64d31d64690c57ccdd42e81a93c1c12b9468",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/build_xsim/xsim.dir/arty_sim/xsim.xdbg",
+    "destination": "",
+    "sha256": "3c2bd85191d45a3c20bb856cf4398f1c60c7965b63512c8af89bd84408aad59e",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/build_xsim/xsim.dir/arty_sim/xsim_script.tcl",
+    "destination": "",
+    "sha256": "c74041b4106a1bebebbf54acf7bc5e4e0f185e2237d418cc29d1342d6bcc5e6d",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/build_xsim/xsim.dir/arty_sim/xsimcrash.log",
+    "destination": "",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/build_xsim/xsim.dir/arty_sim/xsimk.exe",
+    "destination": "",
+    "sha256": "58a0df15342e84f978e0410ece5e6b5e3076f2b8d74c0b5ab83d7ed371668bcd",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/build_xsim/xsim.dir/arty_sim/xsimkernel.log",
+    "destination": "",
+    "sha256": "c1d18cc61c7e30b7643c5011e3ddbc33415a4ac2ea43b5a6f2d7630132c3acbc",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/build_xsim/xsim.dir/arty_sim/xsimSettings.ini",
+    "destination": "",
+    "sha256": "da28f342c398879dbf8a0d2c2636a16d392bd19207193758858efdaf9aef1e5e",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/build_xsim/xsim.dir/commutation_sim/Compile_Options.txt",
+    "destination": "",
+    "sha256": "1eb39674a539c228bb17b653af42f9e459602fc0dfe8a0262e15436d828bb812",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/build_xsim/xsim.dir/commutation_sim/xsim.dbg",
+    "destination": "",
+    "sha256": "4acec2efd85430b578fbf1257afd4da9fb96e25d31e13f0d8e9261554cf228d0",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/build_xsim/xsim.dir/commutation_sim/xsim.mem",
+    "destination": "",
+    "sha256": "45f60aec6c3a9f0c559a36a8688a0e5abe72524911dbf9fbf4fa9ed70594ab9d",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/build_xsim/xsim.dir/commutation_sim/xsim.reloc",
+    "destination": "",
+    "sha256": "44f26a9e9772e0021bf56705e68092e46d5cbbc210b590ea0cac5d4c45893242",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/build_xsim/xsim.dir/commutation_sim/xsim.rtti",
+    "destination": "",
+    "sha256": "b8ee8b9b8ac274cc24575bf8a278b02b52ef2a1fb393d0e729ddeec477d0f9e0",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/build_xsim/xsim.dir/commutation_sim/xsim.svtype",
+    "destination": "",
+    "sha256": "96c84ed88a43ec555e2f9870aa45cdf31eade29b36e0132551f885bbd1c6c423",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/build_xsim/xsim.dir/commutation_sim/xsim.type",
+    "destination": "",
+    "sha256": "cf1c5a4aa3dd8007f3756f2f3d607d67751cd98e99c8f5038c3f8b9fd06aa8c8",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/build_xsim/xsim.dir/commutation_sim/xsim.version",
+    "destination": "",
+    "sha256": "a15b42b7cedfdc50b6ac3c608a1a64d31d64690c57ccdd42e81a93c1c12b9468",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/build_xsim/xsim.dir/commutation_sim/xsim.xdbg",
+    "destination": "",
+    "sha256": "b4109e4e64c7eb265c0e4841a5b1bccc0742a24ebe70d823ac6bfda0f7602c42",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/build_xsim/xsim.dir/commutation_sim/xsim_script.tcl",
+    "destination": "",
+    "sha256": "fe3d204758dccbcbb9e0c0f56e31d9211185694a81a8e0338129b94607a53ed7",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/build_xsim/xsim.dir/commutation_sim/xsimcrash.log",
+    "destination": "",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/build_xsim/xsim.dir/commutation_sim/xsimk.exe",
+    "destination": "",
+    "sha256": "b9357cfdee759d6ef643f12479920d1747bb9d180c1982252b190fa30b0df8b6",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/build_xsim/xsim.dir/commutation_sim/xsimkernel.log",
+    "destination": "",
+    "sha256": "38ad37a60b27a86d9fb762d6b9cb0aa5fed6b68655a54129b862fe0c531bd8c8",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/build_xsim/xsim.dir/commutation_sim/xsimSettings.ini",
+    "destination": "",
+    "sha256": "6f47533a07ebbf72f3c32b29b213d1da67d65ff8b6112092e92f40a94e624c44",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/build_xsim/xsim.dir/work/arty_clock.sdb",
+    "destination": "",
+    "sha256": "32b14aeafa9169c5b41906f822523ac6e7c1e058e4f5803631f7a2cf5586adea",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/build_xsim/xsim.dir/work/arty_xadc.sdb",
+    "destination": "",
+    "sha256": "f9df5177386c8402b291c181385f62bfba1361ea6114618da7720e7151e5757a",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/build_xsim/xsim.dir/work/arty_z7_tb.sdb",
+    "destination": "",
+    "sha256": "701bc6bd737bb1ccb68b3a7986fd3fac91d36be02fddd7cdef2c1572500e5856",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/build_xsim/xsim.dir/work/arty_z7_top.sdb",
+    "destination": "",
+    "sha256": "791aab0a2508117dce50dc8d8137820e38f68ac75db32df73554f89d8713b9d0",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/build_xsim/xsim.dir/work/commutation_cell.sdb",
+    "destination": "",
+    "sha256": "171e58f4b3bcb8a4b1607ca3b112e7ee59e4bda0367884830b6bef9043bdda22",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/build_xsim/xsim.dir/work/commutation_cell_tb.sdb",
+    "destination": "",
+    "sha256": "194f78840a0304e0c1bc582f7461d94c9cf77a6e5c2f4e383cf079218bfe3f1a",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/build_xsim/xsim.dir/work/dab_mc_controller.sdb",
+    "destination": "",
+    "sha256": "f41b42e4bebce34daf8b4a4680cde3a5c0229654d0db24fe7d1df40524799e7e",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/build_xsim/xsim.dir/work/glbl.sdb",
+    "destination": "",
+    "sha256": "a548e28dbbb9014a5010323114bbc472f64de1bceef7019bcd58237970969947",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/build_xsim/xsim.dir/work/work.rlx",
+    "destination": "",
+    "sha256": "c5aa238a9f82e0ce0b0b2653b89be21cfa751348da891a62471d5c7b01eb43f5",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/build_xsim/xsim.dir/xsim.version",
+    "destination": "",
+    "sha256": "a15b42b7cedfdc50b6ac3c608a1a64d31d64690c57ccdd42e81a93c1c12b9468",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/build_xsim/xsim.jou",
+    "destination": "",
+    "sha256": "67b064f693b964e49670af59baebbf5a2e51959be3ac36cee80984d96c8dd031",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/build_xsim/xsim_26944.backup.jou",
+    "destination": "",
+    "sha256": "18b90af538b21f9ff0f6c7ddfb860a088c1e848f884e11510c3127fe2b9d13b0",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/build_xsim/xsim_34116.backup.jou",
+    "destination": "",
+    "sha256": "1caa17aaa6aa5217fc52a4d261c1b1a9b9392bfecad2ba3bd88db5e8be283078",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/build_xsim/xvlog.log",
+    "destination": "",
+    "sha256": "21b70758b99b9839dabc3d9bad735cc2d885f307bfc390e0fb7d5d9a62fdb215",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/build_xsim/xvlog.pb",
+    "destination": "",
+    "sha256": "d891b2392aa59fcce6d37c4c8ac376c7cc6025f6559860fda8b6f3d941b20480",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/constraints/arty_z7_20.xdc",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20_250ns/constraints/arty_z7_20.xdc",
+    "sha256": "1bf906276e21680c74ec5fe3daacf472b21982a097bbc3c3e6445ec453ae32aa",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/prebuilt/arty_z7_top.bit",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20_250ns/prebuilt/arty_z7_top.bit",
+    "sha256": "497637b3a446fe8d5c38644ce446fe7a47800dff1cb3d7f85222cdfb6030bc96",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/README.md",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20_250ns/README.md",
+    "sha256": "ff90a0e1ca1d6d7a5b269f663fafad793757f3517cda7d79fa3055a3f798fc01",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/rtl/arty_clock.v",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20_250ns/rtl/arty_clock.v",
+    "sha256": "afe9ab0a3b298a8c12e26cd9578d9548fd1751d198ce44a518b3511e28e64d4a",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/rtl/arty_xadc.v",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20_250ns/rtl/arty_xadc.v",
+    "sha256": "9758110082f798e694779fdb0872a828748f70f2f6d51efabdd0a6ef619cb21b",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/rtl/arty_z7_top.v",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20_250ns/rtl/arty_z7_top.v",
+    "sha256": "3e6a9712a5b85edecc03c3ee3e8ed487f8518266ec578cea385bef7357f329ea",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/rtl/commutation_cell.v",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20_250ns/rtl/commutation_cell.v",
+    "sha256": "3408c7e0d157b4b612e1e6f44a19350220af7c90368cfc70faaeaaa6be224dff",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/rtl/dab_mc_controller.v",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20_250ns/rtl/dab_mc_controller.v",
+    "sha256": "4a8673bbe503ed8c641fd70ea1cfb91d4da736a0b8c53df88e1758e7cc9c6af8",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/scripts/build_bitstream.tcl",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20_250ns/scripts/build_bitstream.tcl",
+    "sha256": "8c47e0445ea30de2021c14f11db6917acfb5c4f0824b100253a5df4b9f0175f0",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/scripts/create_project.tcl",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20_250ns/scripts/create_project.tcl",
+    "sha256": "25e23e6e463a9bc0c99c18ed23b5614a62fc23c970e42d0c3fd8fb5df51c407d",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/scripts/run_simulation.tcl",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20_250ns/scripts/run_simulation.tcl",
+    "sha256": "b455d555caf85a467e8c75b4816efef83fe84a6f4f2172c1875ab729272f3822",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/scripts/run_standalone.cmd",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20_250ns/scripts/run_standalone.cmd",
+    "sha256": "c586a1eb8c53062d836cf244e2ac4cca13d2a6a79b7384451c710721628d83a4",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/scripts/standalone_waves.tcl",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20_250ns/scripts/standalone_waves.tcl",
+    "sha256": "c1277d48407fca4b1807f8d757e484225583a086e21834ebb70f0ad8587f60c9",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/scripts/tclstore_paths.tcl",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20_250ns/scripts/tclstore_paths.tcl",
+    "sha256": "022c289f322554cd1b9579960eb2fad29dc0fb8b450dbfdd14bb50d1ac13a657",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/SHA256SUMS.txt",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20_250ns/SHA256SUMS.txt",
+    "sha256": "1d24650d77d8cbcea3aeff456028edad3a3c758965b752d893db6645daedfe1d",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/sim/arty_analog.txt",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20_250ns/sim/arty_analog.txt",
+    "sha256": "a72668fe29a41ed6eff753c81bf151d15272747cc0f19e69e61390f7ed50ac3e",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/sim/arty_z7_tb.sv",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20_250ns/sim/arty_z7_tb.sv",
+    "sha256": "e09c1a817abd9cc535537d9540841de19854d834a2bd9324c213524a0a67dea6",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/sim/commutation_cell_tb.sv",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20_250ns/sim/commutation_cell_tb.sv",
+    "sha256": "258fe3dac2ff92a362d648e7d03b5ebf36b1233e9887b9e5ec2ead279d36ffe1",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/START_HERE.md",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20_250ns/START_HERE.md",
+    "sha256": "2900097c863aeca1d0df74b0a9624064a11f896a70081d14fabef19e001b9045",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/validation/drc.txt",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20_250ns/validation/drc.txt",
+    "sha256": "12e9b2350343bae1e6759b26239bd8bf866d009cb4e4632eb8738954cc694761",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/validation/integration.log",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20_250ns/validation/integration.log",
+    "sha256": "a38518c23facc6d2d524e2ee14d52c39ec2a211068dfcc0008e10302aac7ea59",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/validation/timing_summary.txt",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20_250ns/validation/timing_summary.txt",
+    "sha256": "6e332e92de5768cd339e2efb6132ce15e8e12863602da9bb5f4f3cb276d957d0",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/validation/unit.log",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20_250ns/validation/unit.log",
+    "sha256": "849f413097332aaa0f025969a8ba7980cceb0ce12100816120ad526ead499a4b",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_250ns/VALIDATION.md",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20_250ns/VALIDATION.md",
+    "sha256": "e9780d839402de34a523d6bff2cdd16336b10f40302b2519e4f1e4b64a6ee50b",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/build/capstone_arty_z7_20_4pwm_bench_250ns.cache/wt/project.wpc",
+    "destination": "",
+    "sha256": "d607d8a1ee83aa47dbaace7a6055de83a084d2eb5c77573e5d0e9b50836b1e5f",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/build/capstone_arty_z7_20_4pwm_bench_250ns.hw/capstone_arty_z7_20_4pwm_bench_250ns.lpr",
+    "destination": "",
+    "sha256": "99db584ede0b1fab63dba4a29dd4a606a45da4060000d585ac1e6d9b78ac8ac8",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/build/capstone_arty_z7_20_4pwm_bench_250ns.hw/hw_1/hw.xml",
+    "destination": "",
+    "sha256": "c804502ae608cd619d8618e95ccbe1659fde8a3e86aa40f7186e28616af20c62",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/build/capstone_arty_z7_20_4pwm_bench_250ns.xpr",
+    "destination": "",
+    "sha256": "77432176198036c484eb5e0a9cd45f8507c45f8fc4345d551c4e4cf07c0c3f5b",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/build_xsim/.Xil/xsim-47808-RG/.lpr",
+    "destination": "",
+    "sha256": "da5da3acc8f14fcd2fe515ac9c4140afd218a03fffab71139f82b9038ad27aeb",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/build_xsim/arty_analog.txt",
+    "destination": "",
+    "sha256": "a72668fe29a41ed6eff753c81bf151d15272747cc0f19e69e61390f7ed50ac3e",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/build_xsim/arty_sim.log",
+    "destination": "",
+    "sha256": "e62b3706cfe67721d9e782c6877b47680962d2727766e0b271fe030c9861965e",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/build_xsim/arty_sim.wdb",
+    "destination": "",
+    "sha256": "492fc7c84daf7e5233b30d3bc0a932b064cb8c10af01404d0ec1a4e52f4913c6",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/build_xsim/arty_sim_51852.backup.log",
+    "destination": "",
+    "sha256": "a12a59300da87aed1d4bd18564538911a4c674e9fc51151df7a25a8ae85310e4",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/build_xsim/dfx_runtime.txt",
+    "destination": "",
+    "sha256": "398361591b57b6e989320060693b33c7a147d7ab7114c847cf421c46acb8987e",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/build_xsim/vivado_pid47808.str",
+    "destination": "",
+    "sha256": "b7d9ae7dfd4cde3e3868a2957ec1ae940018c77ceb81af5494c77176633df6e3",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/build_xsim/xelab.log",
+    "destination": "",
+    "sha256": "e51c4eae3329e08ac4cb761a7d461763b795166e07365539e89510a789b17511",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/build_xsim/xelab.pb",
+    "destination": "",
+    "sha256": "f2798420988a6ff4878f7176e36a36d736efc24a1c85221e26ae6d203b4224e8",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/build_xsim/xsim.dir/arty_sim/Compile_Options.txt",
+    "destination": "",
+    "sha256": "f6b772cab85bb2bd00eb2abf8c330107fb3e165f0e5e9e4d705794d413802755",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/build_xsim/xsim.dir/arty_sim/TempBreakPointFile.txt",
+    "destination": "",
+    "sha256": "89bd34ab9b7056058ec7acc5470f6ec95f1ef47b9aeb329d53e24d38b9607451",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/build_xsim/xsim.dir/arty_sim/xsim.dbg",
+    "destination": "",
+    "sha256": "f3806e49f2007829e082dfb57cd5b6db91b1066212bce8f72c0257a544576ff0",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/build_xsim/xsim.dir/arty_sim/xsim.mem",
+    "destination": "",
+    "sha256": "225fd6e15e2dee6f0a4fdd4d36b3f31164c5550bcdc658afc2f959ea630bc680",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/build_xsim/xsim.dir/arty_sim/xsim.reloc",
+    "destination": "",
+    "sha256": "930972a4c17eadb3b72ecccddc7103f94ddd99c0e9dffcc02bf396c2414ae27b",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/build_xsim/xsim.dir/arty_sim/xsim.rtti",
+    "destination": "",
+    "sha256": "651e9e4fb38510b6d63b1aeb7f6ff813527a7fdf73e0aea37cd144ffbb90a569",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/build_xsim/xsim.dir/arty_sim/xsim.svtype",
+    "destination": "",
+    "sha256": "bfbc7c2f3ac87fc51b9a4ce51a8cb556e5568b8b04c328090df932714a863572",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/build_xsim/xsim.dir/arty_sim/xsim.type",
+    "destination": "",
+    "sha256": "cf1c5a4aa3dd8007f3756f2f3d607d67751cd98e99c8f5038c3f8b9fd06aa8c8",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/build_xsim/xsim.dir/arty_sim/xsim.version",
+    "destination": "",
+    "sha256": "a15b42b7cedfdc50b6ac3c608a1a64d31d64690c57ccdd42e81a93c1c12b9468",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/build_xsim/xsim.dir/arty_sim/xsim.xdbg",
+    "destination": "",
+    "sha256": "bd52e8a7a467e9d2c626f3f2627d981c904ef160f135fcc1c348e2278cf6abd3",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/build_xsim/xsim.dir/arty_sim/xsim_script.tcl",
+    "destination": "",
+    "sha256": "c74041b4106a1bebebbf54acf7bc5e4e0f185e2237d418cc29d1342d6bcc5e6d",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/build_xsim/xsim.dir/arty_sim/xsimcrash.log",
+    "destination": "",
+    "sha256": "91c705c9eb1e76e8a93031fae339a07db230c841dff440adf1a4275dc65a1dbe",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/build_xsim/xsim.dir/arty_sim/xsimk.exe",
+    "destination": "",
+    "sha256": "83c83d6320378b30101163dd7318a6a5e49a868fc00d4ddeabfc1b3fc92cff1c",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/build_xsim/xsim.dir/arty_sim/xsimkernel.log",
+    "destination": "",
+    "sha256": "a1d2aa9d4c05e68b2c526c33c783a9fc218a008a83f31ef6dcc0595800e0e4e6",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/build_xsim/xsim.dir/arty_sim/xsimSettings.ini",
+    "destination": "",
+    "sha256": "6f47533a07ebbf72f3c32b29b213d1da67d65ff8b6112092e92f40a94e624c44",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/build_xsim/xsim.dir/work/arty_clock.sdb",
+    "destination": "",
+    "sha256": "a354239f42956afdfddfe1fb2ea72559f2c6f2b6d74786bd6a35fbe1b3d9ca45",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/build_xsim/xsim.dir/work/arty_xadc.sdb",
+    "destination": "",
+    "sha256": "7ab1243f9ba5e4a5e456f2847a86ea6b7f6473972d5a37a5ddea8eb075c68ddc",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/build_xsim/xsim.dir/work/arty_z7_tb.sdb",
+    "destination": "",
+    "sha256": "527fc697ae9b0fafb251dfcbf30a3be708301d5efc10d46a69cec4d4e6597a5e",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/build_xsim/xsim.dir/work/arty_z7_top.sdb",
+    "destination": "",
+    "sha256": "d813e0f3b1768d7fe066f071059b9f34cee7b4024276e845739eee40c686fa75",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/build_xsim/xsim.dir/work/four_pwm_bench.sdb",
+    "destination": "",
+    "sha256": "a1c53ee8c8890c28df86e66f03c81b4f62b0b2273eb83e9925bc8b82942bdc2a",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/build_xsim/xsim.dir/work/glbl.sdb",
+    "destination": "",
+    "sha256": "3a6837fdb3d846213f115d79b6ebd4982e903b30c50596c818e5dd8fe34c6ecb",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/build_xsim/xsim.dir/work/voltage_monitor.sdb",
+    "destination": "",
+    "sha256": "d5596cf12d79dff2f36eccc673d1b3ab441e63641836abeef7b39119e21f9c30",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/build_xsim/xsim.dir/work/work.rlx",
+    "destination": "",
+    "sha256": "1bbe94827311ddb2ecc15d21af3e9fbae4834056d73f241db9b57889287b16f0",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/build_xsim/xsim.dir/xsim.version",
+    "destination": "",
+    "sha256": "a15b42b7cedfdc50b6ac3c608a1a64d31d64690c57ccdd42e81a93c1c12b9468",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/build_xsim/xsim.jou",
+    "destination": "",
+    "sha256": "542709addf2eedffa03159b6a6bd903fb3db651d6710e0996e90d4577856b3d5",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/build_xsim/xsim_51852.backup.jou",
+    "destination": "",
+    "sha256": "dc4d4c89da5920b4d1ba88d7875b87d27e1e3ccbe9290d0bcf4cafe59cb1a9b8",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/build_xsim/xvlog.log",
+    "destination": "",
+    "sha256": "38fe23afcf09d6f1bb1c8cbcfecc71bdd7530d62df5a6f9a10b7700add10be29",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/build_xsim/xvlog.pb",
+    "destination": "",
+    "sha256": "0920c9463e4ea03a69b25bc5e9124af4b8f9a6ebe3b901e3557239a41f58284d",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/Capstone_ArtyZ7_20_4PWM_Bench_250ns/constraints/arty_z7_20.xdc",
+    "destination": "",
+    "sha256": "daddeb15a422b8a57c895d030c3ce20b57eed28626a844538d8de31aee92af84",
+    "disposition": "Byte-identical nested copy of parent variant"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/Capstone_ArtyZ7_20_4PWM_Bench_250ns/prebuilt/arty_z7_top.bit",
+    "destination": "",
+    "sha256": "5494c3e82e8ec4ce6b66b7359007166fe866263ff4ac4a52827da485f0de6553",
+    "disposition": "Byte-identical nested copy of parent variant"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/Capstone_ArtyZ7_20_4PWM_Bench_250ns/README.md",
+    "destination": "",
+    "sha256": "3fe7d0398f552a4aa0ca426d875f8dfe701dafc9bca933b1e9febe26a960bd44",
+    "disposition": "Byte-identical nested copy of parent variant"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/Capstone_ArtyZ7_20_4PWM_Bench_250ns/rtl/arty_clock.v",
+    "destination": "",
+    "sha256": "afe9ab0a3b298a8c12e26cd9578d9548fd1751d198ce44a518b3511e28e64d4a",
+    "disposition": "Byte-identical nested copy of parent variant"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/Capstone_ArtyZ7_20_4PWM_Bench_250ns/rtl/arty_xadc.v",
+    "destination": "",
+    "sha256": "9758110082f798e694779fdb0872a828748f70f2f6d51efabdd0a6ef619cb21b",
+    "disposition": "Byte-identical nested copy of parent variant"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/Capstone_ArtyZ7_20_4PWM_Bench_250ns/rtl/arty_z7_top.v",
+    "destination": "",
+    "sha256": "0c9d2cab6547d73b0d66495cad94fa4409d2cdb5f1e7d4b8f8c94954d5949abc",
+    "disposition": "Byte-identical nested copy of parent variant"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/Capstone_ArtyZ7_20_4PWM_Bench_250ns/rtl/four_pwm_bench.v",
+    "destination": "",
+    "sha256": "4e5e3bf0c150cf3d6e63c7fdb4a2b69cce9e90a5ee04b2d6a002dce3085e2a05",
+    "disposition": "Byte-identical nested copy of parent variant"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/Capstone_ArtyZ7_20_4PWM_Bench_250ns/rtl/voltage_monitor.v",
+    "destination": "",
+    "sha256": "f86b2da847c72e16aadc741a4d696032619c40c78a1980bceacd8755ab12ab85",
+    "disposition": "Byte-identical nested copy of parent variant"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/Capstone_ArtyZ7_20_4PWM_Bench_250ns/scripts/build_bitstream.tcl",
+    "destination": "",
+    "sha256": "9919f72c949c44fa5b966c53ca05700bb34f47076eba6caef787618a3c46bf61",
+    "disposition": "Byte-identical nested copy of parent variant"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/Capstone_ArtyZ7_20_4PWM_Bench_250ns/scripts/create_project.tcl",
+    "destination": "",
+    "sha256": "5ab4a7b4088d33bdb1e9b787ed1e3be74f3294990b5e5d766b0eba0f6797a94a",
+    "disposition": "Byte-identical nested copy of parent variant"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/Capstone_ArtyZ7_20_4PWM_Bench_250ns/scripts/run_standalone.cmd",
+    "destination": "",
+    "sha256": "f3a228206750c1ca15f7b9576f96463bd973eef34670bb531878e8932a5b281f",
+    "disposition": "Byte-identical nested copy of parent variant"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/Capstone_ArtyZ7_20_4PWM_Bench_250ns/scripts/standalone_waves.tcl",
+    "destination": "",
+    "sha256": "c927177d1ad47e307af92d6566b2fd7159102cdfb629563db5000f973121f6ac",
+    "disposition": "Byte-identical nested copy of parent variant"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/Capstone_ArtyZ7_20_4PWM_Bench_250ns/scripts/tclstore_paths.tcl",
+    "destination": "",
+    "sha256": "022c289f322554cd1b9579960eb2fad29dc0fb8b450dbfdd14bb50d1ac13a657",
+    "disposition": "Byte-identical nested copy of parent variant"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/Capstone_ArtyZ7_20_4PWM_Bench_250ns/SHA256SUMS.txt",
+    "destination": "",
+    "sha256": "25cec26e417437bdbc6192ab04b550f4e0d389d2e3ebff17128849a23ae9f0d4",
+    "disposition": "Byte-identical nested copy of parent variant"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/Capstone_ArtyZ7_20_4PWM_Bench_250ns/sim/arty_analog.txt",
+    "destination": "",
+    "sha256": "a72668fe29a41ed6eff753c81bf151d15272747cc0f19e69e61390f7ed50ac3e",
+    "disposition": "Byte-identical nested copy of parent variant"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/Capstone_ArtyZ7_20_4PWM_Bench_250ns/sim/arty_z7_tb.sv",
+    "destination": "",
+    "sha256": "12e149f340aa408c8545b0f03ee948c54eb75f52aaab561dbf34faf5b097cb86",
+    "disposition": "Byte-identical nested copy of parent variant"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/Capstone_ArtyZ7_20_4PWM_Bench_250ns/START_HERE.md",
+    "destination": "",
+    "sha256": "3ffb89faa1a05b61303059c7b8ab97a6285c498ab9c67c3607bbdd2318cd0f72",
+    "disposition": "Byte-identical nested copy of parent variant"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/Capstone_ArtyZ7_20_4PWM_Bench_250ns/validation/drc.txt",
+    "destination": "",
+    "sha256": "a673df268034fc6bc0d4f14e26e3c6e7bc12b62da11df58cfe634e419cd82462",
+    "disposition": "Byte-identical nested copy of parent variant"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/Capstone_ArtyZ7_20_4PWM_Bench_250ns/validation/integration.log",
+    "destination": "",
+    "sha256": "a12a59300da87aed1d4bd18564538911a4c674e9fc51151df7a25a8ae85310e4",
+    "disposition": "Byte-identical nested copy of parent variant"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/Capstone_ArtyZ7_20_4PWM_Bench_250ns/validation/project_creation.log",
+    "destination": "",
+    "sha256": "11da280496186460903d69347d4a201894c989309204a7b5810e27ea0e4a0d84",
+    "disposition": "Byte-identical nested copy of parent variant"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/Capstone_ArtyZ7_20_4PWM_Bench_250ns/validation/timing_summary.txt",
+    "destination": "",
+    "sha256": "2c6e142402a83ce8ebc314fc039f7a3ed333a3e88353e0eaac828efc90284f2c",
+    "disposition": "Byte-identical nested copy of parent variant"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/Capstone_ArtyZ7_20_4PWM_Bench_250ns/VALIDATION.md",
+    "destination": "",
+    "sha256": "eaeb83dcac3df894c3ed0a474c263ee173e8f6a96a941f466b447538aa9eeeca",
+    "disposition": "Byte-identical nested copy of parent variant"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/constraints/arty_z7_20.xdc",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/constraints/arty_z7_20.xdc",
+    "sha256": "daddeb15a422b8a57c895d030c3ce20b57eed28626a844538d8de31aee92af84",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/prebuilt/arty_z7_top.bit",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/prebuilt/arty_z7_top.bit",
+    "sha256": "5494c3e82e8ec4ce6b66b7359007166fe866263ff4ac4a52827da485f0de6553",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/README.md",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/README.md",
+    "sha256": "3fe7d0398f552a4aa0ca426d875f8dfe701dafc9bca933b1e9febe26a960bd44",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/rtl/arty_clock.v",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/rtl/arty_clock.v",
+    "sha256": "afe9ab0a3b298a8c12e26cd9578d9548fd1751d198ce44a518b3511e28e64d4a",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/rtl/arty_xadc.v",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/rtl/arty_xadc.v",
+    "sha256": "9758110082f798e694779fdb0872a828748f70f2f6d51efabdd0a6ef619cb21b",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/rtl/arty_z7_top.v",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/rtl/arty_z7_top.v",
+    "sha256": "0c9d2cab6547d73b0d66495cad94fa4409d2cdb5f1e7d4b8f8c94954d5949abc",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/rtl/four_pwm_bench.v",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/rtl/four_pwm_bench.v",
+    "sha256": "4e5e3bf0c150cf3d6e63c7fdb4a2b69cce9e90a5ee04b2d6a002dce3085e2a05",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/rtl/voltage_monitor.v",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/rtl/voltage_monitor.v",
+    "sha256": "f86b2da847c72e16aadc741a4d696032619c40c78a1980bceacd8755ab12ab85",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/scripts/build_bitstream.tcl",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/scripts/build_bitstream.tcl",
+    "sha256": "9919f72c949c44fa5b966c53ca05700bb34f47076eba6caef787618a3c46bf61",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/scripts/create_project.tcl",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/scripts/create_project.tcl",
+    "sha256": "5ab4a7b4088d33bdb1e9b787ed1e3be74f3294990b5e5d766b0eba0f6797a94a",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/scripts/run_standalone.cmd",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/scripts/run_standalone.cmd",
+    "sha256": "f3a228206750c1ca15f7b9576f96463bd973eef34670bb531878e8932a5b281f",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/scripts/standalone_waves.tcl",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/scripts/standalone_waves.tcl",
+    "sha256": "c927177d1ad47e307af92d6566b2fd7159102cdfb629563db5000f973121f6ac",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/scripts/tclstore_paths.tcl",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/scripts/tclstore_paths.tcl",
+    "sha256": "022c289f322554cd1b9579960eb2fad29dc0fb8b450dbfdd14bb50d1ac13a657",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/SHA256SUMS.txt",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/SHA256SUMS.txt",
+    "sha256": "25cec26e417437bdbc6192ab04b550f4e0d389d2e3ebff17128849a23ae9f0d4",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/sim/arty_analog.txt",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/sim/arty_analog.txt",
+    "sha256": "a72668fe29a41ed6eff753c81bf151d15272747cc0f19e69e61390f7ed50ac3e",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/sim/arty_z7_tb.sv",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/sim/arty_z7_tb.sv",
+    "sha256": "12e149f340aa408c8545b0f03ee948c54eb75f52aaab561dbf34faf5b097cb86",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/START_HERE.md",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/START_HERE.md",
+    "sha256": "3ffb89faa1a05b61303059c7b8ab97a6285c498ab9c67c3607bbdd2318cd0f72",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/validation/drc.txt",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/validation/drc.txt",
+    "sha256": "a673df268034fc6bc0d4f14e26e3c6e7bc12b62da11df58cfe634e419cd82462",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/validation/integration.log",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/validation/integration.log",
+    "sha256": "a12a59300da87aed1d4bd18564538911a4c674e9fc51151df7a25a8ae85310e4",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/validation/project_creation.log",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/validation/project_creation.log",
+    "sha256": "11da280496186460903d69347d4a201894c989309204a7b5810e27ea0e4a0d84",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/validation/timing_summary.txt",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/validation/timing_summary.txt",
+    "sha256": "2c6e142402a83ce8ebc314fc039f7a3ed333a3e88353e0eaac828efc90284f2c",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/VALIDATION.md",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20_4PWM_Bench_250ns/VALIDATION.md",
+    "sha256": "eaeb83dcac3df894c3ed0a474c263ee173e8f6a96a941f466b447538aa9eeeca",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_8PWM_Test_5us/build/capstone_arty_z7_20_8pwm_test_5us.cache/wt/project.wpc",
+    "destination": "",
+    "sha256": "868826f37ffb4c6f5b92e253c7d473f0effa236e823a5923a3691677b870cadb",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_8PWM_Test_5us/build/capstone_arty_z7_20_8pwm_test_5us.hw/capstone_arty_z7_20_8pwm_test_5us.lpr",
+    "destination": "",
+    "sha256": "b373cf9663fa8b6acdd3cceeb201aea1c7fbbee5cf7c6d675bf0c6ccd52f4c69",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_8PWM_Test_5us/build/capstone_arty_z7_20_8pwm_test_5us.xpr",
+    "destination": "",
+    "sha256": "52648b5f11d9696250dc23479c8d2a4b042f36178ffce94cab4fd206789d744c",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_8PWM_Test_5us/build_xsim/.Xil/xsim-14912-RG/.lpr",
+    "destination": "",
+    "sha256": "da5da3acc8f14fcd2fe515ac9c4140afd218a03fffab71139f82b9038ad27aeb",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_8PWM_Test_5us/build_xsim/arty_analog.txt",
+    "destination": "",
+    "sha256": "369b0631d72b6a335713901840a3e1133cfe76dc84bd65cf5db37b916a9b4229",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_8PWM_Test_5us/build_xsim/arty_sim.log",
+    "destination": "",
+    "sha256": "b53c53f4097ba5a1feb71eb6f259baa0eb616c5d8d30cd949fcd5daed0a46817",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_8PWM_Test_5us/build_xsim/arty_sim.wdb",
+    "destination": "",
+    "sha256": "3f80866764714f791905c361d55fa6d0f122b49b40f125054357216ac0ba934f",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_8PWM_Test_5us/build_xsim/dfx_runtime.txt",
+    "destination": "",
+    "sha256": "398361591b57b6e989320060693b33c7a147d7ab7114c847cf421c46acb8987e",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_8PWM_Test_5us/build_xsim/elaborate_verbose.log",
+    "destination": "",
+    "sha256": "07f5e7289972601c1b70e52279c0ed8652331d5e535facbb910f73bbb84f0827",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_8PWM_Test_5us/build_xsim/hs_err_pid14912.log",
+    "destination": "",
+    "sha256": "1067b3db292782355c1272f01115475bb17c69c49b712a007d31d4dd04c2969b",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_8PWM_Test_5us/build_xsim/vivado_pid14912.str",
+    "destination": "",
+    "sha256": "20b3deaf7c56eb5beb7b64028b4beab8174b5d908cb4320c17844f7b7e7d6e30",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_8PWM_Test_5us/build_xsim/xelab.log",
+    "destination": "",
+    "sha256": "0e26a59b3fa6fd1baa17fa3435f8680ef9dec5073b3d861b7641194e3b51509c",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_8PWM_Test_5us/build_xsim/xelab.pb",
+    "destination": "",
+    "sha256": "1197d6c42b90845782166e97dffd1f361d57f6b231a618c6c68ff9529ebc5828",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_8PWM_Test_5us/build_xsim/xsim.dir/arty_sim/Compile_Options.txt",
+    "destination": "",
+    "sha256": "f6b772cab85bb2bd00eb2abf8c330107fb3e165f0e5e9e4d705794d413802755",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_8PWM_Test_5us/build_xsim/xsim.dir/arty_sim/TempBreakPointFile.txt",
+    "destination": "",
+    "sha256": "89bd34ab9b7056058ec7acc5470f6ec95f1ef47b9aeb329d53e24d38b9607451",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_8PWM_Test_5us/build_xsim/xsim.dir/arty_sim/xsim.dbg",
+    "destination": "",
+    "sha256": "27f58ca040969a78dd2458089cd17f707751dcad2190988d3f4d32b0d9d3263f",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_8PWM_Test_5us/build_xsim/xsim.dir/arty_sim/xsim.mem",
+    "destination": "",
+    "sha256": "dc20d61f221533245b2bc31a6dca9455209e235b03740942e355293a411d26a9",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_8PWM_Test_5us/build_xsim/xsim.dir/arty_sim/xsim.reloc",
+    "destination": "",
+    "sha256": "4df2f30d8fc7c081808ce9cfc89c886b1dca3715fd09f96eef88fa3e3a83bc43",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_8PWM_Test_5us/build_xsim/xsim.dir/arty_sim/xsim.rtti",
+    "destination": "",
+    "sha256": "613bb760d029e7000fa69bc0535f8a46baf0c09f1c907d7cc2739b9f29091b0e",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_8PWM_Test_5us/build_xsim/xsim.dir/arty_sim/xsim.svtype",
+    "destination": "",
+    "sha256": "7afaa61b9f82c1b2d43968aeb90878ec18519e6c50529e570910e6401d8ea22e",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_8PWM_Test_5us/build_xsim/xsim.dir/arty_sim/xsim.type",
+    "destination": "",
+    "sha256": "cf1c5a4aa3dd8007f3756f2f3d607d67751cd98e99c8f5038c3f8b9fd06aa8c8",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_8PWM_Test_5us/build_xsim/xsim.dir/arty_sim/xsim.version",
+    "destination": "",
+    "sha256": "a15b42b7cedfdc50b6ac3c608a1a64d31d64690c57ccdd42e81a93c1c12b9468",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_8PWM_Test_5us/build_xsim/xsim.dir/arty_sim/xsim.xdbg",
+    "destination": "",
+    "sha256": "f3af134b4e3946ead68ad51522b81b907ad0e871f9d84b2d2d239f13828f5184",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_8PWM_Test_5us/build_xsim/xsim.dir/arty_sim/xsim_script.tcl",
+    "destination": "",
+    "sha256": "c74041b4106a1bebebbf54acf7bc5e4e0f185e2237d418cc29d1342d6bcc5e6d",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_8PWM_Test_5us/build_xsim/xsim.dir/arty_sim/xsimcrash.log",
+    "destination": "",
+    "sha256": "d184feb8f5d0a8ac4d7dad6768bce8fd83e47f45eb67c21f86b00007bddb7b94",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_8PWM_Test_5us/build_xsim/xsim.dir/arty_sim/xsimk.exe",
+    "destination": "",
+    "sha256": "4dbdf648061deafc63e4c8e244f46d2fd4c39e17335e8ab9aa7444c3fdd508e7",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_8PWM_Test_5us/build_xsim/xsim.dir/arty_sim/xsimkernel.log",
+    "destination": "",
+    "sha256": "77e6bf4923adae32d7a39e1c7df5634b6b712f109f709f1ef9bf0bdb80c28d7d",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_8PWM_Test_5us/build_xsim/xsim.dir/work/arty_clock.sdb",
+    "destination": "",
+    "sha256": "51457b94f4ae31f568dfc2e4a9a0201232e8aecb6891029bda5717c6b18798eb",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_8PWM_Test_5us/build_xsim/xsim.dir/work/arty_xadc.sdb",
+    "destination": "",
+    "sha256": "6933fc9b3f366d972b4fbfce4af36ca4eb1c5f92eed49d5d4fd9c7bd375f3f18",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_8PWM_Test_5us/build_xsim/xsim.dir/work/arty_z7_tb.sdb",
+    "destination": "",
+    "sha256": "1e2135b04d602f7f73ade4986785cef5964b6087e9ef300beb16102bc1838bbe",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_8PWM_Test_5us/build_xsim/xsim.dir/work/arty_z7_top.sdb",
+    "destination": "",
+    "sha256": "e5e04e88d728331b20b1b8d3915f61c46747728c51045b0e09a50aecc003e6b4",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_8PWM_Test_5us/build_xsim/xsim.dir/work/commutation_cell.sdb",
+    "destination": "",
+    "sha256": "4dcb7d550d9bb1520106ed60b2ddcd21f40dc4fb36b88f1f58973132ba95af4d",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_8PWM_Test_5us/build_xsim/xsim.dir/work/commutation_cell_tb.sdb",
+    "destination": "",
+    "sha256": "1613c5aa37078f149305e8e813724d979c30d995e7de4aae30970a22b34e778e",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_8PWM_Test_5us/build_xsim/xsim.dir/work/dab_mc_controller.sdb",
+    "destination": "",
+    "sha256": "734cfd1352bad1553c37ed1976835a1bfca732886b0df78934ff79d1b460917a",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_8PWM_Test_5us/build_xsim/xsim.dir/work/glbl.sdb",
+    "destination": "",
+    "sha256": "3734e06fd974a4dea2aed63226e691e49297034a79e60b67044d0e3266cba0bb",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_8PWM_Test_5us/build_xsim/xsim.dir/work/work.rlx",
+    "destination": "",
+    "sha256": "273720f0ce2c52d344b4455db76590a02d745cc745d1b1053e7908c41784df9d",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_8PWM_Test_5us/build_xsim/xsim.dir/xsim.version",
+    "destination": "",
+    "sha256": "a15b42b7cedfdc50b6ac3c608a1a64d31d64690c57ccdd42e81a93c1c12b9468",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_8PWM_Test_5us/build_xsim/xsim.jou",
+    "destination": "",
+    "sha256": "4dfd324703573df8a39979f4504ea35e3f6922b5dd02d03e146daaad1ba69e17",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_8PWM_Test_5us/build_xsim/xvlog.log",
+    "destination": "",
+    "sha256": "1f64ee6ea6b29b2e81c03d7b16eaa1e778ec2ca67401b8d48b25228fa629bb50",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_8PWM_Test_5us/build_xsim/xvlog.pb",
+    "destination": "",
+    "sha256": "ba8528e97f342391501f71e505c17c7a0a52ea141381e1e5ea445760985cd1e2",
+    "disposition": "Generated build/simulation output; retained in original ZIP"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_8PWM_Test_5us/constraints/arty_z7_20.xdc",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20_8PWM_Test_5us/constraints/arty_z7_20.xdc",
+    "sha256": "a8b8b04b6078f7209e1e971db9006906e577297be21cf173cdc123ff88f5e4a5",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_8PWM_Test_5us/PAPER_COMPARISON.md",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20_8PWM_Test_5us/PAPER_COMPARISON.md",
+    "sha256": "09e439482329f260dac8790cc3d30ccd2e393718f4eb59f9fd1b6e5e1ecb097a",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_8PWM_Test_5us/README.md",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20_8PWM_Test_5us/README.md",
+    "sha256": "cf144852ad7abdb44a8b811ebecf61c6ef620a3d978843eea0f4d96fcd8fa701",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_8PWM_Test_5us/rtl/arty_clock.v",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20_8PWM_Test_5us/rtl/arty_clock.v",
+    "sha256": "67bfc8f062e18b0e2a5a952ca6830949afec10d274d57d2dc0a90124e5baf886",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_8PWM_Test_5us/rtl/arty_xadc.v",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20_8PWM_Test_5us/rtl/arty_xadc.v",
+    "sha256": "25b1365db29c629912c4dadcf38f73dc0baac8b96503ce452ab4ddea320b7d97",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_8PWM_Test_5us/rtl/arty_z7_top.v",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20_8PWM_Test_5us/rtl/arty_z7_top.v",
+    "sha256": "b3f07592b6c1a46c61edb11f60f6dcc58720e0ffc9c59252348ffb6df8b45e42",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_8PWM_Test_5us/rtl/commutation_cell.v",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20_8PWM_Test_5us/rtl/commutation_cell.v",
+    "sha256": "408ab7c4a66654ee5b611400f6febf61e3e2e95bb8437509317567a7fce7fccd",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_8PWM_Test_5us/rtl/dab_mc_controller.v",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20_8PWM_Test_5us/rtl/dab_mc_controller.v",
+    "sha256": "95383144bcede6c4896a715d7acd02f4bca6ecf3808059e6670beedc99c20c58",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_8PWM_Test_5us/scripts/build_bitstream.tcl",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20_8PWM_Test_5us/scripts/build_bitstream.tcl",
+    "sha256": "9ee809871b1b633101e82bcd5b4ee77fa7937b0aeb0be7861bb84e849e7cd4e6",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_8PWM_Test_5us/scripts/create_project.tcl",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20_8PWM_Test_5us/scripts/create_project.tcl",
+    "sha256": "e46829c9060032ab8d4347f42db37d53dd61a6a21c277946445c854cbf622fbc",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_8PWM_Test_5us/scripts/run_simulation.tcl",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20_8PWM_Test_5us/scripts/run_simulation.tcl",
+    "sha256": "b455d555caf85a467e8c75b4816efef83fe84a6f4f2172c1875ab729272f3822",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_8PWM_Test_5us/scripts/run_standalone.cmd",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20_8PWM_Test_5us/scripts/run_standalone.cmd",
+    "sha256": "c586a1eb8c53062d836cf244e2ac4cca13d2a6a79b7384451c710721628d83a4",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_8PWM_Test_5us/scripts/standalone_waves.tcl",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20_8PWM_Test_5us/scripts/standalone_waves.tcl",
+    "sha256": "c1277d48407fca4b1807f8d757e484225583a086e21834ebb70f0ad8587f60c9",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_8PWM_Test_5us/scripts/tclstore_paths.tcl",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20_8PWM_Test_5us/scripts/tclstore_paths.tcl",
+    "sha256": "022c289f322554cd1b9579960eb2fad29dc0fb8b450dbfdd14bb50d1ac13a657",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_8PWM_Test_5us/SHA256SUMS.txt",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20_8PWM_Test_5us/SHA256SUMS.txt",
+    "sha256": "a40ac9aa04e0da592ccd8253bbe181258dc9f598258e6f2862e0f7efdd178115",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_8PWM_Test_5us/sim/arty_analog.txt",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20_8PWM_Test_5us/sim/arty_analog.txt",
+    "sha256": "369b0631d72b6a335713901840a3e1133cfe76dc84bd65cf5db37b916a9b4229",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_8PWM_Test_5us/sim/arty_z7_tb.sv",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20_8PWM_Test_5us/sim/arty_z7_tb.sv",
+    "sha256": "41b1c525e5eaf14f3b1985b95c86d28dfba91a43109986b979879e5465147ad2",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_8PWM_Test_5us/sim/commutation_cell_tb.sv",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20_8PWM_Test_5us/sim/commutation_cell_tb.sv",
+    "sha256": "3a9d0eb66f85d41483e59e19dded2c207fbe482cf53ee22a6b782410c1f4d148",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_8PWM_Test_5us/START_HERE.md",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20_8PWM_Test_5us/START_HERE.md",
+    "sha256": "a27c16bff36f74d5c7c173bcaf76316a34f86cc927a0784398c2a7532907cf2f",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_8PWM_Test_5us/validation/build_attempt.log",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20_8PWM_Test_5us/validation/build_attempt.log",
+    "sha256": "e4d0bf865c0af8fe57d5101e176ac2614eb4cb88f339c28e0e16b5fcb5c1046c",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_8PWM_Test_5us/validation/rtl_changes.diff",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20_8PWM_Test_5us/validation/rtl_changes.diff",
+    "sha256": "216e438f2838d87a2b1c20a1e22ee4ad4cf7870fe0af5c3ab0e0bbb8e402da9d",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_8PWM_Test_5us/validation/simulation_attempt.log",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20_8PWM_Test_5us/validation/simulation_attempt.log",
+    "sha256": "e0b0d147f45b5d93790218944ad037ec730970adc337d36b5568d1d69be07838",
+    "disposition": "imported"
+  },
+  {
+    "source": "Capstone Vivado 404/Capstone_ArtyZ7_20_8PWM_Test_5us/VALIDATION.md",
+    "destination": "firmware/fpga/ecen404/Capstone_ArtyZ7_20_8PWM_Test_5us/VALIDATION.md",
+    "sha256": "43f0c1bf53af745311a532ac234c0d96866cfaaedb8554721dc523f258b6bf6e",
+    "disposition": "imported"
+  }
+]

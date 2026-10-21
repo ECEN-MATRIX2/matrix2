@@ -1,0 +1,59 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Wed Sep 23 13:50:46 2026
+# Process ID         : 11532
+# Current directory  : C:/Users/mrric/Documents/Codex/2026-09-12/oka/work/arty_4pwm
+# Command line       : vivado.exe -mode batch -source project_check.tcl -log project_check.log -journal project_check.jou
+# Log file           : C:/Users/mrric/Documents/Codex/2026-09-12/oka/work/arty_4pwm/project_check.log
+# Journal file       : C:/Users/mrric/Documents/Codex/2026-09-12/oka/work/arty_4pwm\project_check.jou
+# Running On         : RG
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : AMD Ryzen 9 8945HX with Radeon Graphics        
+# CPU Frequency      : 2495 MHz
+# CPU Physical cores : 16
+# CPU Logical cores  : 32
+# Host memory        : 16962 MB
+# Swap memory        : 19327 MB
+# Total Virtual      : 36289 MB
+# Available Virtual  : 5304 MB
+#-----------------------------------------------------------
+CRITICAL WARNING: [Common 17-1297] User repo 'C:/Users/mrric/AppData/Roaming/Xilinx/Vivado/2025.2/XilinxTclStore' catalog file is corrupted. XilinxTclStore has been reverted to the installation area and Tcl Store changes will not be saved. To use local Tcl Store, please run tclapp::reset_tclstore and reinstall the apps.
+source project_check.tcl
+# source {C:/Users/mrric/Documents/Codex/2026-09-12/oka/outputs/Capstone_ArtyZ7_20_4PWM_Bench_250ns/scripts/create_project.tcl}
+## set root [file dirname [file dirname [file join [pwd] [info script]]]]
+## source [file join $root scripts tclstore_paths.tcl]
+### if {[info exists ::env(XILINX_VIVADO)]} {
+###     set store [file join $::env(XILINX_VIVADO) data XilinxTclStore]
+###     foreach d [glob -nocomplain -type d [file join $store support *] [file join $store tclapp * *]] {
+###         if {[lsearch -exact $::auto_path $d]<0} {lappend ::auto_path $d}
+###     }
+### }
+## if {[current_project -quiet] ne ""} {error "Close the current project first."}
+## set part xc7z020clg400-1
+## if {![llength [get_parts -quiet $part]]} {error "Install Zynq-7000 support for $part."}
+## set xpr [file join $root build capstone_arty_z7_20_4pwm_bench_250ns.xpr]
+## if {[file exists $xpr]} {
+##     open_project $xpr
+## } else {
+##     create_project capstone_arty_z7_20_4pwm_bench_250ns [file join $root build] -part $part
+##     set_property target_language Verilog [current_project]
+##     add_files [glob [file join $root rtl *.v]]
+##     set_property top arty_z7_top [get_filesets sources_1]
+##     add_files -fileset constrs_1 [glob [file join $root constraints *.xdc]]
+##     add_files -fileset sim_1 [glob [file join $root sim *.sv]]
+##     add_files -fileset sim_1 [file join $root sim arty_analog.txt]
+##     set_property top arty_z7_tb [get_filesets sim_1]
+##     set_property xsim.simulate.runtime 0ns [get_filesets sim_1]
+##     update_compile_order -fileset sources_1
+##     update_compile_order -fileset sim_1
+## }
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/mrric/Documents/Codex/2026-09-12/oka/outputs/Capstone_ArtyZ7_20_4PWM_Bench_250ns/build'
+# puts FOUR_PWM_PROJECT_PASS
+FOUR_PWM_PROJECT_PASS
+# close_project
+INFO: [Common 17-206] Exiting Vivado at Wed Sep 23 13:50:56 2026...

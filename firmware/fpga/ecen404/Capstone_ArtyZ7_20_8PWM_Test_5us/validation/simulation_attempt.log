@@ -1,0 +1,44 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mrric/Documents/Codex/2026-09-12/oka/outputs/Capstone_ArtyZ7_20_8PWM_Test_5us/rtl/arty_clock.v" into library work
+INFO: [VRFC 10-311] analyzing module arty_clock
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mrric/Documents/Codex/2026-09-12/oka/outputs/Capstone_ArtyZ7_20_8PWM_Test_5us/rtl/arty_xadc.v" into library work
+INFO: [VRFC 10-311] analyzing module arty_xadc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mrric/Documents/Codex/2026-09-12/oka/outputs/Capstone_ArtyZ7_20_8PWM_Test_5us/rtl/arty_z7_top.v" into library work
+INFO: [VRFC 10-311] analyzing module arty_z7_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mrric/Documents/Codex/2026-09-12/oka/outputs/Capstone_ArtyZ7_20_8PWM_Test_5us/rtl/commutation_cell.v" into library work
+INFO: [VRFC 10-311] analyzing module commutation_cell
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/mrric/Documents/Codex/2026-09-12/oka/outputs/Capstone_ArtyZ7_20_8PWM_Test_5us/rtl/dab_mc_controller.v" into library work
+INFO: [VRFC 10-311] analyzing module dab_mc_controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/AMDDesignTools/2025.2/data/verilog/src/glbl.v" into library work
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/mrric/Documents/Codex/2026-09-12/oka/outputs/Capstone_ArtyZ7_20_8PWM_Test_5us/sim/arty_z7_tb.sv" into library work
+INFO: [VRFC 10-311] analyzing module arty_z7_tb
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/mrric/Documents/Codex/2026-09-12/oka/outputs/Capstone_ArtyZ7_20_8PWM_Test_5us/sim/commutation_cell_tb.sv" into library work
+INFO: [VRFC 10-311] analyzing module commutation_cell_tb
+Vivado Simulator v2025.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/AMDDesignTools/2025.2/Vivado/bin/unwrapped/win64.o/xelab.exe arty_z7_tb glbl -L unisims_ver -s arty_sim -debug all 
+Multi-threading is on. Using 30 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.BUFG
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=8.0,C...
+Compiling module unisims_ver.MMCME2_BASE(CLKFBOUT_MULT_F=8.0,...
+Compiling module work.arty_clock
+Compiling module unisims_ver.XADC(INIT_40=16'b0100010001,INIT...
+Compiling module work.arty_xadc
+Compiling module work.commutation_cell
+Compiling module work.dab_mc_controller(ADC_ZERO_CODE=...
+Compiling module work.arty_z7_top(DEBOUNCE_CYCLES=20)
+Compiling module work.arty_z7_tb
+Compiling module work.glbl
+ERROR: [XSIM 43-3409] Failed to compile generated C file xsim.dir/arty_sim/obj/xsim_3.c.
+ERROR: [XSIM 43-3915] Encountered a fatal error. Cannot continue. Exiting... 
+ERROR: Please check the snapshot name which is created during 'xelab',the current snapshot name "xsim.dir/arty_sim/xsimk.exe" does not exist 
+FINDSTR: Cannot open arty_sim.log
+Simulation failed. Read the messages above.

@@ -1,0 +1,12 @@
+# Reproducible Vivado output
+**/build/
+**/build_xsim/
+**/.Xil/
+**/*.cache/
+**/*.runs/
+**/*.sim/
+**/*.hw/
+**/*.ip_user_files/
+**/*.jou
+**/*.pb
+# Keep intentionally supplied prebuilt outputs and validation evidence.
